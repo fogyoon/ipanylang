@@ -4,6 +4,7 @@ if ($browserlang == "en") {
 
 	$text['iOS(iPhone, iPad) VPN 접속 방법'] = 'How to connect to a VPN in iOS(iPhone, iPad)';
 	$text['다른 디바이스 접속 방법 보러 가기'] = 'Go to see how to connect from other devices';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = 'You can connect to the VPN in the following way. Please use '.$vpnid.' for VPN connection ID.';
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = 'This is how you set up IKEv2 yourself. You can choose a different VPN method from the tab above.';
 	$text['접속 설정 만들기'] = 'Create connection settings';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'In iOS, the IKEv2 connection function is built-in, so you can connect to the VPN with simple setup without installing a separate app.';
@@ -39,7 +40,7 @@ if ($browserlang == "en") {
 	$text['Wi-Fi 설정에서 현재 연결되어 있는 Wi-Fi의 오른쪽 물음표를 눌러줍니다.'] = 'In the Wi-Fi settings, tap the question mark to the right of the currently connected Wi-Fi.';
 	$text['DNS를 눌러 기존 내용을 지우고 그림과 같이 한국 DNS 서버 주소를 입력합니다. (168.126.63.1, 168.126.63.2  쉼표와 마침표를 구분해주세요.)'] = 'Click DNS to clear the existing content and enter the Korean DNS server address as shown in the figure. (168.126.63.1, 168.126.63.2)';
 	$text['이 방법으로도 해결이되지 않는다면 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속 방법</a>을 사용해야 합니다.'] = 'If this does not work, you should use <a href="connects_rpi_rpi.php">VPN connection method using PI board</a>.';
-	$text['설정 번경'] = 'Change settings';
+	$text['설정 변경'] = 'Change settings';
 	$text['아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.'] = 'If you want to change your ID, password or access server address, press "i" to the right of "IPany".';
 	$text['우측 상단의 "편집"을 눌러 아이디, 비밀번호, 접속 서버를 변경할 수 있습니다.'] = 'You can change the ID, password and access server by clicking "Edit" in the upper right corner.';
 	$text['설정 삭제'] = 'Delete settings';
@@ -52,13 +53,14 @@ if ($browserlang == "en") {
 	$text['접속 실패 원인'] = 'Cause of connection failure';
 	$text['해결 방법'] = 'Resolution';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
-	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. "<?=$account_url;?>"에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = 'Go to Edit VPN Settings as described in "Change Settings" above and re-enter your ID and password. You can check the ID and password of the VPN connection account you created in "<?=$account_url;?>".';
+	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = 'Go to Edit VPN Settings as described in "Change Settings" above and re-enter your ID and password. You can check the ID and password of the VPN connection account you created in '.$account_url;
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';
-	$text['<?=$account_url;?>"에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN access account has not expired on <?=$account_url;?>. If the expiration date has passed, click the "Extend" button to pay and extend it.';
+	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN access account has not expired on '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
 	$text['이중으로 접속된 경우'] = 'In case of double connection';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. <?=$account_url;?>"의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected to another device, and disconnect the VPN connection from the connected device. If you click the "Check current VPN connection status" button on <?=$account_url;?>, you can check the status of connection to the VPN server, and force connection termination is possible.';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected to another device, and disconnect the VPN connection from the connected device. If you click the "Check current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server, and force connection termination is possible.';
 	$text['DNS 서버 문제'] = 'DNS server problem';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'If the IPany VPN server is not found due to DNS issues, the VPN connection is not possible. Change the DNS server address to 168.126.63.1 in the DNS settings of AirPort or Ethernet in the network settings.';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select another server to connect to and find a server that suits you.';
 
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "iOS ".$vpnname."VPN Connection Method";
@@ -67,6 +69,7 @@ if ($browserlang == "en") {
 
 	$text['iOS(iPhone, iPad) VPN 접속 방법'] = '如何在iOS(iPhone, iPad)中连接到VPN';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '去看看如何从其他设备连接';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = '您可以通过以下方式连接到VPN。请使用'.$vpnid.'作为VPN连接ID';
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = '这是您自己设置IKEv2的方式。 您可以从上面的标签中选择其他VPN方法。';
 	$text['접속 설정 만들기'] = '创建连接设置';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '在iOS中，IKEv2连接功能是内置的，因此您可以通过简单的设置连接到VPN，而无需安装单独的应用程序。';
@@ -102,7 +105,7 @@ if ($browserlang == "en") {
 	$text['Wi-Fi 설정에서 현재 연결되어 있는 Wi-Fi의 오른쪽 물음표를 눌러줍니다.'] = '在Wi-Fi设置中，点击当前连接的Wi-Fi右侧的问号。';
 	$text['DNS를 눌러 기존 내용을 지우고 그림과 같이 한국 DNS 서버 주소를 입력합니다. (168.126.63.1, 168.126.63.2  쉼표와 마침표를 구분해주세요.)'] = '单击DNS以清除现有内容，然后输入朝鲜语DNS服务器地址，如图所示。 (168.126.63.1, 168.126.63.2)';
 	$text['이 방법으로도 해결이되지 않는다면 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속 방법</a>을 사용해야 합니다.'] = '如果这不起作用，则应使用<a href="connects_rpi_rpi.php">使用PI Board的VPN连接方法</a>。';
-	$text['설정 번경'] = '更改设置';
+	$text['설정 변경'] = '更改设置';
 	$text['아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.'] = '如果要更改ID，密码或访问服务器地址，请按“ IPany”右侧的“ i”。';
 	$text['우측 상단의 "편집"을 눌러 아이디, 비밀번호, 접속 서버를 변경할 수 있습니다.'] = '您可以通过单击右上角的“编辑”来更改ID，密码和访问服务器。';
 	$text['설정 삭제'] = '删除设定';
@@ -115,13 +118,14 @@ if ($browserlang == "en") {
 	$text['접속 실패 원인'] = '连接失败的原因';
 	$text['해결 방법'] = '解析度';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = '如果用户名或密码输入错误';
-	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. "<?=$account_url;?>"에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = '如上面“更改设置”中所述，转到“编辑VPN设置”，然后再次输入您的ID和密码。您可以检查在“<?=$account_url;?>”中创建的VPN连接帐户的ID和密码。';
+	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = '如上面“更改设置”中所述，转到“编辑VPN设置”，然后再次输入您的ID和密码。您可以检查在'.$account_url.'中创建的VPN连接帐户的ID和密码。';
 	$text['만기일이 지난 경우'] = '如果到期日期已过';
-	$text['<?=$account_url;?>"에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = '确保您的VPN访问帐户尚未在<?=$account_url;?>上过期。 如果过期日期已过，请单击“扩展”按钮付款并进行扩展。';
+	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = '确保您的VPN访问帐户尚未在'.$account_url.'上过期。 如果过期日期已过，请单击“扩展”按钮付款并进行扩展。';
 	$text['이중으로 접속된 경우'] = '双重连接时';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. <?=$account_url;?>"의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = '确保您尚未连接到另一台设备，然后断开VPN连接与所连接设备的连接。如果单击<?=$account_url;?>上的“检查当前VPN连接状态”按钮，则可以检查与VPN服务器的连接状态，并且可以强制终止连接。';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = '确保您尚未连接到另一台设备，然后断开VPN连接与所连接设备的连接。如果单击'.$account_url.'上的“检查当前VPN连接状态”按钮，则可以检查与VPN服务器的连接状态，并且可以强制终止连接。';
 	$text['DNS 서버 문제'] = 'DNS服务器问题';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = '如果由于DNS问题未找到IPany VPN服务器，则无法建立VPN连接。 在网络设置的AirPort或以太网的DNS设置中，将DNS服务器地址更改为168.126.63.1。';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '如果连接不好或互联网速度很慢，请选择另一台服务器连接并找到适合您的服务器。';
 
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "iOS ".$vpnname."VPN 连接方式";
@@ -130,6 +134,7 @@ if ($browserlang == "en") {
 
 	$text['iOS(iPhone, iPad) VPN 접속 방법'] = 'iOS(iPhone, iPad) VPN 접속 방법';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '다른 디바이스 접속 방법 보러 가기';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = '아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 '.$vpnid.'을(를) 사용하세요.';
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = '<strong>IKEv2 직접 설정 방법</strong>입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.';
 	$text['접속 설정 만들기'] = '접속 설정 만들기';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
@@ -165,7 +170,7 @@ if ($browserlang == "en") {
 	$text['Wi-Fi 설정에서 현재 연결되어 있는 Wi-Fi의 오른쪽 물음표를 눌러줍니다.'] = 'Wi-Fi 설정에서 현재 연결되어 있는 Wi-Fi의 오른쪽 물음표를 눌러줍니다.';
 	$text['DNS를 눌러 기존 내용을 지우고 그림과 같이 한국 DNS 서버 주소를 입력합니다. (168.126.63.1, 168.126.63.2  쉼표와 마침표를 구분해주세요.)'] = '';
 	$text['이 방법으로도 해결이되지 않는다면 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속 방법</a>을 사용해야 합니다.'] = '이 방법으로도 해결이되지 않는다면 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속 방법</a>을 사용해야 합니다.';
-	$text['설정 번경'] = '설정 번경';
+	$text['설정 변경'] = '설정 변경';
 	$text['아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.'] = '아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.';
 	$text['우측 상단의 "편집"을 눌러 아이디, 비밀번호, 접속 서버를 변경할 수 있습니다.'] = '우측 상단의 "편집"을 눌러 아이디, 비밀번호, 접속 서버를 변경할 수 있습니다.';
 	$text['설정 삭제'] = '설정 삭제';
@@ -178,12 +183,13 @@ if ($browserlang == "en") {
 	$text['접속 실패 원인'] = '접속 실패 원인';
 	$text['해결 방법'] = '해결 방법';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'Username 이나 Password를 잘못 입력한 경우';
-	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. "<?=$account_url;?>"에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = '위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. "<?=$account_url;?>"에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.';
+	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = '위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.';
 	$text['만기일이 지난 경우'] = '만기일이 지난 경우';
-	$text['<?=$account_url;?>"에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = '<?=$account_url;?>"에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.';
+	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = $account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.';
 	$text['이중으로 접속된 경우'] = '이중으로 접속된 경우';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. <?=$account_url;?>"의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. 이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. <?=$account_url;?>"의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. 이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.';
 	$text['DNS 서버 문제'] = 'DNS 서버 문제';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
 }
 ?>

@@ -11,7 +11,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = 'double encryption';
 	$text['Windows 10 VPN 접속 방법'] = 'How to connect to a VPN in Windows 10';
 	$text['다른 디바이스 접속 방법 보러 가기'] = 'Go to see how to connect from other devices';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = 'You can connect to the VPN in the following way. Please use '.$vpnid.' for VPN connection ID.';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = 'You can connect to the VPN in the following way. Please use '.$vpnid.' for VPN connection ID.';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = 'This is the most used IKEv2 VPN connection method.';
 	$text['접속 프로그램 설치 및 접속'] = 'Connection program installation and connection';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = 'Click the download button below to download the installation file.';
@@ -24,8 +24,8 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = 'If the "User Account Control" window opens as shown, select "Yes".';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = 'After installing the program, click IPanyVPN from the desktop shortcut or the Start menu to run the program.';
 	$text['통합 접속 프로그램이 열리면,'] = 'When the integrated access program opens,';
-	$text['접속아이디에 "<?=$vpnid;?>"을(를) 입력하고, 비밀번호를 입력하세요.'] = 'Enter '.$vpnid.' in the access ID and enter the password.';
-	$text['"<?=$account_url;?>"에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = 'Enter the connection ID and password created in '.$account_url.'.';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = 'Enter '.$vpnid.' in the access ID and enter the password.';
+	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = 'Enter the connection ID and password created in '.$account_url.'.';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'You can connect by selecting "IKEv2" as the VPN method, selecting a connection server, and clicking "Connect".';
 	$text['VPN 방식'] = 'VPN method';
 	$text['IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)'] = 'If you are having trouble connecting to IKEv2, choose the Openvpn connection method. (OpenVPN connection is not available in China. Use OpenVPN SSL instead.)';
@@ -33,7 +33,7 @@ if ($browserlang == "en") {
 	$text['IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.'] = 'IPany provides multiple access servers. If there is a problem with the connection, you can select another server to connect.';
 	$text['접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.'] = 'If the connection is successful, you will use the Internet with the Korean IP selected in "Account Management".';
 	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">China</span> When connecting from China, if Google and Facebook do not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
-	$text['<?=$osname;?>에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = 'This is how to change DNS server to Korean DNS server in '.$osname;
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = 'This is how to change DNS server to Korean DNS server in '.$osname;
 	$text['윈도우 데스크톱 화면의 오른쪽 아래의 네트워크 트레이 아이콘에 마우스를 올리고 마우스 오른 쪽 버튼을 클릭합니다. <strong>네트워크 및 공유 센터 열기</strong>를 선택합니다.'] = 'Move the mouse over the network tray icon in the lower right corner of the Windows desktop screen and click the right mouse button. Select <strong>Open Network and Sharing Center</strong>.';
 	$text['PC가 인터넷에 연결된 이더넷이나 WiFi의 연결을 클릭합니다.'] = 'Click the Ethernet or WiFi connection where your PC is connected to the Internet.';
 	$text['속성을 클릭합니다.'] = 'Click Properties.';
@@ -51,6 +51,7 @@ if ($browserlang == "en") {
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = 'Error 87 "The parameter is incorrect" is due to a problem with the Windows OS itself. The solution is explained in the <a href="howto.php">troubleshooting page</a>.';
 	$text['접속기 삭제'] = 'Delete VPN connection program';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = 'You can delete the program from Settings -> Apps (Apps & Features).';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select another server to connect to and find a server that suits you.';
 
 	$title = "Windows 10 ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "Windows 10 ".$vpnname."VPN Connection Method";
@@ -66,7 +67,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = '双重加密';
 	$text['Windows 10 VPN 접속 방법'] = '如何在Windows 10中连接到VPN';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '去看看如何从其他设备连接';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = '您可以通过以下方式连接到VPN。请使用'.$vpnid.'作为VPN连接ID';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '您可以通过以下方式连接到VPN。请使用'.$vpnid.'作为VPN连接ID';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = '这是最常用的IKEv2 VPN连接方法。';
 	$text['접속 프로그램 설치 및 접속'] = '连接程序的安装和连接';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = '单击下面的下载按钮以下载安装文件。';
@@ -79,8 +80,8 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = '如果如图所示打开“用户帐户控制”窗口，请选择“是”。';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = '安装程序后，从桌面快捷方式或“开始”菜单中单击IPanyVPN以运行该程序。';
 	$text['통합 접속 프로그램이 열리면,'] = '当集成访问程序打开时，';
-	$text['접속아이디에 "<?=$vpnid;?>"을(를) 입력하고, 비밀번호를 입력하세요.'] = '在访问ID中输入'.$vpnid.'，然后输入密码。';
-	$text['"<?=$account_url;?>"에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = '输入在'.$account_url.'中创建的连接ID和密码。';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '在访问ID中输入'.$vpnid.'，然后输入密码。';
+	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = '输入在'.$account_url.'中创建的连接ID和密码。';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = '您可以通过选择“ IKEv2”作为VPN方法，选择连接服务器并单击“连接”来进行连接。';
 	$text['VPN 방식'] = 'VPN方式';
 	$text['IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)'] = '如果在连接IKEv2时遇到问题，请选择Openvpn连接方法。 （OpenVPN连接在中国不可用。请改用OpenVPN SSL。）';
@@ -88,7 +89,7 @@ if ($browserlang == "en") {
 	$text['IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.'] = 'IPany提供了多个访问服务器。 如果连接出现问题，则可以选择另一台服务器进行连接。';
 	$text['접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.'] = '如果连接成功，您将使用在“帐户管理”中选择的韩文IP的Internet。';
 	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">中国</span> 从中国连接时，如果在VPN连接后仍未打开Goog​​le和Facebook，则需要更改DNS服务器设置。 单击此处查看操作方法。';
-	$text['<?=$osname;?>에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = '这是将'.$osname.'中的DNS服务器更改为韩文DNS服务器的方法。';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = '这是将'.$osname.'中的DNS服务器更改为韩文DNS服务器的方法。';
 	$text['윈도우 데스크톱 화면의 오른쪽 아래의 네트워크 트레이 아이콘에 마우스를 올리고 마우스 오른 쪽 버튼을 클릭합니다. <strong>네트워크 및 공유 센터 열기</strong>를 선택합니다.'] = '将鼠标移到Windows桌面屏幕右下角的网络托盘图标上，然后单击鼠标右键。 选择<strong>打开网络和共享中心</strong>。';
 	$text['PC가 인터넷에 연결된 이더넷이나 WiFi의 연결을 클릭합니다.'] = '单击您的PC连接到Internet的以太网或WiFi连接。';
 	$text['속성을 클릭합니다.'] = '单击属性。';
@@ -106,6 +107,7 @@ if ($browserlang == "en") {
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '错误87“参数不正确”是由于Windows操作系统本身存在问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
 	$text['접속기 삭제'] = '删除VPN连接程序';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '您可以从设置->应用程序（应用程序和功能）中删除程序。';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '如果连接不好或互联网速度很慢，请选择另一台服务器连接并找到适合您的服务器。';
 
 	$title = "Windows 10 ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "Windows 10 ".$vpnname."VPN 连接方式";
@@ -121,7 +123,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = '이중암호화';
 	$text['Windows 10 VPN 접속 방법'] = 'Windows 10 VPN 접속 방법';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '다른 디바이스 접속 방법 보러 가기';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "<?=$vpnid;?>"을(를) 사용하세요.'] = '아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 '.$vpnid.'을(를) 사용하세요.';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 '.$vpnid.'을(를) 사용하세요.';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = '가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.';
 	$text['접속 프로그램 설치 및 접속'] = '접속 프로그램 설치 및 접속';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.';
@@ -134,8 +136,8 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = '그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = '프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.';
 	$text['통합 접속 프로그램이 열리면,'] = '통합 접속 프로그램이 열리면,';
-	$text['접속아이디에 "<?=$vpnid;?>"을(를) 입력하고, 비밀번호를 입력하세요.'] = '접속아이디에 '.$vpnid.'을(를) 입력하고, 비밀번호를 입력하세요.';
-	$text['"<?=$account_url;?>"에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = $account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '접속아이디에 '.$vpnid.'을(를) 입력하고, 비밀번호를 입력하세요.';
+	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = $account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.';
 	$text['VPN 방식'] = 'VPN 방식';
 	$text['IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)'] = 'IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)';
@@ -143,7 +145,7 @@ if ($browserlang == "en") {
 	$text['IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.'] = 'IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.';
 	$text['접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.'] = '접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.';
 	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.';
-	$text['<?=$osname;?>에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
 	$text['윈도우 데스크톱 화면의 오른쪽 아래의 네트워크 트레이 아이콘에 마우스를 올리고 마우스 오른 쪽 버튼을 클릭합니다. <strong>네트워크 및 공유 센터 열기</strong>를 선택합니다.'] = '윈도우 데스크톱 화면의 오른쪽 아래의 네트워크 트레이 아이콘에 마우스를 올리고 마우스 오른 쪽 버튼을 클릭합니다. <strong>네트워크 및 공유 센터 열기</strong>를 선택합니다.';
 	$text['PC가 인터넷에 연결된 이더넷이나 WiFi의 연결을 클릭합니다.'] = 'PC가 인터넷에 연결된 이더넷이나 WiFi의 연결을 클릭합니다.';
 	$text['속성을 클릭합니다.'] = '속성을 클릭합니다.';
@@ -161,5 +163,6 @@ if ($browserlang == "en") {
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
 	$text['접속기 삭제'] = '접속기 삭제';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
 }
 ?>
