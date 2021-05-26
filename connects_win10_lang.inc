@@ -15,7 +15,6 @@ if ($browserlang == "en") {
 	$text['"내 인터넷 연결 사용(VPN)"을 클릭합니다.'] = 'Click "Use my Internet connection (VPN)".';
 	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = 'Select and enter one of the server addresses below in "Internet address" enter "'.$brand_name.'" in "Destination name", select "Don\'t connect now, just set it up so I can connect later" to activate it and click "Next".';
 	$text['서버주소'] = 'Server address';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not done well or the Internet speed is slow, select other server among above.';
 	$text['사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'Enter "'.$vpnid.'" and password for Username and Password and leave "Domain(optional)" blank.';
 	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'In Username and Password, enter the ID and Password created in '.$account_url.' and leave "Domain(optional)" blank.';
 	$text['"만들기"와 "닫기"를 차례로 클릭하여 내용을 저장하고 설정 창을 닫습니다.'] = 'Click "Create" and then "Close" to save the contents and close the settings window.';
@@ -60,7 +59,6 @@ if ($browserlang == "en") {
 	$text['"'.$brand_name.'" 입력'] = 'Enter "'.$brand_name.'" ';
 	$text['서버 이름 또는 주소'] = 'Server name or address';
 	$text['아래 서버 주소 중 하나를 선택해 입력'] = 'Select and enter one of the server addresses below';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not done well or the Internet speed is slow, select other server among above.';
 	$text['VPN 종류'] = 'VPN type';
 	$text['"IKEv2" 선택'] = 'Select "IKEv2"';
 	$text['로그인 정보 입력'] = 'Type of sign-in info';
@@ -197,7 +195,6 @@ if ($browserlang == "en") {
 	$text['"내 인터넷 연결 사용(VPN)"을 클릭합니다.'] = '点击“使用我的网络连接（VPN）”。';
 	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = '在“网址”中选择以下服务器地址中的一个，在“目标名称”中输入“'.$brand_name.'”，并选择“现在不连接，只设置以后可以连接”激活并点击“下一个”。';
 	$text['서버주소'] = '서버주소';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '对于海外用户，如果连接不好或网络速度慢，可以选择其他服务器登录，寻找适合自己的服务器。';
 	$text['사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = '在用户名和密码中输入"'.$vpnid.'"和密码，“域名”以空格清空。';
 	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = '在用户名和密码中输入'.$account_url.'生成的ID和密码，“域名”以空格清空。';
 	$text['"만들기"와 "닫기"를 차례로 클릭하여 내용을 저장하고 설정 창을 닫습니다.'] = '依次点击“创建”和“关闭”，保存内容并关闭配置窗口。';
@@ -242,7 +239,6 @@ if ($browserlang == "en") {
 	$text['"'.$brand_name.'" 입력'] = '输入'.$brand_name;
 	$text['서버 이름 또는 주소'] = '服务器名称或地址';
 	$text['아래 서버 주소 중 하나를 선택해 입력'] = '选择下列服务器地址中的一个输入';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '对于海外用户，如果连接不好或网络速度慢，可以选择其他服务器登录，寻找适合自己的服务器。';
 	$text['VPN 종류'] = 'VPN种类';
 	$text['"IKEv2" 선택'] = '选择“IKEv2”';
 	$text['로그인 정보 입력'] = '输入登录信息';
@@ -379,7 +375,6 @@ if ($browserlang == "en") {
 	$text['"내 인터넷 연결 사용(VPN)"을 클릭합니다.'] = '"내 인터넷 연결 사용(VPN)"을 클릭합니다.';
 	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = '"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.';
 	$text['서버주소'] = '서버주소';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
 	$text['사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = '사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.';
 	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = '사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.';
 	$text['"만들기"와 "닫기"를 차례로 클릭하여 내용을 저장하고 설정 창을 닫습니다.'] = '"만들기"와 "닫기"를 차례로 클릭하여 내용을 저장하고 설정 창을 닫습니다.';
@@ -423,7 +418,6 @@ if ($browserlang == "en") {
 	$text['"'.$brand_name.'" 입력'] = '"'.$brand_name.'" 입력';
 	$text['서버 이름 또는 주소'] = '서버 이름 또는 주소';
 	$text['아래 서버 주소 중 하나를 선택해 입력'] = '아래 서버 주소 중 하나를 선택해 입력';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
 	$text['VPN 종류'] = 'VPN 종류';
 	$text['"IKEv2" 선택'] = '"IKEv2" 선택';
 	$text['로그인 정보 입력'] = '로그인 정보 입력';
