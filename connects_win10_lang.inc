@@ -13,7 +13,7 @@ if ($browserlang == "en") {
 	$text['"회사에 연결"을 선택하고 "다음"을 클릭합니다.'] = 'Select "Connect to a workplace" and click "Next".';
 	$text['"아니요, 새 연결을 만듭니다."를 선택하고 "다음"을 클릭합니다.'] = 'Select "No, create a new connection" and click "Next".';
 	$text['"내 인터넷 연결 사용(VPN)"을 클릭합니다.'] = 'Click "Use my Internet connection (VPN)".';
-	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = 'Select and enter one of the server addresses below in "Internet address" enter "'.$brand_name.'" in "Destination name", select "Don't connect now, just set it up so I can connect later" to activate it and click "Next".';
+	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = 'Select and enter one of the server addresses below in "Internet address" enter "'.$brand_name.'" in "Destination name", select "Don\'t connect now, just set it up so I can connect later" to activate it and click "Next".';
 	$text['서버주소'] = 'Server address';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not done well or the Internet speed is slow, select other server among above.';
 	$text['사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'Enter "'.$vpnid.'" and password for Username and Password and leave "Domain(optional)" blank.';
@@ -94,8 +94,8 @@ if ($browserlang == "en") {
 	$text['"대상 호스트 이름 또는 IP 주소"에 변경하려는 서버 주소를 입력하고 "확인"버튼을 클릭합니다.'] = 'Enter the server address you want to change in "Hostname or IP Address of destination" and click the "OK" button.';
 	$text['IKEv2 접속이 가능한 서버는 아래와 같습니다.'] = 'Servers that is available to IKEv2 connection are as follows.';
 	$text['접속에 실패하면 접속 프로그램의 "연결 상태"에서 접속 실패 원인과 "오류 번호"를 확인할 수 있습니다.'] = 'If the connection fails, you can check the cause of the connection failure and the "Error code" in "Connection Status" of the connection program.';
-	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = 'Click the network(or WiFi) connection tray icon and click the ".$brand_name.'" icon as shown.';
-	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = 'If "Network & Internet" window opens, select "'.$brand_name.'" and click "Remove".;
+	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = 'Click the network(or WiFi) connection tray icon and click the "'.$brand_name.'" icon as shown.';
+	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = 'If "Network & Internet" window opens, select "'.$brand_name.'" and click "Remove".';
 
 	//OpenvpnS
 	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다. 중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = 'This is <strong>OpenVPN double encryption connection method</strong>. If you you have trouble to connect to IKEv2 in China, use this method. This is a method that enables OpenVPN access through the tunnel by pre-configuring an encrypted tunnel called Stunnel.';
@@ -109,13 +109,13 @@ if ($browserlang == "en") {
 	$text['접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'After selecting a connection server, you can connect by clicking "Connect".';
 	$text['원인을 알수 없는 경우, OpenVPN GUI 트레이 아이콘에 마우스 포인터를 올리고 마우스 오른쪽 버튼을 클릭한 후 "View Log"를 선택하면 메모장이 열리며 접속 로그를 확인할 수 있습니다.'] = 'If the cause is unknown, place the mouse pointer on the OpenVPN GUI tray icon, right-click, and select "View Log" to open the notepad and check the access log.';
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = 'These are the causes and solutions for connection failure according to the contents of the connection log.';
-	$text['(표)OpenVPN 오류 로그 - ipany.net'] = '(Table)OpenVPN Error log - '.$brand_name.';
+	$text['(표)OpenVPN 오류 로그 - ipany.net'] = '(Table)OpenVPN Error log - '.$brand_name;
 	$text['접속 로그 내용'] = 'Connection log contents';
 	$text['접속 실패 원인 및 해결 방법'] = 'Connection failure causes and solutions';
 	$text['AUTH: Received control message: AUTH_FAILED'] = 'AUTH: Received control message: AUTH_FAILED';
-	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn't provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
 	$text['RESOLVE: Cannot resolve host address: ipany...'] = 'RESOLVE: Cannot resolve host address: ipany...';
-	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer's DNS settings.';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
 	$text['All TAP-Win32 adapters on this system are currently in use'] = 'All TAP-Win32 adapters on this system are currently in use';
 	$text['가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.'] = 'Virtual drive running is already done. Reboot your computer and connect.';
 	$text['"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우'] = 'In case of message display "Unable to connect because your certificate is not yet valid. Check that your system time is correct"';
@@ -123,13 +123,13 @@ if ($browserlang == "en") {
 	$text['TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)'] = 'TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)';
 	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'This error occurs by unstable user’s internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using router, turn it off for about 10 minutes and try again. Another reason is due to wrong time set in your computer. Adjust time setting correctly in your computer.';
 	$text['TLS Error: Unroutable control packet received'] = 'TLS Error: Unroutable control packet received';
-	$text['사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'It's wrong time setting in user's computer. Check time setting in your computer.';
+	$text['사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'It\'s wrong time setting in user\'s computer. Check time setting in your computer.';
 	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'This is connection impossible by '.$brand_name.' server. It occurs by no internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using a router, turn it off for about 10 minutes, then turn it on and try again.';
 	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'Stunnel must be running before OpenVPN access. This is occurred by inactivated Stunnel. Activate Stunnel first and connect again';
-	$text['OpenVPN 프로그램도 사용하지 않는다면 여기서 삭제할 수 있습니다.'] = 'If you don't even use OpenVPN program, you can uninstall it here.';
-	$text['OpenVPN과 Stunnel 프로그램도 사용하지 않는다면 여기서 삭제할 수 있습니다.'] = 'If you are don't use OpenVPN and Stunnel programs, you can also uninstall them here.';
+	$text['OpenVPN 프로그램도 사용하지 않는다면 여기서 삭제할 수 있습니다.'] = 'If you don\'t even use OpenVPN program, you can uninstall it here.';
+	$text['OpenVPN과 Stunnel 프로그램도 사용하지 않는다면 여기서 삭제할 수 있습니다.'] = 'If you are don\'t use OpenVPN and Stunnel programs, you can also uninstall them here.';
 
 
 	//win10
