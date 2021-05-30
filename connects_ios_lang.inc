@@ -126,6 +126,95 @@ if ($browserlang == "en") {
 	$text['접속 설정 삭제'] = '접속 설정 삭제';
 	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.';
 
+	//openvpn ios
+	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
+	$text['iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.'] = 'iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.';
+	$text['아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
+	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
+	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
+	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
+	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.';
+	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
+	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
+	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';
+	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = '다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.';
+	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = '"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.';
+	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = '연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.';
+	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = '앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.';
+	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = 'OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.';
+	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = '만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = '그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.';
+	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = '아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.';
+	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = '접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = '다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.';
+	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = '홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.';
+	$text['설정 변경'] = '설정 변경';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.';
+	$text['접속 실패 원인 확인'] = '접속 실패 원인 확인';
+	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.';
+	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.';
+
+	//openvpn mac
+	$text['OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
+	$text['접속 프로그램 설치'] = '접속 프로그램 설치';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.';
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.';
+	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick 설치파일 다운받기';
+	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = '"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.';
+	$text['설치 권한을 가지고 있는 계정의 암호를 입력합니다.'] = '설치 권한을 가지고 있는 계정의 암호를 입력합니다.';
+	$text['"설치 성공" 메세지가 나오면 "실행"을 선택합니다.'] = '"설치 성공" 메세지가 나오면 "실행"을 선택합니다.';
+	$text['"설정 파일 있음"을 선택합니다.'] = '"설정 파일 있음"을 선택합니다.';
+	$text['IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.'] = 'IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.';
+	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = '프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.';
+	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = '"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.';
+	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
+	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = '설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.';
+	$text['접속하기'] = '접속하기';
+	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
+	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
+	$text['환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.'] = '환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.';
+	$text['DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.'] = 'DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.';
+	$text['한국 DNS 서버'] = '한국 DNS 서버';
+	$text['"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.'] = '"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.';
+	$text['접속끊기'] = '접속끊기';
+	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
+	$text['삭제하기'] = '삭제하기';
+	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.';
+	$text['Tunnelblick 삭제 파일 다운받기'] = 'Tunnelblick 삭제 파일 다운받기';
+	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.';
+	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = '"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.';
+
+
+	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = 'These are the causes and solutions for connection failure according to the contents of the connection log.';
+	$text['(표)OpenVPN 오류 로그 - ipany.net'] = '(Table)OpenVPN Error log - '.$brand_name;
+	$text['접속 로그 내용'] = 'Connection log contents';
+	$text['접속 실패 원인 및 해결 방법'] = 'Connection failure causes and solutions';
+	$text['AUTH: Received control message: AUTH_FAILED'] = 'AUTH: Received control message: AUTH_FAILED';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
+	$text['RESOLVE: Cannot resolve host address: ipany...'] = 'RESOLVE: Cannot resolve host address: ipany...';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
+	$text['All TAP-Win32 adapters on this system are currently in use'] = 'All TAP-Win32 adapters on this system are currently in use';
+	$text['가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.'] = 'Virtual drive running is already done. Reboot your computer and connect.';
+	$text['"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우'] = 'In case of message display "Unable to connect because your certificate is not yet valid. Check that your system time is correct"';
+	$text['사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.'] = 'The current time on your computer is incorrect. Connect after adjusting the current time correctly on your computer.';
+	$text['TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)'] = 'TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)';
+	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'This error occurs by unstable user’s internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using router, turn it off for about 10 minutes and try again. Another reason is due to wrong time set in your computer. Adjust time setting correctly in your computer.';
+	$text['TLS Error: Unroutable control packet received'] = 'TLS Error: Unroutable control packet received';
+	$text['사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'It\'s wrong time setting in user\'s computer. Check time setting in your computer.';
+	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
+	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'This is connection impossible by '.$brand_name.' server. It occurs by no internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using a router, turn it off for about 10 minutes, then turn it on and try again.';
+	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
+	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'Stunnel must be running before OpenVPN access. This is occurred by inactivated Stunnel. Activate Stunnel first and connect again';
+
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "iOS ".$vpnname."VPN Connection Method";
 } elseif ($browserlang == "zh") {
@@ -255,6 +344,95 @@ if ($browserlang == "en") {
 	$text['접속 설정 삭제'] = '접속 설정 삭제';
 	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.';
 
+	//openvpn ios
+	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
+	$text['iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.'] = 'iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.';
+	$text['아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
+	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
+	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
+	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
+	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.';
+	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
+	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
+	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';
+	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = '다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.';
+	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = '"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.';
+	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = '연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.';
+	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = '앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.';
+	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = 'OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.';
+	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = '만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = '그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.';
+	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = '아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.';
+	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = '접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = '다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.';
+	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = '홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.';
+	$text['설정 변경'] = '설정 변경';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.';
+	$text['접속 실패 원인 확인'] = '접속 실패 원인 확인';
+	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.';
+	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.';
+
+	//openvpn mac
+	$text['OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
+	$text['접속 프로그램 설치'] = '접속 프로그램 설치';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.';
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.';
+	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick 설치파일 다운받기';
+	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = '"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.';
+	$text['설치 권한을 가지고 있는 계정의 암호를 입력합니다.'] = '설치 권한을 가지고 있는 계정의 암호를 입력합니다.';
+	$text['"설치 성공" 메세지가 나오면 "실행"을 선택합니다.'] = '"설치 성공" 메세지가 나오면 "실행"을 선택합니다.';
+	$text['"설정 파일 있음"을 선택합니다.'] = '"설정 파일 있음"을 선택합니다.';
+	$text['IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.'] = 'IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.';
+	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = '프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.';
+	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = '"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.';
+	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
+	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = '설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.';
+	$text['접속하기'] = '접속하기';
+	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
+	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
+	$text['환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.'] = '환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.';
+	$text['DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.'] = 'DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.';
+	$text['한국 DNS 서버'] = '한국 DNS 서버';
+	$text['"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.'] = '"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.';
+	$text['접속끊기'] = '접속끊기';
+	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
+	$text['삭제하기'] = '삭제하기';
+	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.';
+	$text['Tunnelblick 삭제 파일 다운받기'] = 'Tunnelblick 삭제 파일 다운받기';
+	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.';
+	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = '"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.';
+
+
+	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '根据登录日志内容的连接失败原因和解决方法。';
+	$text['(표)OpenVPN 오류 로그 - ipany.net'] = '（表）OpenVPN错误日志-'.$brand_name;
+	$text['접속 로그 내용'] = '登录日志内容';
+	$text['접속 실패 원인 및 해결 방법'] = '连接失败原因及解决方法';
+	$text['AUTH: Received control message: AUTH_FAILED'] = 'AUTH: Received control message: AUTH_FAILED';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = '错误输入Username或Password，或者过期，或者已经在其他机器或电脑上连接。'.$brand_name.'服务不能同时通过同一账户进行双重连接。请在'.$account_url.'中确认账户状态。';
+	$text['RESOLVE: Cannot resolve host address: ipany...'] = 'RESOLVE: Cannot resolve host address: ipany...';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = '因为DNS问题找不到IPany VPN服务器。请将DNS服务器的地址从您计算机的DNS设置改为168.126.63.1。';
+	$text['All TAP-Win32 adapters on this system are currently in use'] = 'All TAP-Win32 adapters on this system are currently in use';
+	$text['가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.'] = '虚拟驱动器已运行。重新启动并连接电脑';
+	$text['"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우'] = '出现"Unable to connect because your certificate is not yet valid. Check that your system time is correct"的信息时';
+	$text['사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.'] = '用户计算机的当前时间是错误的。将电脑的时间调整到当前时间后再连接。';
+	$text['TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)'] = 'TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)';
+	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = '如果用户的网络连接状态不稳定，或者从国外连接，当地网络和'.$brand_name.'线路之间的路径不好。如果使用共享机的话关掉10分钟左右再打开另一个理由是电脑的时间有问题。请确认电脑的时间设置。';
+	$text['TLS Error: Unroutable control packet received'] = 'TLS Error: Unroutable control packet received';
+	$text['사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = '用户电脑的时间有问题。请确认电脑的时间设置。';
+	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
+	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = '无法连接到'.$brand_name.' VPN服务器。如果网络没有连接，或者从国外连接，当地网络和IPany线路之间的路径不好。如果使用共享机的话关掉10分钟左右再打开';
+	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
+	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN双重密码连接必须在OpenVPN连接前先运行Stunnel。因为没有运行Stunnel所以发生的问题先运行Stunel再连接';
+
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "iOS ".$vpnname."VPN 连接方式";
 } else {
@@ -383,6 +561,95 @@ if ($browserlang == "en") {
 	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = '아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.';
 	$text['접속 설정 삭제'] = '접속 설정 삭제';
 	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.';
+
+	//openvpn ios
+	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
+	$text['iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.'] = 'iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.';
+	$text['아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
+	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
+	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
+	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
+	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.';
+	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
+	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
+	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';
+	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = '다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.';
+	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = '"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.';
+	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = '연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.';
+	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = '앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.';
+	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = 'OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.';
+	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = '만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
+	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = '그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.';
+	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = '아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.';
+	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = '접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = '다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.';
+	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = '홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.';
+	$text['설정 변경'] = '설정 변경';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.';
+	$text['접속 실패 원인 확인'] = '접속 실패 원인 확인';
+	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.';
+	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.';
+
+	//openvpn mac
+	$text['OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
+	$text['접속 프로그램 설치'] = '접속 프로그램 설치';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.';
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.';
+	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick 설치파일 다운받기';
+	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = '"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.';
+	$text['설치 권한을 가지고 있는 계정의 암호를 입력합니다.'] = '설치 권한을 가지고 있는 계정의 암호를 입력합니다.';
+	$text['"설치 성공" 메세지가 나오면 "실행"을 선택합니다.'] = '"설치 성공" 메세지가 나오면 "실행"을 선택합니다.';
+	$text['"설정 파일 있음"을 선택합니다.'] = '"설정 파일 있음"을 선택합니다.';
+	$text['IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.'] = 'IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.';
+	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = '프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.';
+	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = '"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.';
+	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
+	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = '설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.';
+	$text['접속하기'] = '접속하기';
+	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
+	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
+	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
+	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
+	$text['환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.'] = '환경설정에서 네트워크를 열고 이더넷 또는 Wi-Fi를 선택합니다. "고급"을 클릭합니다.';
+	$text['DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.'] = 'DNS 탭에서 "DNS 서버" 창 아래의 +(플러스)를 클릭하고 그림과 같이 한국 DNS 서버 주소를 입력합니다.';
+	$text['한국 DNS 서버'] = '한국 DNS 서버';
+	$text['"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.'] = '"승인" 과 "적용" 버튼을 차례로 선택하여 변경 내용을 적용하고 재부팅 합니다.';
+	$text['접속끊기'] = '접속끊기';
+	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
+	$text['삭제하기'] = '삭제하기';
+	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.';
+	$text['Tunnelblick 삭제 파일 다운받기'] = 'Tunnelblick 삭제 파일 다운받기';
+	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.';
+	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = '"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.';
+
+
+	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.';
+	$text['(표)OpenVPN 오류 로그 - ipany.net'] = '(표)OpenVPN 오류 로그 - ipany.net';
+	$text['접속 로그 내용'] = '접속 로그 내용';
+	$text['접속 실패 원인 및 해결 방법'] = '접속 실패 원인 및 해결 방법';
+	$text['AUTH: Received control message: AUTH_FAILED'] = 'AUTH: Received control message: AUTH_FAILED';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.';
+	$text['RESOLVE: Cannot resolve host address: ipany...'] = 'RESOLVE: Cannot resolve host address: ipany...';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.';
+	$text['All TAP-Win32 adapters on this system are currently in use'] = 'All TAP-Win32 adapters on this system are currently in use';
+	$text['가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.'] = '가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.';
+	$text['"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우'] = '"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우';
+	$text['사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.'] = '사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.';
+	$text['TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)'] = 'TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)';
+	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = '사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.';
+	$text['TLS Error: Unroutable control packet received'] = 'TLS Error: Unroutable control packet received';
+	$text['사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = '사용자의 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.';
+	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
+	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.';
+	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
+	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.';
 
 }
 ?>
