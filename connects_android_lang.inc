@@ -40,8 +40,8 @@ if ($browserlang == "en") {
 	$text['접속을 끊으려면 "Disconnect"를 눌러줍니다.'] = 'Press "Disconnect" to disconnect.';
 	$text['다음에 다시 접속을 원한다면 서버 등록 과정이 다시 필요하지 않습니다. StrongSwan 어플을 열고 단지 원하는 IPany 서버 프로파일을 눌러주어 간편하게 접속할 수 있습니다.'] = 'The server registration process is not required again the next time you want to connect. Simply open the StrongSwan app and tap the desired IPany server profile to access it easily.';
 	$text['중국'] = 'China';
-	$text['중국에서 접속 시 VPN 접속 후에도 유투브 페이스북 등이 열리지 않는다면 현지 인터넷 또는 사용기기의 DNS 서버 문제 때문입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'When connecting from China, if YouTube Facebook, etc. does not open even after VPN connection, it is due to a problem with the local Internet or DNS server of the device used. In this case, you must use "VPN connection using PI board".';
-	$text['중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = 'When connecting from China, if Google and Facebook do not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
+	$text['중국에서 접속 시 VPN 접속 후에도 유투브 페이스북 등이 열리지 않는다면 현지 인터넷 또는 사용기기의 DNS 서버 문제 때문입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'When connnect from China, if specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection, it is due to problem with the local Internet or DNS server of the device used. In this case, you have to use "VPN connection using PI board".';
+	$text['중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = 'When connect from China, if specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
 	$text['접속 서버 변경'] = 'Connection server change';
 	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. If you want to change the connection server, register all servers in the above setting method and change to the server you want to connect.';
 	$text['설정 변경'] = 'Change settings';
@@ -53,16 +53,16 @@ if ($browserlang == "en") {
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = 'If you cannot connect even if you change the server, check the details below.';
 	$text['(표)IKEv2 접속문제 해결'] = '(Table) IKEv2 connection problem solving';
 	$text['접속 실패 원인'] = 'Cause of connection failure';
-	$text['해결 방법'] = 'Resolution';
+	$text['해결 방법'] = 'Troubleshooting';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
 	$text['위 설정변경 방법으로 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = 'Enter the ID and password again using the above setting change method. In '.$account_url.', check the ID and password of the VPN connection account again.';
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';
 	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN access account has not expired on '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
-	$text['이중으로 접속된 경우'] = 'In case of double connection';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected from another device, and disconnect the VPN connection from the connected device. If you click the "Check current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server, and force connection termination is possible.';
+	$text['이중으로 접속된 경우'] = 'In case of duplicate connection';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected from another device and disconnect the VPN connection from the connected device. If you click the "Check current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server, and force connection termination is possible.';
 
-	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = 'If YouTube or Facebook does not open even after VPN connection in China';
-	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'Youtube or Facebook does not open even after VPN connection due to local internet or DNS problem of your device. In this case, you must use <a href="connects_rpi_rpi.php">VPN connection using PI board</a>.';
+	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = 'If specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection in China';
+	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'Thi is due to local internet or DNS problem of your device. In this case, you have to use <a href="connects_rpi_rpi.php">VPN connection using PI board</a>.';
 
 	$title = "Android ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "Android ".$vpnname."VPN Connection Method";
