@@ -124,14 +124,14 @@ if ($browserlang == "en") {
 	$text['StrongSwan 앱이 설치되면 닫아주고, X-plore 앱으로 돌아갑니다.'] = 'StrongSwan 앱이 설치되면 닫아주고, X-plore 앱으로 돌아갑니다.';
 	$text['StrongSwan 앱에 VPN 접속 서버를 등록'] = 'StrongSwan 앱에 VPN 접속 서버를 등록';
 	$text['X-plore 앱에서 VPN 접속서버 설정파일 중 하나를 선택해 실행하면, StrongSwan이 열리게됩니다.'] = 'X-plore 앱에서 VPN 접속서버 설정파일 중 하나를 선택해 실행하면, StrongSwan이 열리게됩니다.';
-	$text['StrongSwan의 VPN 서버 등록(Import VPN profile) 창이 열리면, '.$vpnid.'와(과) 비밀번호를 Username/Password에 입력하고 "IMPORT"를 선택하면 VPN 접속 서버가 등록됩니다.'] = '当StrongSwan的VPN服务器注册（导入VPN配置文件）窗口打开时，在用户名/密码中输入“'.$vpnid.'”和密码，然后选择“ IMPORT”以注册VPN连接服务器。';
-	$text['StrongSwan의 VPN 서버 등록(Import VPN profile) 창이 열리면, '.$account_url.'에서 생성한 아이디와 비밀번호를 Username/Password에 입력하고 "IMPORT"를 선택하면 VPN 접속 서버가 등록됩니다.'] = '当StrongSwan的VPN服务器注册（导入VPN配置文件）窗口打开时，在用户名/密码中输入'.$account_url.'生成的ID和密码，然后选择“导入”以注册VPN连接服务器。';
+	$text['StrongSwan의 VPN 서버 등록(Import VPN profile) 창이 열리면, '.$vpnid.'와(과) 비밀번호를 Username/Password에 입력하고 "IMPORT"를 선택하면 VPN 접속 서버가 등록됩니다.'] = '当StrongSwan的VPN服务器注册（导入VPN配置文件）窗口打开时，在用户名/密码中输入"'.$vpnid.'"和密码，然后选择" IMPORT"以注册VPN连接服务器。';
+	$text['StrongSwan의 VPN 서버 등록(Import VPN profile) 창이 열리면, '.$account_url.'에서 생성한 아이디와 비밀번호를 Username/Password에 입력하고 "IMPORT"를 선택하면 VPN 접속 서버가 등록됩니다.'] = '当StrongSwan的VPN服务器注册（导入VPN配置文件）窗口打开时，在用户名/密码中输入'.$account_url.'生成的ID和密码，然后选择"导入"以注册VPN连接服务器。';
 	$text['같은 방법으로 가능한 모든 접속서버를 등록합니다.'] = '같은 방법으로 가능한 모든 접속서버를 등록합니다.';
 	$text['VPN 접속하기'] = 'VPN 접속하기';
 	$text['등록된 서버 중 하나를 눌러주고 몇번의 OK를 선택하면 접속됩니다.'] = '등록된 서버 중 하나를 눌러주고 몇번의 OK를 선택하면 접속됩니다.';
 	$text['VPN 접속 끊기'] = 'VPN 접속 끊기';
-	$text['접속에 성공하면 그림과 같이 Status가 Connected가 됩니다.'] = '如果连接成功，则状态变为“已连接”，如图所示。';
-	$text['접속을 끊으려면 "Disconnect"를 눌러줍니다.'] = '按“断开连接”以断开连接。';
+	$text['접속에 성공하면 그림과 같이 Status가 Connected가 됩니다.'] = '如果连接成功，则状态变为"已连接"，如图所示。';
+	$text['접속을 끊으려면 "Disconnect"를 눌러줍니다.'] = '按"断开连接"以断开连接。';
 	$text['다음에 다시 접속을 원한다면 서버 등록 과정이 다시 필요하지 않습니다. StrongSwan 어플을 열고 단지 원하는 IPany 서버 프로파일을 눌러주어 간편하게 접속할 수 있습니다.'] = '如果要下次再次连接，则无需再次注册服务器。 只需打开StrongSwan应用并点击所需的IPany服务器配置文件即可轻松访问它。';
 	$text['Android TV에서 StrongSwan 앱을 쉽게 실행하기 위해 Sideload Launcher 앱을 이용합니다. Sideload Luncher 앱을 Favorite App으로 등록하고 VPN 접속이 필요할 때 실행하고 그 안에서 StrongSwan 앱을 실행합니다.'] = 'Android TV에서 StrongSwan 앱을 쉽게 실행하기 위해 Sideload Launcher 앱을 이용합니다. Sideload Luncher 앱을 Favorite App으로 등록하고 VPN 접속이 필요할 때 실행하고 그 안에서 StrongSwan 앱을 실행합니다.';
 	$text['Sideload Launcher를 Favorite Apps에 등록'] = 'Sideload Launcher를 Favorite Apps에 등록';
@@ -141,10 +141,10 @@ if ($browserlang == "en") {
 	$text['접속 서버 변경'] = '连接服务器变更';
 	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = '通过更改连接服务器，可以解决连接故障或提高质量。 如果要更改连接服务器，请以上述设置方法注册所有服务器，然后更改为要连接的服务器。';
 	$text['설정 변경'] = '更改设置';
-	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = '如果由于输入错误的VPN连接ID和密码而无法连接，则可以通过单击要修改的配置文件3秒钟时出现的“编辑”按钮来编辑用户名和密码。';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = '如果由于输入错误的VPN连接ID和密码而无法连接，则可以通过单击要修改的配置文件3秒钟时出现的"编辑"按钮来编辑用户名和密码。';
 	$text['SAVE를 눌러 변경 내용을 저장합니다.'] = '按SAVE保存更改。';
 	$text['접속 실패 원인 확인'] = '检查连接失败的原因';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '通过更改连接服务器，可以解决连接故障或提高质量。 请检查上方的“<strong>更改连接服务器</strong>”。';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '通过更改连接服务器，可以解决连接故障或提高质量。 请检查上方的"<strong>更改连接服务器</strong>"。';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = '如果即使更换服务器也无法连接，请检查以下详细信息。';
 	$text['(표)VPN 접속문제 해결'] = '（表）VPN连接问题解决';
 	$text['접속 실패 원인'] = '连接失败的原因';
@@ -152,9 +152,9 @@ if ($browserlang == "en") {
 	$text['Username 이나 Password를 잘못 입력한 경우'] = '如果用户名或密码输入错误';
 	$text['위 설정변경 방법으로 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = '使用上述设置更改方法再次输入ID和密码。 在'.$account_url.'中，再次检查VPN连接帐户的ID和密码。';
 	$text['만기일이 지난 경우'] = '如果到期日期已过';
-	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = '确保您的VPN访问帐户尚未在'.$account_url.'上过期。 如果过期日期已过，请单击“扩展”按钮付款并进行扩展。';
+	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = '确保您的VPN访问帐户尚未在'.$account_url.'上过期。 如果过期日期已过，请单击"扩展"按钮付款并进行扩展。';
 	$text['이중으로 접속된 경우'] = '双重连接时';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = '确保您尚未连接到另一台设备，然后断开VPN连接与所连接设备的连接。如果单击'.$account_url.'上的“检查当前VPN连接状态”按钮，则可以检查与VPN服务器的连接状态，并且可以强制终止连接。';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = '确保您尚未连接到另一台设备，然后断开VPN连接与所连接设备的连接。如果单击'.$account_url.'上的"检查当前VPN连接状态"按钮，则可以检查与VPN服务器的连接状态，并且可以强制终止连接。';
 
 	$title = "Android TV ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "Android TV ".$vpnname."VPN 连接方式";
