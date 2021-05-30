@@ -156,7 +156,7 @@ if ($browserlang == "en") {
 	$text['접속 서버'] = 'Connection server';
 	$text['IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.'] = $brand_name.' provides multiple access servers. If there is a problem with the connection, you can select other server to connect.';
 	$text['접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.'] = 'If you succeed in connecting to VPN, you will use Internet with the Korea IP selected in Account Management.';
-	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">China</span> In China, if website or social media like Google, Facebook and etc. is not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
+	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">China</span> In China, if website(ex : Google) or social media like Facebook, Instagram and etc. is not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
 	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = 'This is how to change DNS server to Korean DNS server in '.$osname;
 	$text['윈도우 데스크톱 화면의 오른쪽 아래의 네트워크 트레이 아이콘에 마우스를 올리고 마우스 오른 쪽 버튼을 클릭합니다. <strong>네트워크 및 공유 센터 열기</strong>를 선택합니다.'] = 'Put the mouse over the network tray icon in the lower right corner of the Windows desktop screen and click the right mouse button. Select <strong>Open Network and Sharing Center</strong>.';
 	$text['PC가 인터넷에 연결된 이더넷이나 WiFi의 연결을 클릭합니다.'] = 'Click the Ethernet or WiFi connection where your PC is connected to the Internet.';
