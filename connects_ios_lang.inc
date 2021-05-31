@@ -92,7 +92,7 @@ if ($browserlang == "en") {
 	$text['프로파일 설치창에서 "설치"를 눌러주고'] = 'Click "Install" in the profile installation window';
 	$text['<strong>iPhone 또는 iPad의 잠금 비밀번호</strong>를 입력합니다.'] = 'Enter <strong>the lock password for your iPhone or iPad</strong>.';
 	$text['사용자 이름 입력과 암호 입력에 "'.$vpnid.'"와(과) 비밀번호를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'Enter "'.$vpnid.'" and password in user name and password in order, and click "Done" to register the VPN connection profile.';
-	$text['사용자 이름 입력과 암호 입력에 '.$account_url.'에서 생성한 <strong>VPN 접속 계정의 아이디와 비밀번호</strong>를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'In username and password, Enter <strong>the ID and password of VPN connection account(/strong> created in '.$account_url.' And click "Done" to register the VPN connection profile.';
+	$text['사용자 이름 입력과 암호 입력에 '.$account_url.'에서 생성한 <strong>VPN 접속 계정의 아이디와 비밀번호</strong>를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'In username and password, Enter <strong>the ID and password of VPN connection account</strong> created in '.$account_url.' And click "Done" to register the VPN connection profile.';
 	$text['프로파일 설정 입력에서 "사용자 이름"과 "암호"에  "'.$vpnid.'"와(과) 비밀번호를 입력하고 설치를 클릭합니다.'] = 'In Profile settings, enter "'.$vpnid.'" and password in "Username" and "Password" and click Install.';
 	$text['프로파일 설정 입력에서 "사용자 이름"과 "암호"에  '.$account_url.'에서 생성한 VPN 접속 계정의 아이디와 비밀번호를 입력하고 설치를 클릭합니다.'] = 'In "Username" and "Password" in Profile settings, enter the the ID and password created in '.$account_url.' and click Install.';
 	$text['프로파일 방식은 나중에 아이디와 비밀번호를 수정할 수 없습니다. 입력에 주의하세요.'] = 'It\'s not possible to change ID and password in profile method. So be careful when you enter.';
@@ -122,7 +122,7 @@ if ($browserlang == "en") {
 	$text['아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)'] = 'Check if you have not entered your ID and password incorrectly. (You can check the ID and password of the VPN connection account you created in'.$account_url.'.)';
 	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = 'If you entered an incorrect ID or password, you cannot change it. Delete the installed profile and install a new one. See "Delete settings" above how to delete the profile';
 	$text['접속 설정 삭제'] = 'Delete connection settings';
-	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = 'If you select the installed profile in "<strong>System Preferences -> Profile</strong>" and delete it, the VPN connection settings are deleted.';
+	$text['<strong>"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = 'If you select the installed profile in "<strong>System Preferences -> Profile</strong>" and delete it, the VPN connection settings are deleted.';
 
 	//openvpn ios
 	$text['앱 설치 및 설정'] = 'Installation and setting of App';
@@ -132,10 +132,10 @@ if ($browserlang == "en") {
 	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(Note) You have to load the connection configuration file from the link on this connection method page.';
 	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = 'Open this connection page in Safari on your iPhone or iPad and proceed.';
 	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'Install <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>OpenVPN Connect</a> in App Store.';
-	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = In <strong>Safari on your iPhone or iPad</strong>, click the Download the configuration file button below.';
+	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = 'In <strong>Safari on your iPhone or iPad</strong>, click the Download the configuration file button below.';
 	$text['설정 파일 다운받기'] = 'Download the configuration file';
 	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = 'If the download window opens, click <strong>"Download"</strong>';
-	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = 'If the download is complete, there will be a "Download item button"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25"> on the top right. Press this button to select "ipany"';
+	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = 'If the download is complete, there will be a <strong>"Download item button"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25"> on the top right. Press this button to select "ipany"';
 	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = 'Click the "Share"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> button.';
 	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = 'Scroll sideway through connected apps and select <strong>"More"</strong>';
 	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = 'Select <strong>"Copy to OpenVPN"</strong> among the app items.';
@@ -147,7 +147,7 @@ if ($browserlang == "en") {
 	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = 'If message window like the picture below opens, select "Yes" to connect.';
 	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = 'If the connection is successful, "Disconnected" changes to "Connected" and you can see the connection status in "Connection Stats". To disconnect, click the button below "Connected".';
 	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = 'If you want to connect again next time, you do not need to register the configuration file again.';
-	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = 'You can easily reconnect by selecting and opening the "OpenVPN" app on the home screen and pressing the left button of the profile.;
+	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = 'You can easily reconnect by selecting and opening the "OpenVPN" app on the home screen and pressing the left button of the profile.';
 	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect because of incorrect VPN connection ID and password, you can change Username and Password by clicking the pencil icon on the right side of the Profile.';
 	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = 'If the message "<strong>Authentication Failed</strong>" is displayed as shown in the figure below, it means that the connection failed because authentication failed. It’s because VPN connection ID or password is entered incorrectly, VPN expiration date has passed, or the connection has been duplicated.';
 	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = 'Unless authentication has failed, you can check the VPN connection log to determine the cause of the connection failure. You can check the log by clicking the roll paper shape button in the upper right corner. Check the connection log contents and find the cause of connection failure in the table below';
@@ -175,6 +175,7 @@ if ($browserlang == "en") {
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = 'If the login window opens, enter the ID and password created in '.$account_url.' and click the "OK" button to connect.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = 'If you select "Save in Keychain", you can connect immediately without logging in next time.';
 	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = 'How to change DNS server to Korean DNS server in '.$osname.'.';
 	$text['접속끊기'] = 'Disconnection';
 	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = 'If you put the mouse over the Tunnelblick icon in the menu bar and select "Disconnect" from the status window that appears, or click the Tunnelblick icon and select "Disconnect ipany", It will be disconnected.';
 	$text['삭제하기'] = 'Uninstallation';
@@ -330,7 +331,7 @@ if ($browserlang == "en") {
 	$text['아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)'] = '确认ID和密码是否输入错误。您可以在'.$account_url.'上查看您生成的VPN连接账户的ID和密码。）';
 	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = '如果输入错ID或密码，就无法修改。请删除安装的配置文件并重新安装。删除配置文件的方法请检查上面的"删除设置"内容。';
 	$text['접속 설정 삭제'] = '删除连接设置';
-	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '选择并删除设置在"系统环境设置->配置文件"</strong>中的配置，VPN连接设置将被删除。';
+	$text['"<strong>시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '选择并删除设置在<strong>"系统环境设置->配置文件"</strong>中的配置，VPN连接设置将被删除。';
 
 	//openvpn ios
 	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
@@ -383,6 +384,7 @@ if ($browserlang == "en") {
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
 	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = '这是将DNS服务器从'.$osname.'变更为韩国DNS服务器的方法。';
 	$text['접속끊기'] = '접속끊기';
 	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
 	$text['삭제하기'] = '삭제하기';
@@ -538,7 +540,7 @@ if ($browserlang == "en") {
 	$text['아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)'] = '아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)';
 	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = '아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.';
 	$text['접속 설정 삭제'] = '접속 설정 삭제';
-	$text['"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.';
+	$text['<strong>"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '<strong>"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.';
 
 	//openvpn ios
 	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
@@ -591,6 +593,7 @@ if ($browserlang == "en") {
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
 	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
+	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = $osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.';
 	$text['접속끊기'] = '접속끊기';
 	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
 	$text['삭제하기'] = '삭제하기';
