@@ -2,7 +2,6 @@
 
 if ($browserlang == "en") {
     $text['계정 삭제 안내'] = 'VPN connection ID Deletion Notification';
-    $text[$name.'님'] = '';
     $text['안녕하세요.'] = 'Hello!';
     $text[$companyname.'입니다.'] = 'This is '.$companyname.'.';
     $text[$service.' 서비스를 이용해 주셔서 감사합니다.']= 'Thank you for using our '.$service.' service.';
@@ -30,7 +29,6 @@ if ($browserlang == "en") {
 
 } elseif ($browserlang == "zh") {
     $text['계정 삭제 안내'] = '帐户删除通知';
-    $text[$name.'님'] = '';
     $text['안녕하세요.'] = '早上好。';
     $text[$companyname.'입니다.'] = '这是'.$companyname.'。';
     $text[$service.' 서비스를 이용해 주셔서 감사합니다.']= '感谢您使用'.$service.'服务。';
@@ -58,7 +56,6 @@ if ($browserlang == "en") {
 
 } else {
     $text['계정 삭제 안내'] = '계정 삭제 안내';
-    $text[$name.'님'] = $name.'님';
     $text['안녕하세요.'] = '안녕하세요.';
     $text[$companyname.'입니다.'] = $companyname.'입니다.';
     $text[$service.' 서비스를 이용해 주셔서 감사합니다.']= $service.' 서비스를 이용해 주셔서 감사합니다.';
