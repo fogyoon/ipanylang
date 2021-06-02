@@ -16,6 +16,7 @@ if ($browserlang == "en") {
 	$text['가격/월'] = 'Price/month';
 	$text['원'] = 'KRW';
 	$text['이중 동시 접속 추가 요금은 월 '.$formate_multiconnect2_add_fee.'원이며, 할인율이 적용되지 않습니다.'] = 'The additional charge for simultaneous access is KRW '.$formate_multiconnect2_add_fee.' per month, and the discount rate does not apply.';
+	$text['이중 동시 접속 추가 요금은 월 USD'.$formate_multiconnect2_add_fee.'이며, 할인율이 적용되지 않습니다.'] = 'The additional charge for simultaneous access is USD'.$formate_multiconnect2_add_fee.' per month, and the discount rate does not apply.'; 
 	$text['사용자 계정 수에 따른 추가 할인율'] = 'Additional discount rate based on the number of user accounts';
 	$text['30개 이상'] = '30 or more';
 	$text['50개 이상'] = '50 or more';
@@ -42,6 +43,7 @@ if ($browserlang == "en") {
 	$text['가격/월'] = '价钱/月';
 	$text['원'] = '韩元';
 	$text['이중 동시 접속 추가 요금은 월 '.$formate_multiconnect2_add_fee.'원이며, 할인율이 적용되지 않습니다.'] = '双重同时访问的额外费用为每月'.$formate_multiconnect2_add_fee.'韩元，且不适用折扣率。';
+	$text['이중 동시 접속 추가 요금은 월 USD'.$formate_multiconnect2_add_fee.'이며, 할인율이 적용되지 않습니다.'] = '双重同时访问的额外费用为每月USD'.$formate_multiconnect2_add_fee.'，且不适用折扣率。';
 	$text['사용자 계정 수에 따른 추가 할인율'] = '基于用户帐户数的附加折扣率';
 	$text['30개 이상'] = '30以上';
 	$text['50개 이상'] = '50以上';
@@ -68,6 +70,7 @@ if ($browserlang == "en") {
 	$text['가격/월'] = '가격/월';
 	$text['원'] = '원';
 	$text['이중 동시 접속 추가 요금은 월 '.$formate_multiconnect2_add_fee.'원이며, 할인율이 적용되지 않습니다.'] = '이중 동시 접속 추가 요금은 월 '.$formate_multiconnect2_add_fee.'원이며, 할인율이 적용되지 않습니다.';
+	$text['이중 동시 접속 추가 요금은 월 USD'.$formate_multiconnect2_add_fee.'이며, 할인율이 적용되지 않습니다.'] = '이중 동시 접속 추가 요금은 월 USD'.$formate_multiconnect2_add_fee.'이며, 할인율이 적용되지 않습니다.';
 	$text['사용자 계정 수에 따른 추가 할인율'] = '사용자 계정 수에 따른 추가 할인율';
 	$text['30개 이상'] = '30개 이상';
 	$text['50개 이상'] = '50개 이상';
