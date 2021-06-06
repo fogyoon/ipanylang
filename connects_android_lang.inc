@@ -9,7 +9,7 @@ if ($browserlang == "en") {
 	$text['안드로이드 기기에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = 'To access IKEv2 from an Android device, use an application called "StrongSwan".';
 	$text['안드로이드에서 IKEv2 접속 동영상을 시청하고 아래 설명을 확인하면 이해에 도움이 됩니다.'] = 'Watching the IKEv2 connection video on Android first will help you understand the description below.';
 	$text['(주의) 이 연결방법 페이지를 VPN 연결에 사용할 안드로이드 핸드폰 또는 테블릿의 웹브라우저에서 열고 진행하세요.'] = '(Note) Open this connection method page in the web browser of the Android mobile phone or tablet to be used for VPN connection and proceed.';
-	$text['여기를 눌러 Play 스토어에서 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = '<a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none">Click here to install <i class="fab fa-google-play"></i> StrongSwan from the Google Play Store.</a>';
+	$text['여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = 'Click here to install <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan from the Google Play Store</a>.';
 	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = 'If you cannot access the Google Play Store, such as <strong>In China</strong>, you can directly download the StrongSwan APK installation file and install the app.';
 	$text['APK 설치 파일 다운받기'] = 'Download APK installation file';
 	$text['다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.'] = 'To install an app from an APK file, you need to <strong>"Allow unknown apps to be installed"</strong> under "Security" in your phone\'s settings.';
@@ -77,7 +77,7 @@ if ($browserlang == "en") {
 	$text['안드로이드 기기에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = '要从Android设备访问IKEv2，请使用名为"StrongSwan"的应用程序。';
 	$text['안드로이드에서 IKEv2 접속 동영상을 시청하고 아래 설명을 확인하면 이해에 도움이 됩니다.'] = '首先在Android上观看IKEv2连接视频将有助于您理解以下说明。';
 	$text['(주의) 이 연결방법 페이지를 VPN 연결에 사용할 안드로이드 핸드폰 또는 테블릿의 웹브라우저에서 열고 진행하세요.'] = '（注）在要用于VPN连接的Android手机或平板电脑的网络浏览器中打开此连接方法页面，然后继续。';
-	$text['여기를 눌러 Play 스토어에서 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = '<a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none">单击此处从Google Play商店安装<i class="fab fa-google-play"></i> StrongSwan。</a>"。';
+	$text['여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = '单击此处从Google Play商店安装<a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>。';
 	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = '如果您无法访问Google Play商店如<strong>在中国</strong>，则可以直接下载StrongSwan APK安装文件并安装该应用。';
 	$text['APK 설치 파일 다운받기'] = '下载APK安装文件';
 	$text['다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.'] = '要通过APK文件安装应用，您需要在手机设置的"安全"下<strong>"允许安装未知应用"</strong>。';
@@ -142,7 +142,7 @@ if ($browserlang == "en") {
 	$text['안드로이드 기기에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = '안드로이드 기기에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.';
 	$text['안드로이드에서 IKEv2 접속 동영상을 시청하고 아래 설명을 확인하면 이해에 도움이 됩니다.'] = '안드로이드에서 IKEv2 접속 동영상을 시청하고 아래 설명을 확인하면 이해에 도움이 됩니다.';
 	$text['(주의) 이 연결방법 페이지를 VPN 연결에 사용할 안드로이드 핸드폰 또는 테블릿의 웹브라우저에서 열고 진행하세요.'] = '(주의) 이 연결방법 페이지를 VPN 연결에 사용할 안드로이드 핸드폰 또는 테블릿의 웹브라우저에서 열고 진행하세요.';
-	$text['여기를 눌러 Play 스토어에서 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = '여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.';
+	$text['여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = '여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.';
 	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = '<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.';
 	$text['APK 설치 파일 다운받기'] = 'APK 설치 파일 다운받기';
 	$text['다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.'] = '다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.';
