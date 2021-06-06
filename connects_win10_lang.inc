@@ -173,6 +173,7 @@ if ($browserlang == "en") {
 	$text['접속 계정의 사용자 이름, 비밀번호가 잘못되거나, 만기일이 지났거나, 이미 접속되어 있는데 다시 접속을 시도하는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. IPany.net 홈페이지의 "<a href="staticip.php">계정 관리</a>"에서 해당 계정 상태를 확인합니다.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in <a href="staticip.php">Account Management</a> of the '.$brand_name.' website.';
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = 'This error occurs by no access server found. It comes from no internet connection or DNS error or block by firewall. DNS errors can be solved by changing the DNS server IP in your computer or router as "168.126.63.1". If it is blocked by firewall, you can try other VPN type.';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = 'Error 87 "The parameter is incorrect" is due to a problem with the Windows OS itself. The solution is explained in <a href="howto.php">Troubleshooting</a>.';
+	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = 'Error 809 is due to a problem with the Windows OS itself. The solution is explained in <a href="howto.php">Troubleshooting</a>.';
 	$text['접속기 삭제'] = 'Remove VPN connection program';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = 'You can remove the program from Settings -> Apps (Apps & Features).';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select another server to connect to and find a server that suits you.';
@@ -353,6 +354,7 @@ if ($browserlang == "en") {
 	$text['접속 계정의 사용자 이름, 비밀번호가 잘못되거나, 만기일이 지났거나, 이미 접속되어 있는데 다시 접속을 시도하는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. IPany.net 홈페이지의 "<a href="staticip.php">계정 관리</a>"에서 해당 계정 상태를 확인합니다.'] = '访问帐户的用户名和密码不正确，到期日期已过期，或者即使已连接也尝试重新连接。 '.$brand_name.'服务不允许使用同一帐户同时进行双重访问。 在'.$brand_name.'主页上的" <a href="staticip.php">帐户管理</a>"中检查帐户的状态。';
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = '当找不到连接服务器时，会发生此错误。 如果没有Internet连接，则防火墙将阻止DNS错误或VPN连接。 通过将计算机的DNS服务器设置更改为" 168.126.63.1"，可以解决DNS错误。 如果它被防火墙阻止，则需要使用其他VPN方法进行连接。';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '错误87"参数不正确"是由于Windows操作系统本身存在问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
+	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '错误809是因为Windows OS本身的问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
 	$text['접속기 삭제'] = '删除VPN连接程序';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '您可以从设置->应用程序（应用程序和功能）中删除程序。';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '如果连接不好或互联网速度很慢，请选择另一台服务器连接并找到适合您的服务器。';
@@ -533,6 +535,7 @@ if ($browserlang == "en") {
 	$text['접속 계정의 사용자 이름, 비밀번호가 잘못되거나, 만기일이 지났거나, 이미 접속되어 있는데 다시 접속을 시도하는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. IPany.net 홈페이지의 "<a href="staticip.php">계정 관리</a>"에서 해당 계정 상태를 확인합니다.'] = '접속 계정의 사용자 이름, 비밀번호가 잘못되거나, 만기일이 지났거나, 이미 접속되어 있는데 다시 접속을 시도하는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. IPany.net 홈페이지의 "<a href="staticip.php">계정 관리</a>"에서 해당 계정 상태를 확인합니다.';
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = '접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
+	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
 	$text['접속기 삭제'] = '접속기 삭제';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
