@@ -86,6 +86,15 @@ if ($browserlang == "ko") {
     $text['걱정하지마세요.'] = '걱정하지마세요.';
     $text[$brand_name.'은 개인정보를 요구하지 않으며, 무료 사용기간이 지나도 자동으로 결제되지않습니다.'] = $brand_name.'은 개인정보를 요구하지 않으며, 무료 사용기간이 지나도 자동으로 결제되지않습니다.';
     $text['계속 사용을 원한다면, 사용자가 직접 '.$account_url.'에서 사용 중이던 VPN 접속 ID를 선택하고 연장해야 합니다.'] = '계속 사용을 원한다면, 사용자가 직접 '.$account_url.'에서 사용 중이던 VPN 접속 ID를 선택하고 연장해야 합니다.';
+    $text['Windows IKEv2 접속시 오류809 해결방법'] = 'Windows IKEv2 접속시 오류809 해결방법';
+    $text['Windows IKEv2 접속시 오류809 오류는 Windows OS 자체의 문제 때문입니다. 아래와 같은 방법으로 레지스트리를 변경해 해결할 수 있습니다.'] = 'Windows IKEv2 접속시 오류809 오류는 Windows OS 자체의 문제 때문입니다. 아래와 같은 방법으로 레지스트리를 변경해 해결할 수 있습니다.';
+    $text['시작 검색에 "regedit" 입력 후 나오는 검색 결과 중 "레지스트리 편집기"를 선택해 실행합니다.'] = '시작 검색에 "regedit" 입력 후 나오는 검색 결과 중 "레지스트리 편집기"를 선택해 실행합니다.';
+    $text['레지스트리 편집기에서 아래 경로를 찾아갑니다.'] = '레지스트리 편집기에서 아래 경로를 찾아갑니다.';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"이 있는지 확인합니다.'] = '"AssumeUDPEncapsulationContextOnSendRule"이 있는지 확인합니다.';
+    $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = '없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = '"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.';
+    $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = '레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.';
+
 
 } elseif ($browserlang == "zh") {
     $text['VPN 연결 문제해결'] = '解决VPN连接问题';
@@ -174,6 +183,15 @@ if ($browserlang == "ko") {
     $text['걱정하지마세요.'] = '别担心。';
     $text[$brand_name.'은 개인정보를 요구하지 않으며, 무료 사용기간이 지나도 자동으로 결제되지않습니다.'] = $brand_name.'不要求个人信息，即使过了免费使用期限也不会自动结算。';
     $text['계속 사용을 원한다면, 사용자가 직접 '.$account_url.'에서 사용 중이던 VPN 접속 ID를 선택하고 연장해야 합니다.'] = '如果您想继续使用，您必须选择并延长用户直接在'.$account_url.'中使用的VPN连接ID。';
+    $text['Windows IKEv2 접속시 오류809 해결방법'] = 'Windows IKEv2连接时错误809解决方法';
+    $text['Windows IKEv2 접속시 오류809 오류는 Windows OS 자체의 문제 때문입니다. 아래와 같은 방법으로 레지스트리를 변경해 해결할 수 있습니다.'] = '错误809错误是因为Windows OS本身的问题。可以用以下方法变更树脂树来解决。';
+    $text['시작 검색에 "regedit" 입력 후 나오는 검색 결과 중 "레지스트리 편집기"를 선택해 실행합니다.'] = '在Windows启动按钮旁边的搜索中输入"regedit"。在搜索结果中选择"注册表编辑器"并运行。';
+    $text['레지스트리 편집기에서 아래 경로를 찾아갑니다.'] = '在注册树编辑器中查找以下路径。';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"이 있는지 확인합니다.'] = '找一下有没有"AssumeUDPEncapsulationContxtOnSendRule"';
+    $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = '如果没有，在菜单中选择"编辑->新建->DWORD（32位）值"，以"AssumeUDPEncapsulationContxtOnSendRule"的名字新建。';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = '双击"AssumeUDPEncapsulationContxtOnSendRule"，将“价格数据”变更为2。';
+    $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = '关闭注册表编辑器，重新启动电脑。';
+
 
 } else {  //en
     $text['VPN 연결 문제해결'] = 'VPN conection troubleshooting';
@@ -262,6 +280,15 @@ if ($browserlang == "ko") {
     $text['걱정하지마세요.'] = 'Do not worry.';
     $text[$brand_name.'은 개인정보를 요구하지 않으며, 무료 사용기간이 지나도 자동으로 결제되지않습니다.'] = $brand_name.' does not ask for personal information, and payment is not automatically made even after the free trial period.';
     $text['계속 사용을 원한다면, 사용자가 직접 '.$account_url.'에서 사용 중이던 VPN 접속 ID를 선택하고 연장해야 합니다.'] = 'If you want to continue using it, you must manually select and extend the VPN connection ID at '.$account_url.'.';
+    $text['Windows IKEv2 접속시 오류809 해결방법'] = 'How to fix Error 809 when connecting to Windows IKEv2';
+    $text['Windows IKEv2 접속시 오류809 오류는 Windows OS 자체의 문제 때문입니다. 아래와 같은 방법으로 레지스트리를 변경해 해결할 수 있습니다.'] = 'Error 809 is due to a problem with the Windows OS itself. This can be resolved by changing the registry in the following way.';
+    $text['시작 검색에 "regedit" 입력 후 나오는 검색 결과 중 "레지스트리 편집기"를 선택해 실행합니다.'] = 'Type "regedit" on search bar next to Windows Start button and Select "Registry Editor" from the search results that appear and run it.';
+    $text['레지스트리 편집기에서 아래 경로를 찾아갑니다.'] = 'Navigate to the path below in Registry Editor.';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"이 있는지 확인합니다.'] = 'Look for "AssumeUDPEncapsulationContextOnSendRule".';
+    $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = 'If it is not there, select "Edit -> New -> DWORD (32-bit) Value" from the menu and create a new one with the name "AssumeUDPEncapsulationContextOnSendRule".';
+    $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = 'Double-click "AssumeUDPEncapsulationContextOnSendRule" to open it and change "Value data" to 2.';
+    $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = 'Close Registry Editor and reboot your computer.';
+
 
 }
 
