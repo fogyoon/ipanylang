@@ -255,8 +255,8 @@ if ($browserlang == "ko") {
 
 } else { //en
 	$text['VPN 접속계정 관리'] = 'VPN Connection ID Management';
-	$text['앞 세자리'] = 'First three digits';
-	$text['넷째자리'] = 'Fourth digit';
+	$text['앞 세자리'] = 'first three digits';
+	$text['넷째자리'] = 'fourth digit';
 	$text[$email.'로 이메일을 발송했습니다. 이메일을 받았는지 확인해 주세요.(스팸메일함 확인 필수)'] = 'An email has been sent. Please make sure you have received the email (requires checking your spam folder)';
 	$text['이메일 발송에 실패했습니다. 잠시후 다시 시도해 주세요.'] = 'Failed to send email. Please try again in a few minutes.';
 	$text['잘못된 이메일 형식입니다. 다시 입력해 주세요.'] = 'Invalid email format. Please enter again.';
@@ -301,8 +301,11 @@ if ($browserlang == "ko") {
 	$text['선택한 아이디 모두 연장'] = 'Extend all selected IDs';
 	$text['선택된 계정을 일괄 결제하고 연장합니다.'] = 'Pay and extend the selected ID at once.';
 	$text['아이디 왼쪽의 체크박스로 여러개의 아이디를 선택해 한번에 연장할 수 있습니다.'] = 'You can select multiple IDs with the checkbox on the left of ID and extend them at once.';
-	$text['하나의 VPN 접속 아이디로 <span class="font-weight-bold">이중 동시 접속</span>을 원한다면 연장할 때 "이중 접속"을 선택하고 "연장" 버튼을 클릭하세요. (월 '.number_format($config['multiconnect2_add_fee']).'원의 요금이 추가됩니다.)'] = 'If you want <span class="font-weight-bold">dual simultaneous connection</span> with a single VPN connection ID, select "Dual Connection" when extending and click the "Extend" button. (A monthly fee of '.number_format($config['multiconnect2_add_fee']).' won is added.)';
-	$text[$config['testdays'].'일 테스트 기간에는 이중 동시 접속이 가능하지 않습니다.'] = 'Dual simultaneous access is not possible during the '.$config['testdays'].'-day test period.';
+	if ($brand_name == "DasanVPN")
+		$text['하나의 VPN 접속 아이디로 <span class="font-weight-bold">이중 동시 접속</span>을 원한다면 연장할 때 "이중 접속"을 선택하고 "연장" 버튼을 클릭하세요. (월 '.number_format($config['multiconnect2_add_fee']).'원의 요금이 추가됩니다.)'] = 'If you want <span class="font-weight-bold">dual connection</span> with a single VPN connection ID, select "Dual Connection" when extending and click the "Extend" button. (Addtional monthly fee of USD'.$formate_multiconnect2_add_fee.' will be added.)';
+	else
+		$text['하나의 VPN 접속 아이디로 <span class="font-weight-bold">이중 동시 접속</span>을 원한다면 연장할 때 "이중 접속"을 선택하고 "연장" 버튼을 클릭하세요. (월 '.number_format($config['multiconnect2_add_fee']).'원의 요금이 추가됩니다.)'] = 'If you want <span class="font-weight-bold">dual connection</span> with a single VPN connection ID, select "Dual Connection" when extending and click the "Extend" button. (Addtional monthly fee of '.number_format($config['multiconnect2_add_fee']).' won will be added.)';
+	$text[$config['testdays'].'일 테스트 기간에는 이중 동시 접속이 가능하지 않습니다.'] = 'Dual Connection is not possible during the '.$config['testdays'].'-day test period.';
 	$text['선택'] = 'Select';
 	$text['IP주소'] = 'IP';
 	$text['서비스'] = 'Service';
@@ -327,7 +330,7 @@ if ($browserlang == "ko") {
 	$text['스마트폰 전용'] = 'Mobile only';
 	$text['VoIP 전용'] = 'VoIP only';
 	$text['서비스를 선택하세요'] = 'Choose a service';
-	$text['이중 접속'] = 'Simultaneous dual connection';
+	$text['이중 접속'] = 'Dual Connection';
 	$text['개월'] = 'month';
 	$text['가상계좌 입금 대기 중입니다. 발행된 가상계좌로 입금하면 연장됩니다.'] = 'Waiting to deposit virtual account. It is extended by depositing into the issued virtual account.';
 	$text['가상계좌 입금 대기 중'] = 'Waiting to deposit virtual account';
@@ -339,7 +342,7 @@ if ($browserlang == "ko") {
 	$text['시간'] = 'hours';
 	$text['분'] = 'minutes';
 	$text['을 수정합니다.'] = '- Modify';
-	$text['의 내용을 복사하여 새 계정을 생성합니다.'] = '- Create a new account by copying the contents of this ID.';
+	$text['의 내용을 복사하여 새 계정을 생성합니다.'] = '- Create a new ID by copying the contents of this ID.';
 	$text['VPN 접속계정(아이디)이 없습니다.'] = 'There is no VPN connection ID.';
 	$text['지금 VPN 접속계정(아이디)을 만드세요.'] = 'You can create a VPN connection ID now.';
 	$text['위 표에서 한개 이상의 아이디를 선택한 후 아래 버튼으로 일괄 연장 또는 일괄 IP 변경을 할 수 있습니다.'] = 'After selecting one or more IDs from the table above, you can collectively extend or change IPs with the button below.';
@@ -361,12 +364,12 @@ if ($browserlang == "ko") {
 	$text['결제하기'] = 'Make a payment';
 	$text['PayPal 결제 진행'] = 'Go to PayPal payment';
 	$text['이미 결제를 했다면, PayPal 입금이 확인되는데 다소 시간이 걸릴 수 있으니 잠시만 기다려주세요.'] = 'If you have already paid, it may take some time for your PayPal deposit to be confirmed, so please be patient.';
-	$text['현재 '.$sns.'로 로그인되어 있습니다.'] = 'You are currently logged in with '.$sns.'.';
-	$text['이전에 생성하고 사용 중인 접속계정이 보이지 않는다면 로그아웃하고 다른 SNS로 로그인하세요.'] = 'If you do not see the previously created VPN connection ID, log out and log in with another social media account or email address.';
-	$text['로그아웃'] = 'Log out';
+	$text['현재 '.$sns.'로 로그인되어 있습니다.'] = 'You are currently signed in with '.$sns.'.';
+	$text['이전에 생성하고 사용 중인 접속계정이 보이지 않는다면 로그아웃하고 다른 SNS로 로그인하세요.'] = 'If you do not see the previously created VPN connection ID, sign out and sign in with another social media account or email address.';
+	$text['로그아웃'] = 'Sign out';
 	$text['VPN 접속계정 관리페이지 사용 방법'] = 'How to use the VPN account management page.';
-	$text['"접속계정 추가"버튼을 클릭하여 접속 계정을 새로 만들 수 있습니다.'] = 'You can create a new access account by clicking the "Add Connection ID" button.';
-	$text['아이디의 "복사"버튼을 클릭하여 기존 계정의 내용을 복사하여 새 계정을 만들 수 있습니다.'] = 'You can create a new account by copying the contents of an existing ID by clicking the "Copy" button of the ID.';
+	$text['"접속계정 추가"버튼을 클릭하여 접속 계정을 새로 만들 수 있습니다.'] = 'You can create a new ID by clicking the "Add Connection ID" button.';
+	$text['아이디의 "복사"버튼을 클릭하여 기존 계정의 내용을 복사하여 새 계정을 만들 수 있습니다.'] = 'You can create a ID by copying the contents of an existing ID by clicking the "Copy" button of the ID.';
 	$text['아이디의 "수정"버튼을 클릭하여 IP나 비밀번호를 수정할 수 있습니다.'] = 'You can modify the IP or password by clicking the "Edit" button of the ID.';
 	$text['아이디의 "연장"버튼을 클릭하여 결제하면 사용기간이 선택한 개월수만큼 자동 연장됩니다.'] = 'To extend the period of use, click the "Extend" button next to your ID and pay.';
 	$text['여러 개의 아이디를 선택하고 "선택된 계정 연장"버튼을 클릭하면 일괄 결제후 연장할 수 있습니다.'] = 'Select multiple IDs and click the "Extend all selected IDs" button to extend them at once.';
@@ -374,7 +377,7 @@ if ($browserlang == "ko") {
 	$text['IP주소를 변경한 후 이전 IP주소를 다른 사용자가 선택했다면 이전 IP주소를 다시 사용할 수 없습니다.'] = 'After changing the IP address, if another user selects and uses the previous IP address, you cannot user the previous IP address again.';
 	$text['각 계정의 아이디를 클릭하면 해당 아이디의 VPN 접속 로그를 확인할 수 있습니다.'] = 'If you click the ID of each account, you can check the VPN connecton log for that ID.';
 	$text['이미 생성된 계정은 삭제하거나 아이디를 변경할 수 없습니다. 만기일이 지난 계정은 6개월 후 자동 삭제됩니다.'] = 'You cannot delete or change the vpn connection ID. IDs past their expiration date will be automatically deleted after 6 months.';
-	$text['현재 접속되어 있는 VPN 계정을 확인하려며 "현재 VPN 접속현황 확인하기"를 클릭합니다. 접속현황에서 접속을 강제로 끊을수 있습니다.'] = 'Click "Check current VPN connection status" to check the VPN ID you are currently connected to. Connection can be forcibly disconnected from the connection status.';
+	$text['현재 접속되어 있는 VPN 계정을 확인하려며 "현재 VPN 접속현황 확인하기"를 클릭합니다. 접속현황에서 접속을 강제로 끊을수 있습니다.'] = 'Click "Check the current VPN connection status" to check the VPN ID you are currently connected to. Connection can be forcibly disconnected from the connection status.';
 	$text['그동안의 연장 결제 내역을 확인하려면 "결제 내역 확인"을 클릭하세요.'] = 'To check the payment history in the meantime, click "Check payment details"';
 	$text['가격표 보기'] = 'View price list';
 	$text['VPN 접속계정 관리페이지 사용방법 보기'] = 'How to use the VPN connection ID management page';

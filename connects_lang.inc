@@ -92,7 +92,7 @@ if ($browserlang == "ko") {
 	$text['한개의 VPN 접속 아이디로 핸드폰과 노트북 두대를 동시에 사용할 수 있는 방식입니다.'] = 'With one VPN connection ID, you can use two mobile phones and laptops at the same time.';
 	$text[$rpi.'가 마치 VPN 공유기처럼 이용되며, 모바일기기나 컴퓨터는 별도 VPN 연결없이 '.$rpi.'로 WiFi 연결만하면 VPN IP를 사용하게 됩니다.'] = '';
 	$text['자세한 방법 보러가기'] = 'Go to see detailed instructions.';
-	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등), 안드로이드 에뮬레이터에서 접속'] = 'Connecting from Anddroid Emulator for mobile games.';
+	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등), 안드로이드 에뮬레이터에서 접속'] = 'Connecting from Android Emulator for mobile games.';
 	$text['앱플레이어에서 VPN 접속을하면 앱플레이어마다 다른 아이피를 사용하여 게임을 할 수 있습니다.'] = 'You can play games using different IPs for each Android emulator.';
 	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등)에서 접속 가능한 VPN 방식입니다.'] = 'This is a VPN method that can be connected from the Android Emulator.';
 	$text['IKEv2 또는 Openvpn 두 가지 방식의 접속이 가능합니다. 아래 두 가지 접속 방식 중 하나를 선택해 클릭하면 자세한 접속 방법을 확인할 수 있습니다.'] = 'There are two types of access available: IKEv2 or Openvpn. You can check the detailed connection method by selecting one of the two connection methods below and clicking on it.';

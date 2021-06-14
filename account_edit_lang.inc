@@ -7,18 +7,18 @@ if ($browserlang == "en") {
 	$text['사용 가능한 아이디 입니다.'] = "The username is available.";
 	$text['비밀번호에 사용할 수 없는 문자를 사용하셨습니다.'] = "You have used characters that cannot be used in your password.";
 	$text['유효하지 않은 이메일 주소 입니다.'] = "This email address is not valid.";
-	$text['환영합니다'] = "Welcom.";
+	$text['환영합니다.'] = "Welcome";
 	$text['VPN IP를 사용하려면 여기서 VPN 접속에 필요한 아이디와 비밀번호를 만들어야합니다.'] = "To use VPN IP, you need to create ID and password for VPN connection here.";
 	$text['VPN 접속계정 생성'] = "Create VPN connection ID";
 	$text['VPN 접속계정 수정'] = "Add VPN connection ID";
-	$text['아이디를 수정하고 <strong>"아이디 중복 확인"</strong> 버튼을 클릭해 사용가능한 아이디인지 미리 확인해 주세요.'] = 'Enter your ID and click the "Check ID Duplicate" button to check if the ID is usable.';
-	$text['아이디를 입력하고 <strong>"아이디 중복 확인"</strong> 버튼을 클릭해 사용가능한 아이디인지 미리 확인해 주세요.'] = 'Enter your ID and click the "Check ID Duplicate" button to check if the ID is usable.';
+	$text['아이디를 수정하고 <strong>"아이디 중복 확인"</strong> 버튼을 클릭해 사용가능한 아이디인지 미리 확인해 주세요.'] = 'Enter your ID and click the "Check ID Duplication" button to check if the ID is usable.';
+	$text['아이디를 입력하고 <strong>"아이디 중복 확인"</strong> 버튼을 클릭해 사용가능한 아이디인지 미리 확인해 주세요.'] = 'Enter your ID and click the "Check ID Duplication" button to check if the ID is usable.';
 	$text['비밀번호를 입력하고 사용할 IP를 선택한 후 <strong>"저장"</strong> 버튼을 클릭하세요.'] = 'Enter your ID and password, select the IP you want to use, and click the "Save" button.';
 	$text['비밀번호를 입력하고 <strong>"저장"</strong> 버튼을 클릭하세요.'] = 'Enter your ID and password, select the IP you want to use, and click the "Save" button.';
 	$text['VPN 접속계정을 생성합니다. 내용 수정 후 아래 "저장" 버튼을 클릭하세요.'] = 'Create a VPN connection account. After entering the content, click the "Save" button below.';
 	$text['VPN 접속계정을 수정합니다. 내용 수정 후 아래 "저장" 버튼을 클릭하세요.'] = 'Modify a VPN connection account. After editing the content, click the "Save" button below.';
 	$text['기존 사용하던 계정의 아이디는 변경할 수 없습니다.'] = 'You cannot change the ID of an existing account.';
-	$text['다른 아이피를 사용하기 원한다면 <strong>IP 선택</strong>에서 "앞 세자리"과 "넷째자리"를 차례로 선택합니다.'] = 'If you want to use a different IP, select "First 3 digits" and then "Fourth digits" in the IP selection.';
+	$text['다른 아이피를 사용하기 원한다면 <strong>IP 선택</strong>에서 "앞 세자리"과 "넷째자리"를 차례로 선택합니다.'] = 'If you want to use a different IP, select "first three digits" and then "fourth digit" in the IP selection.';
 	$text['아이디를 생성하고, 계정관리에서 <strong>연장</strong>하면 이 계정을 사용할 수 있습니다.'] = 'You can create an ID here and use it after extending it in account management.';
 	$text['이름, 이메일, 전화번호, 메모는 입력하지 않아도 됩니다.'] = 'Name, email, phone number, and memo are optional.';
 	$text['처음으로 생성한 계정은 <?=$test_show_days;?>일 무료로 사용할 수 있습니다.'] = 'Accounts created for the first time can be used free of charge for '.$test_show_days.' days.';
@@ -33,9 +33,9 @@ if ($browserlang == "en") {
 	$text['VPN 접속으로 할당받을 IP 주소입니다. "IP 선택"에서 변경할 수 있습니다.'] = 'IP address to be assigned for VPN connection. You can change the IP in "Select IP".';
 	$text['IP 선택: 앞 세자리'] = 'IP selection: first three digits';
 	$text['IP 앞 세자리(대역)'] = 'first three digits';
-	$text['할당 받을 IP주소를 변경하려면 "IP 앞 세자리"와 "넷째자리"를 차례로 선택하세요.'] = 'To change the IP address to be assigned, select "First three digits of IP" and then "Fourth digits".';
-	$text['IP 선택: 넷째자리'] = 'IP selection: 4th digit';
-	$text['IP 넷째자리'] = '4th digit';
+	$text['할당 받을 IP주소를 변경하려면 "IP 앞 세자리"와 "넷째자리"를 차례로 선택하세요.'] = 'To change the IP address to be assigned, select "first three digits of IP" and then "fourth digit".';
+	$text['IP 선택: 넷째자리'] = 'IP selection: fourth digit';
+	$text['IP 넷째자리'] = 'fourth digit';
 	$text['만기일'] = 'Expiration date';
 	$text['\$pconfig[\'display_expiraton\']까지 사용 가능합니다.'] = 'You can use it until '.$pconfig['display_expiraton'];
 	$text['계정을 생성한 후 연장해야만 이 계정을 사용할 수 있습니다.'] = 'To use this account, you must extend it after creation.';
@@ -43,11 +43,14 @@ if ($browserlang == "en") {
 	$text['연장개월'] = 'Extension months';
 	$text['연장시 몇개월로 연장할지를 선택합니다.'] = 'When extending, select how many months to extend.';
 	$text['개월'] = 'months';
-	$text['이중 접속'] = 'Simultaneous connection';
-	$text['이중접속이 가능합니다.'] = 'Simultaneous connection is possible.';
-	$text['현재 이중 접속이 가능하지않습니다.'] = 'Currently, simultaneous connection is not possible.';
-	$text['연장 결제 시 이중 접속 가능 여부를 선택할 수 있습니다.'] = 'You can choose "Simultaneous connection" when paying for extended periods.';
-	$text['(추가요금: <?=number_format($config[\'multiconnect2_add_fee\']);?>원)'] = '(Surcharge: '.number_format($config['multiconnect2_add_fee']).' KRW)';
+	$text['이중 접속'] = 'Dual connection';
+	$text['이중접속이 가능합니다.'] = 'Dual connection is possible.';
+	$text['현재 이중 접속이 가능하지않습니다.'] = 'Currently, Dual Connection is not possible.';
+	$text['연장 결제 시 이중 접속 가능 여부를 선택할 수 있습니다.'] = 'You can choose "Dual connection" when paying for extended periods.';
+	if ($brand_name == "DasanVPN")
+		$text['(추가요금: <?=number_format($config[\'multiconnect2_add_fee\']);?>원)'] = '(Additioanl charge: USD'.number_format($config['dasan_multiconnect2_add_fee'], 2).')';
+	else
+		$text['(추가요금: <?=number_format($config[\'multiconnect2_add_fee\']);?>원)'] = '(Additioanl charge: '.number_format($config['multiconnect2_add_fee']).' KRW)';
 	$text['이름'] = 'Name';
 	$text['필요시 입력'] = 'Optional';
 	$text['계정 만기일이 다가오면 SNS계정의 Email 주소로 알림 메일이 발송됩니다. 다른 Email 주소로 만기일 통보를 받기 원한다면 여기에 별도의 Email 주소를 입력하세요.'] = 'When your account expiration date approaches, a notification email will be sent to your email address.';
@@ -70,7 +73,7 @@ if ($browserlang == "en") {
 	$text['사용 가능한 아이디 입니다.'] = "用户名可用。";
 	$text['비밀번호에 사용할 수 없는 문자를 사용하셨습니다.'] = "您使用了密码中无法使用的字符。";
 	$text['유효하지 않은 이메일 주소 입니다.'] = "该电子邮件地址无效。";
-	$text['환영합니다'] = "欢迎。";
+	$text['환영합니다.'] = "欢迎。";
 	$text['VPN IP를 사용하려면 여기서 VPN 접속에 필요한 아이디와 비밀번호를 만들어야합니다.'] = "要使用VPN IP，您需要在此处创建用于VPN连接的ID和密码。";
 	$text['VPN 접속계정 생성'] = "创建VPN连接ID";
 	$text['VPN 접속계정 수정'] = "添加VPN连接ID";
@@ -133,7 +136,7 @@ if ($browserlang == "en") {
 	$text['사용 가능한 아이디 입니다.'] = "사용 가능한 아이디 입니다.";
 	$text['비밀번호에 사용할 수 없는 문자를 사용하셨습니다.'] = "비밀번호에 사용할 수 없는 문자를 사용하셨습니다.";
 	$text['유효하지 않은 이메일 주소 입니다.'] = "유효하지 않은 이메일 주소 입니다.";
-	$text['환영합니다'] = "환영합니다";
+	$text['환영합니다.'] = "환영합니다.";
 	$text['VPN IP를 사용하려면 여기서 VPN 접속에 필요한 아이디와 비밀번호를 만들어야합니다.'] = "VPN IP를 사용하려면 여기서 VPN 접속에 필요한 아이디와 비밀번호를 만들어야합니다.";
 	$text['VPN 접속계정 생성'] = "VPN 접속계정 생성";
 	$text['VPN 접속계정 수정'] = "VPN 접속계정 수정";

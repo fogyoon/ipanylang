@@ -2,7 +2,7 @@
 if ($browserlang == "ko") {
 	$text['VPN 접속계정 연장'] = 'VPN 접속계정 연장';
 	$text['접속계정 연장'] = '접속계정 연장';
-	$text['결제할 아래 내역을 확인 후 "결제" 버튼을 클릭합니다.'] = '결제할 아래 내역을 확인 후 "결제" 버튼을 클릭합니다.';
+	$text['결제할 아래 내역을 확인 후 결제를 진행하세요.'] = '결제할 아래 내역을 확인 후 결제를 진행하세요.';
 	$text['결제가 완료되면 각 계정은 선택된 개월 수만큼 자동 연장됩니다.'] = '결제가 완료되면 각 계정은 선택된 개월 수만큼 자동 연장됩니다.';
 	$text['한달은 '.$amonthday.'일로 계산됩니다.'] = '한달은 '.$amonthday.'일로 계산됩니다.';
 	$text['사용 중인 전체 계정수는 '.$using_count.' 개(만기일 지난 계정 미포함)로, 계정수에 따른 할인율 '.$drate.'%가 적용되었습니다.'] = '사용 중인 전체 계정수는 '.$using_count.' 개(만기일 지난 계정 미포함)로, 계정수에 따른 할인율 '.$drate.'%가 적용되었습니다.';
@@ -48,7 +48,7 @@ if ($browserlang == "ko") {
 } elseif ($browserlang == "zh") {
 	$text['VPN 접속계정 연장'] = 'VPN连接帐户扩展';
 	$text['접속계정 연장'] = '连接帐户扩展';
-	$text['결제할 아래 내역을 확인 후 "결제" 버튼을 클릭합니다.'] = '检查以下详细信息以付款，然后单击"付款"按钮。';
+	$text['결제할 아래 내역을 확인 후 결제를 진행하세요.'] = '确认结算的以下明细后进行结算。';
 	$text['결제가 완료되면 각 계정은 선택된 개월 수만큼 자동 연장됩니다.'] = '付款后，每个帐户都会自动延长选定的月数。';
 	$text['한달은 '.$amonthday.'일로 계산됩니다.'] = '一个月计为'.$amonthday.'天。';
 	$text['사용 중인 전체 계정수는 '.$using_count.' 개(만기일 지난 계정 미포함)로, 계정수에 따른 할인율 '.$drate.'%가 적용되었습니다.'] = '正在使用的帐户总数为'.$using_count.'（不包括过期日期之后的帐户），并且根据帐户数应用'.$drate.'％的折扣率。';
@@ -92,7 +92,7 @@ if ($browserlang == "ko") {
 } else {  //en
 	$text['VPN 접속계정 연장'] = 'VPN Connection ID Extension';
 	$text['접속계정 연장'] = 'Connection ID Extension';
-	$text['결제할 아래 내역을 확인 후 "결제" 버튼을 클릭합니다.'] = 'Check the details below to pay and click the "Pay" button.';
+	$text['결제할 아래 내역을 확인 후 결제를 진행하세요.'] = 'Please check the details below for payment and proceed the payment.';
 	$text['결제가 완료되면 각 계정은 선택된 개월 수만큼 자동 연장됩니다.'] = 'Upon payment, each account is automatically extended for the selected number of months.';
 	$text['한달은 '.$amonthday.'일로 계산됩니다.'] = 'A month is counted as '.$amonthday.' days.';
 	$text['사용 중인 전체 계정수는 '.$using_count.' 개(만기일 지난 계정 미포함)로, 계정수에 따른 할인율 '.$drate.'%가 적용되었습니다.'] = 'The total number of accounts in use is '.$using_count.' (excluding accounts past the expiration date), and a discount rate of '.$drate.'% is applied according to the number of accounts.';
@@ -113,7 +113,7 @@ if ($browserlang == "ko") {
 	$text['VoIP 전용'] = 'VoIP only';
 	$text['이중접속가능'] = 'Dual connection possible';
 	$text['삼중접속가능'] = 'Triple connection possible';
-	$text['이중접속불가능'] = 'Double connection impossible';
+	$text['이중접속불가능'] = 'Dual connection impossible';
 	$text['원'] = 'KRW';
 	$text['이중 접속 요금'] = 'Dual connection fee';
 	$text['삼중 접속 요금'] = 'Triple connection fee';

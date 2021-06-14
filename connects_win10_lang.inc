@@ -16,7 +16,7 @@ if ($browserlang == "en") {
 	$text['"인터넷 주소"에 아래 서버 주소 중 하나를 선택해 입력하고 "대상 이름"에 "'.$brand_name.'"를 입력하고, "지금 연결하지 않고 나중에 연결할 수 있도록 설정해 놓기만 함"을 선택해 활성화하고 "다음"을  클릭합니다.'] = 'Select and enter one of the server addresses below in "Internet address" enter "'.$brand_name.'" in "Destination name", select "Don\'t connect now, just set it up so I can connect later" to activate it and click "Next".';
 	$text['서버주소'] = 'Server address';
 	$text['사용자 이름과 암호에 "'.$vpnid.'"와(과) 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'Enter "'.$vpnid.'" and password for Username and Password and leave "Domain(optional)" blank.';
-	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'In Username and Password, enter the ID and Password created in '.$account_url.' and leave "Domain(optional)" blank.';
+	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "도메인"은 공란으로 비워둡니다.'] = 'In Username and Password, enter the VPN connection ID and Password created in '.$account_url.' and leave "Domain(optional)" blank.';
 	$text['"만들기"와 "닫기"를 차례로 클릭하여 내용을 저장하고 설정 창을 닫습니다.'] = 'Click "Create" and then "Close" to save the contents and close the settings window.';
 	$text['"<strong>어댑터 설정 변경</strong>"을 클릭합니다.'] = 'Click "<strong>Change adapter settings</strong>".';
 	$text[$brand_name.' 어댑터에 마우스를 올리고 마우스 <strong>오른쪽</strong> 버튼을 클릭하여 나타나는 메뉴 중 "<strong>속성</strong>"을 선택합니다.'] = 'Put the mouse over '.$brand_name.' adapter, click <strong>Right</strong> button and select "<strong>Properties</strong>" from the the menu.';
@@ -65,10 +65,10 @@ if ($browserlang == "en") {
 	$text['"사용자 이름 및 암호" 선택'] = 'Select "User name and password"';
 	$text['사용자 이름(옵션)'] = 'User name(optional)';
 	$text['"'.$vpnid.'"을(를) 입력합니다.'] = 'Enter "'.$vpnid.'".';
-	$text[$account_url.'에서 생성한 아이디를 입력합니다.'] = 'Enter ID created in '.$account_url.'.';
+	$text[$account_url.'에서 생성한 아이디를 입력합니다.'] = 'Enter VPN connection ID created in '.$account_url.'.';
 	$text['암호(옵션)'] = 'Password(optional)';
 	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = 'Enter the Password that input together on creation of "'.$vpnid.'".';
-	$text[$account_url.'에서 생성한 아이디의 비밀번호를 입력합니다.'] = 'Enter the Password of the ID created in '.$account_url.'.';
+	$text[$account_url.'에서 생성한 아이디의 비밀번호를 입력합니다.'] = 'Enter the Password of the VPN connection ID created in '.$account_url.'.';
 	$text['관련 설정의 "<strong>어댑터 옵션 변경</strong>"을 클릭합니다.'] ='Click "<strong>Change adapter options</strong>" of Related settings.';
 	$text[$brand_name.' 어댑터에 마우스를 올리고 마우스 <strong>오른쪽</strong> 버튼을 클릭하여 나타나는 메뉴 중 "<strong>속성</strong>"을 선택합니다.'] = 'Put the mouse over '.$brand_name.' adapter, click "Right mouse button" and select "Properties" from the menu that appears.';
 	$text['속성 창이 열리면 "네트워킹" 탭을 선택합니다. "인터넷 프로토콜 버전 4 (TCP/IPv4)"를 선택한 후 "속성"을 클릭합니다.'] = 'If the Properties window opens, select the "Networking" tab. Select "Internet Protocol Version 4 (TCP/IPv4)" and click "Properties".';
@@ -135,7 +135,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = 'double encryption';
 	$text['Windows 10 VPN 접속 방법'] = 'How to connect to VPN in Windows 10';
 	$text['다른 디바이스 접속 방법 보러 가기'] = 'Go to see how to connect from other devices';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = 'You can connect to the VPN as following way. Please use '.$vpnid.' for VPN connection ID.';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = 'You can connect to the VPN as following way. Please use "'.$vpnid.'" for VPN connection ID.';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = 'This is the most commonly used IKEv2 VPN connection method.';
 	$text['접속 프로그램 설치 및 접속'] = 'Connection program installation and connection';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = 'Click the button below to download the installation file.';
@@ -148,7 +148,7 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = 'If the "User Account Control" window appears as below, select "Yes".';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = 'After installing the program, click IPanyVPN from the desktop shortcut or the Start menu to run the program.';
 	$text['통합 접속 프로그램이 열리면,'] = 'When the integrated access program opens,';
-	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = 'Enter '.$vpnid.' in the access ID and enter the password.';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = 'Enter "'.$vpnid.'" in Username and enter the password.';
 	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = 'enter the connection ID and password created in '.$account_url.'.';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'Select "IKEv2" as the VPN type and choose one of connection servers. And then you can connect to VPN by clicking "Connect" button.';
 	$text['VPN 방식'] = 'VPN type';
@@ -245,10 +245,10 @@ if ($browserlang == "en") {
 	$text['로그인 정보 입력'] = '输入登录信息';
 	$text['"사용자 이름 및 암호" 선택'] = '选择"用户名和密码"';
 	$text['사용자 이름(옵션)'] = '用户名（选项）';
-	$text['"'.$vpnid.'"을(를) 입력합니다.'] = '输入'.$vpnid;
+	$text['"'.$vpnid.'"을(를) 입력합니다.'] = '输入"'.$vpnid.'"';
 	$text[$account_url.'에서 생성한 아이디를 입력합니다.'] = '输入在'.$account_url.'中生成的ID。';
 	$text['암호(옵션)'] = '密码（选项）';
-	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = '输入生成'.$vpnid.'时一起输入的密码。';
+	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = '输入生成"'.$vpnid.'"时一起输入的密码。';
 	$text[$account_url.'에서 생성한 아이디의 비밀번호를 입력합니다.'] = '输入在'.$account_url.'中生成的ID的密码。';
 	$text['관련 설정의 "<strong>어댑터 옵션 변경</strong>"을 클릭합니다.'] ='点击相关设置的"<strong>适配器选项变更</strong>"。';
 	$text[$brand_name.' 어댑터에 마우스를 올리고 마우스 <strong>오른쪽</strong> 버튼을 클릭하여 나타나는 메뉴 중 "<strong>속성</strong>"을 선택합니다.'] = $brand_name.'将鼠标放在适配器上，点击鼠标<strong>右</strong>按钮出现的菜单中，选择"<strong>属性</strong>"。';
@@ -316,7 +316,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = '双重加密';
 	$text['Windows 10 VPN 접속 방법'] = '如何在Windows 10中连接到VPN';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '去看看如何从其他设备连接';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '您可以通过以下方式连接到VPN。请使用'.$vpnid.'作为VPN连接ID';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '您可以通过以下方式连接到VPN。请使用"'.$vpnid.'"作为VPN连接ID';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = '这是最常用的IKEv2 VPN连接方法。';
 	$text['접속 프로그램 설치 및 접속'] = '连接程序的安装和连接';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = '单击下面的下载按钮以下载安装文件。';
@@ -329,7 +329,7 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = '如果如图所示打开"用户帐户控制"窗口，请选择"是"。';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = '安装程序后，从桌面快捷方式或"开始"菜单中单击IPanyVPN以运行该程序。';
 	$text['통합 접속 프로그램이 열리면,'] = '当集成访问程序打开时，';
-	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '在访问ID中输入'.$vpnid.'，然后输入密码。';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '在访问ID中输入"'.$vpnid.'"，然后输入密码。';
 	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = '输入在'.$account_url.'中创建的连接ID和密码。';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = '您可以通过选择" IKEv2"作为VPN方法，选择连接服务器并单击"连接"来进行连接。';
 	$text['VPN 방식'] = 'VPN方式';
@@ -497,7 +497,7 @@ if ($browserlang == "en") {
 	$text['이중암호화'] = '이중암호화';
 	$text['Windows 10 VPN 접속 방법'] = 'Windows 10 VPN 접속 방법';
 	$text['다른 디바이스 접속 방법 보러 가기'] = '다른 디바이스 접속 방법 보러 가기';
-	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 '.$vpnid.'을(를) 사용하세요.';
+	$text['아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.'] = '아래 방법으로 VPN 접속을 할 수 있습니다. 접속아이디에 "'.$vpnid.'"을(를) 사용하세요.';
 	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.'] = '가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다.';
 	$text['접속 프로그램 설치 및 접속'] = '접속 프로그램 설치 및 접속';
 	$text['아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.';
@@ -510,7 +510,7 @@ if ($browserlang == "en") {
 	$text['그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.'] = '그림과 같이 "사용자 계정 컨트롤" 창이 열린다면 "예"를 선택합니다.';
 	$text['프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.'] = '프로그램 설치를 마치고, 바탕화면 바로가기나 시작 메뉴에서 IPanyVPN을 클릭하여 프로그램을 실행합니다.';
 	$text['통합 접속 프로그램이 열리면,'] = '통합 접속 프로그램이 열리면,';
-	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '접속아이디에 '.$vpnid.'을(를) 입력하고, 비밀번호를 입력하세요.';
+	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.';
 	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = $account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.';
 	$text['VPN 방식'] = 'VPN 방식';

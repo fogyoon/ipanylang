@@ -116,35 +116,35 @@ if ($browserlang == "ko") {
 	$description = '登录页面。';
 } else {  //en
 	$text['이메일 주소로 로그인'] = 'Sign in with email address';
-	$text['이메일 주소를 등록하고 이메일 주소와 비밀번호로 로그인할 수 있습니다.'] = 'You can register an email address and log in with your email address and password.';
+	$text['이메일 주소를 등록하고 이메일 주소와 비밀번호로 로그인할 수 있습니다.'] = 'You can register an email address and sign in with your email address and password.';
 	$text['비밀번호가 일치하지 않습니다. 다시 확인 후 시도해 주세요.'] = 'Passwords do not match. Please check again and try.';
 	$text['비밀번호를 잊었다면 비밀번호를 재설정할 수 있습니다.'] = 'If you forgot your password, you can reset it.';
 	$text['비밀번호 재설정하러 가기'] = 'Go to reset password';
 	$text['등록되지않은 이메일 주소입니다. 다시 확인 후 시도해 주세요.'] = 'This email address is not registered. Please check again and try.';
-	$text['이메일 주소를 성공적으로 등록했습니다. 이제 로그인할 수 있습니다.'] = 'You have successfully registered your email address. You can now log in.';
-	$text['이미 이메일 주소를 등록했다면 바로 로그인하세요.'] = 'If you have already registered an email address, you can log in now.';
+	$text['이메일 주소를 성공적으로 등록했습니다. 이제 로그인할 수 있습니다.'] = 'You have successfully registered your email address. You can now sign in.';
+	$text['이미 이메일 주소를 등록했다면 바로 로그인하세요.'] = 'If you have already registered an email address, you can sign in now.';
 	$text['이메일 주소'] = 'Email Address';
 	$text['비밀번호'] = 'Password';
 	$text['로그인'] = 'Sign in';
-	$text['이메일 주소를 등록하지 않았다면 지금 등록하고 로그인할 수 있습니다.'] = 'If you have not registered an email address, you can register and log in now.';
+	$text['이메일 주소를 등록하지 않았다면 지금 등록하고 로그인할 수 있습니다.'] = 'If you have not registered an email address, you can register and sign in now.';
 	$text['이메일 주소 등록하기'] = 'Registering an email address';
 
 	//email_register.php
 	$text['이미 등록된 이메일 주소입니다.'] = 'This e-mail address is already registered. ';
-	$text['로그인 페이지로 이동해 로그인 하세요.'] = 'Go to the login page and log in.';
+	$text['로그인 페이지로 이동해 로그인 하세요.'] = 'Go to the sign-in page and sign in.';
 	$text['아래 주소로 이메일을 발송했습니다. 이메일을 받았는지 확인해 주세요.(스팸메일함 확인 필수)'] = 'We sent an email to the address below. Please make sure you have received the email (requires checking your spam folder).';
 	$text['받은 이메일 내용의 링크를 클릭해 등록과정을 마무리하세요.'] = 'Click the link in the email you received to complete the registration process.';
 	$text['이메일 발송에 실패했습니다. 다시 시도해 주세요.'] = 'Failed to send email. please try again.';
 	$text['죄송합니다. 오류가 발생했습니다. 다시 시도해 주세요.'] = 'Sorry. An error has occurred. please try again.';
 	$text['입력된 두개의 비밀번호가 일치하지 않습니다. 다시 입력해 주세요.'] = 'The two passwords entered do not match.';
-	$text['로그인 페이지로 이동해 로그인 하세요.'] = 'Go to the login page and log in.';
+	$text['로그인 페이지로 이동해 로그인 하세요.'] = 'Go to the sign-in page and sign in.';
 	$text['이메일 로그인'] = 'Sign in wiht Email Address';
 	$text['이메일 주소 등록'] = 'Register Email Address';
 	$text['이메일 등록'] = 'Register Email Address';
 	$text['이메일 주소를 등록하여 로그인합니다.'] = 'Sign in with Email address registered.';
 	$text['로그인 용 이메일 주소 등록'] = 'Register email address for sign-in';
 	$text['등록된 이메일 주소와 비밀번호로 로그인 합니다.'] = 'Sign in with your registered email address and password.';
-	$text['이메일 주소를 입력하고 발송 버튼을 클릭하면 이메일이 발송됩니다.'] = 'Enter your email address and click the Send button to send an email.';
+	$text['이메일 주소를 입력하고 발송 버튼을 클릭하면 이메일이 발송됩니다.'] = 'Enter your email address and click the Send Email button to send an email.';
 	$text['받은 이메일의 링크를 클릭하여 등록과정을 마무리하세요.'] = 'Click the link in the email you received to complete the registration process.';
 	$text['본인이 사용 중이고 확인 가능한 이메일 주소를 입력해야합니다.'] = 'You must enter a valid email address that you are using.';
 	$text[$brand_name.' 홈페이지 로그인 시 사용할 이메일 주소입니다.'] = 'Email address to use when signning in '.$brand_name.' website.';
@@ -153,18 +153,18 @@ if ($browserlang == "ko") {
 	$text['비밀번호 재입력'] = 'Re-enter password';
 	$text['비밀번호를 한번 더 입력하세요.'] = 'Please enter your password again.';
 	$text['이메일 재발송'] = 'Resend email';
-	$text['이메일 발송'] = 'Email sending';
-	$text['등록'] = 'Enrollment';
+	$text['이메일 발송'] = 'Send Email';
+	$text['등록'] = 'Registration';
 
 	//email_register_reset.php
 	$text['받은 이메일 내용의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.'] = 'You can reset your password by clicking the link in the email you received.';
-	$text['이메일 비밀번호가 변경되었습니다. 변경된 비밀번호로 로그인할 수 있습니다.'] = 'Your password has been changed. You can log in with the changed password.';
+	$text['이메일 비밀번호가 변경되었습니다. 변경된 비밀번호로 로그인할 수 있습니다.'] = 'Your password has been changed. You can sign in with the changed password.';
 	$text['비밀번호 재설정'] = 'Reset password';
 	$text['비밀번호를 잊었다면 여기서 재설정할 수 있습니다.'] = 'If you forgot your password, you can reset it here.';
 	$text['비밀번호 재설정을 위한 이메일을 발송합니다.'] = 'We will send you an email to reset your password.';
 	$text['비밀번호를 재설정합니다.'] = 'Reset your password.';
 	$text['새로 사용할 비밀번호를 입력하세요.'] = 'Please enter a new password.';
-	$text['발송 버튼을 클릭하면 이메일이 발송됩니다.'] = 'Click the Send button and an email will be sent. ';
+	$text['발송 버튼을 클릭하면 이메일이 발송됩니다.'] = 'Click Send Email button and an email will be sent. ';
 	$text['받은 이메일의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.'] = 'You can reset your password by clicking the link in the email you received.';
 	$text['이메일 주소 입력'] = 'Input email address';
 	$text['변경된 비밀번호로 로그인하기.'] = 'Sign in with the changed password';

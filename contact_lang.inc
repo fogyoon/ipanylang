@@ -108,8 +108,8 @@ if ($browserlang == "ko") {
 	$text['메세지가 성공적으로 발송되었습니다. 가능한 빠르게 답변드리겠습니다.'] = 'Message was sent successfully. We will answer you as soon as possible.';
 	$text['메세지 발송에 실패했습니다. 잠시후 다시 부탁 드립니다.'] = 'Failed to send message. Please try again in a while.';
 	$text['문의하기'] = 'Inquiry';
-	$text['의문 사항이 있다면 여기에 메세지를 남겨 주세요. 메세지를 남기기 전에 <a href="'.$vpn_connection_url.'" class="badge badge-primary" style="font-size:.95em;">VPN 접속 방법</a>과 <a href="howto.php" class="badge badge-primary" style="font-size:.95em;">문제 해결</a>을 먼저 살펴보기 바랍니다.'] = 'If you have any questions, please leave a message here. Before leaving a message, please take a look at <a href="'.$vpn_connection_url.'" class="badge badge-primary" style="font-size:.95em;">VPN connection method</a> and <a href="howto.php" class="badge badge-primary" style="font-size:.95em;">Troubleshooting</a>.';
-	$text['문제가 있다면 전화보다는 메세지를 남겨주시면 더 빠르게 대응해 드릴 수 있습니다.'] = 'We can reply more quickly if you leave a message instead of phone call.';
+	$text['의문 사항이 있다면 여기에 메세지를 남겨 주세요. 메세지를 남기기 전에 <a href="'.$vpn_connection_url.'" class="badge badge-primary" style="font-size:.95em;">VPN 접속 방법</a>과 <a href="howto.php" class="badge badge-primary" style="font-size:.95em;">문제 해결</a>을 먼저 살펴보기 바랍니다.'] = 'If you have any questions, please leave a message here. Before leaving a message, please take a look at <a href="'.$vpn_connection_url.'" class="badge badge-primary" style="font-size:.95em;">Connection Method</a> and <a href="howto.php" class="badge badge-primary" style="font-size:.95em;">Troubleshooting</a>.';
+	$text['문제가 있다면 전화보다는 메세지를 남겨주시면 더 빠르게 대응해 드릴 수 있습니다.'] = '';
 	$text[$brand_name.' 사용자라면 <a href="staticip.php" class="badge badge-primary" style="font-size:.95em;">로그인</a> 후 메세지를 남겨주시면 쉽게 문제를 확인할 수 있습니다.'] = 'If you are a '.$brand_name.' user, you can easily check the problem by leaving a message after <a href="staticip.php" class="badge badge-primary" style="font-size:.95em;">sign-in</a>.';
 	$text['안드로이드에 예전에 설치했던 StrongSwan이 최근들어 접속되지 않는다면, 여기를 클릭하여 해결방법을 확인하세요.'] = 'If StrongSwan that installed before on Android is not connected recently, click here to see the solution.';
 	$text['그림과 같은 오류가 발생하며 StrongSwan 접속이 되지 않는다면 아래와 같은 방법으로 문제를 해결할 수 있습니다.'] = 'If error as shown in the picture occurs and you cannot connect to StrongSwan, you can solve the problem in following way.';
@@ -126,7 +126,7 @@ if ($browserlang == "ko") {
 	$text['불법 사이트 링크를 보내려합니다.'] = 'I want to send illegal site link.';
 	$text['저는 스팸봇이 아닙니다.'] = 'I am not a robot.';
 	$text['스팸 메일을 보내려합니다.'] = 'I want to send spam mail.';
-	$text['악성코드를 보내려합니다.'] = 'I wanto send malicious code.';
+	$text['악성코드를 보내려합니다.'] = 'I want to send malicious code.';
 	$text['이름*'] = 'Name*';
 	$text['전화번호'] = 'Phone no.';
 	$text['VPN 접속에 문제가 있다면, 문의 내용에 <strong>접속 기기</strong>와 <strong>접속 방식</strong>을 꼭 기재해 주세요.'] = 'If have any problem to connect VPN, please  input <strong> Connection device</strong> and <Strong>Connection method</strong> in inquiry contents.';
