@@ -65,7 +65,7 @@ if ($browserlang == "en") {
 	$text['접속 서버 변경'] = 'Connection server change';
 	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. If you want to change the connection server, register all servers in the above setting method and change to the server you want to connect.';
 	$text['설정 변경'] = 'Change settings';
-	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect due to incorrect VPN connection ID and password input, you can change the Username and Password by clicking the Edit button that appears when you click the Profile to be modified for 3 seconds.';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect due to incorrect VPN connection ID and password input, you can change the Username and Password by clicking the Edit button that appears when you press the Profile to be modified for 3 seconds.';
 	$text['SAVE를 눌러 변경 내용을 저장합니다.'] = 'Press SAVE to save your changes.';
 	$text['접속 실패 원인 확인'] = 'Check the cause of connection failure';
 	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. Please check the "<strong>Change Connection Server</strong>" above.';
