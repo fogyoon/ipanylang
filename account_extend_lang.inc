@@ -121,15 +121,15 @@ if ($browserlang == "ko") {
 	$text['총 결제할 금액'] = 'Total amount to be paid';
 	$text['이중 접속 설정 변경에 따른 아이디의 남은 사용 기간의 이중 접속 요금 가감 금액입니다.'] = 'This is the amount added or deducted from the dual connection fee for the remaining usage period due to the change of the dual connection setting.';
 	$text['결제 방법을 선택하세요.'] = 'Please select a payment method.';
-	$text['실시간 자동 연장 결제'] = 'Real-time automatic renewal payment';
+	$text['실시간 자동 연장 결제'] = 'Automatic Extension Payment';
 	$text['실시간계좌이체, 가상계좌, 신용카드로 결제합니다.'] = 'Pay by real-time account transfer, virtual account, or credit card.';
-	$text['결제가 완료되면 사용 기간이 자동으로 연장됩니다.'] = 'After payment is completed, the subscription period is automatically extended.';
-	$text['수동 연장 결제 (계좌이체)'] = 'Manual Extended Payment (Bank Transfer)';
-	$text['결제 진행에 문제있는 경우 일반 계좌이체로 결제합니다.'] = 'If there is a problem with real-time payment, we will pay by regular bank transfer.';
-	$text['(입금확인을 수동으로 하기 때문에 입금 후 사용기간 연장에 시간이 다소 걸릴 수 있습니다.)'] = '(Since the payment is confirmed manually, it may take some time to extend the usage period after deposit.)';
+	$text['결제가 완료되면 사용 기간이 자동으로 연장됩니다.'] = 'As soon as payment is complete, the expiration date is automatically extended.';
+	$text['수동 연장 결제 (계좌이체)'] = 'Manual Extension Payment (Bank Transfer)';
+	$text['결제 진행에 문제있는 경우 일반 계좌이체로 결제합니다.'] = 'If there is a problem with Automatic Extension Payment, you can pay by regular bank transfer.';
+	$text['(입금확인을 수동으로 하기 때문에 입금 후 사용기간 연장에 시간이 다소 걸릴 수 있습니다.)'] = '(Since the payment is confirmed manually, it may take some time to extend the expiration date after deposit.)';
 	$text['PayPal 결제'] = 'PayPal payment';
-	$text['한국의 은행 계좌나 카드가 없는 경우 선택합니다.'] = 'Select if you do not have a Korean bank account or card.';
-	$text['(PayPal 계정이 없어도 신용카드로 결제 가능합니다.)'] = '(You can pay by credit card even if you do not have a PayPal account.)';
+	$text['한국의 은행 계좌나 카드가 없는 경우 선택합니다.'] = 'If you do not have a Korean bank account or credit card, you can pay by PayPal.';
+	$text['(PayPal 계정이 없어도 신용카드로 결제 가능합니다.)'] = '(You can pay by most of credit card even if you do not have a PayPal account.)';
 	$text['취소'] = 'Cancel';
 	$text['죄송합니다. 결제 금액이 너무 적어 결제 진행이 가능하지 않습니다.'] = 'Sorry. The payment amount is too small to proceed with the payment.';
 

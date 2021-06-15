@@ -68,7 +68,7 @@ if ($browserlang == "ko") {
 	$text['가상계좌(입금대기)'] = 'Virtual Account(Deposit waiting)';
 	$text['가상계좌(미입금 취소)'] = 'Virtual Account(Cancellation due to non-payment)';
 	$text['PayPal'] = 'PayPal';
-	$text['계좌이체 수동'] = 'Manual Extended Payment (Bank Transfer)';
+	$text['계좌이체 수동'] = 'Manual Extension Payment (Bank Transfer)';
 	$text['원'] = 'KRW';
 	$text['연장 취소'] = 'Cancellation of extension';
 	$text['개월'] = 'month';
