@@ -65,7 +65,7 @@ if ($browserlang == "en") {
 
 // PPTP
 	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = 'This is <strong>PPTP VPN connection method</strong>.';
-    $text['예전에 사용하던 VPN 방식입니다.'] = 'It's VPN protocol that used in the past.';
+    $text['예전에 사용하던 VPN 방식입니다.'] = 'It\'s VPN protocol that used in the past.';
     $text['방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = 'Connection may not be possible in environments with firewall or some old router (Error 619)';
     $text['접속 설정'] = 'Connection setting';
     $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'Android device has a built-in PPTP connection function so that VPN connection is possible with simple setting without installing a separate app.';
@@ -82,9 +82,9 @@ if ($browserlang == "en") {
     $text['PPP 암호화(MPPE)'] = 'PPP Encryption (MPPE)';
     $text['선택하지 않는 것이 속도면에서 이득이 있습니다. 보안이 걱정된다면 선택하세요.'] = 'Not selecting it has a speed advantage. Select if you concern about security.';
     $text['저장을 하고나면 "IPany"가 생성됩니다.'] = 'After saving, "Dasanvpn" is created.';
-    $text['"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.'] = 'Click ".$brand_name." to open an connection window asking for username and password.';
+    $text['"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.'] = 'Click '.$brand_name.' to open an connection window asking for username and password.';
     $text['"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter "'.$vpnid.'" and password and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password the next time.)';
-    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter the ID and password created in '$account_url.' and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password the next time.)';
+    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter the ID and password created in '.$account_url.' and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password the next time.)';
     $text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = 'If the connection fails, refer to "Check the cause of connection failure" below.';
     $text['접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.'] = 'If you want to disconnect or reconnect at any time, go to "VPN" in "Settings" -> "Connections" -> "More connection settings” and click ".$brand_name".';
     $text['서버 주소, 사용자 이름 및 비밀번호를 변경하기 원한다면,'] = 'If you want to change the server address, username and password,';
@@ -103,8 +103,7 @@ if ($browserlang == "en") {
 	$text['접속 로그 내용'] = 'Connection log contents';
 	$text['접속 실패 원인 및 해결 방법'] = 'Connection failure causes and solutions';
 	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
-	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$
-	_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
 	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 시스템 시간이 잘못되어 있는 경우입니다. 시스템의 시간 설정을 확인하세요.'] = 'This error occurs by unstable user’s internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using router, turn it off for about 10 minutes and try again. Another reason is due to wrong time set in your computer. Adjust time setting correctly in your computer.';
 	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'This is connection impossible by '.$brand_name.' server. It occurs by no internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using a router, turn it off for about 10 minutes, then turn it on and try again.';
@@ -155,7 +154,7 @@ if ($browserlang == "en") {
 	$text['"PKCS12 file" 오른쪽에 있는 버튼을 눌러 미리 다운 받은 인증파일을 불러와야 합니다.'] = 'Click the button to the right of "PKCS12 file" to load the previous downloaded authentication file.';
 	$text['"Download" 안에 "ipanyA.p12"를 눌러 선택합니다.'] = 'Click "ipanyA.p12" inside "Download" to select it.';
 	$text['그림과 같이 "PKCS12 file"에 "ipanyA.p12"가 선택된 걸 확인할 수 있습니다.'] = 'As shown in the figure, you can see that "ipanyA.p12" is selected in "PKCS12 file"';
-	$text['<strong>"PKCS12 pass"는 비워두고</strong> "Apply" 버튼을 눌러 설정을 저장합니다.'] = 'Leave <strong>"PKCS12 pass" blank and click the "Apply" button to save the setting.';
+	$text['<strong>"PKCS12 pass"는 비워두고</strong> "Apply" 버튼을 눌러 설정을 저장합니다.'] = '<strong>Leave "PKCS12 pass" blank</strong> and click the "Apply" button to save the setting.';
 	$text['"Add tunnel"을 다시 눌러 같은 방법으로 아래 내용으로 두 가지 터널을 더 추가합니다.'] = 'Click "Add tunnel" again to add two more tunnels with the contents below in the same way.';
 	$text['"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.'] = 'The certificate file "PKCS12 file" is also loaded in the same way.';
 	$text['상기 Tunnel 설정은 최초 한번만 하면됩니다.'] = 'You only need to set the above tunnel once for the first time.';
@@ -176,7 +175,7 @@ if ($browserlang == "en") {
 	$text['애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.'] = 'If a message pop up to ask to trust the app, select "OK" to start the connection.';
 	$text['접속에 성공하면 접속 로그가 보이고 프로파일은 "연결됨" 상태가 됩니다.'] = 'If the connection is successful, you will see the connection log and the profile will be in "Connected" status.';
 	$text['접속을 끊으려면 프로파일을 눌러주고 "연결 끊기"를 선택합니다.'] = 'To disconnect, tap on the profile and select "Disconnect".';
-	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '(For your information, if the connection is successful, you will see the IP assigned to the profile. Don't worry that this IP is different from the IP you selected in '.$account_url.'. Due to OpenVPN technical limitations, private IP band is allocated. But when go to the Internet through ‘.$band_name.’ server, the actual public IP selected in "Account Management" is used. Check your IP in internet. You can also check it in '.$account_url.' Website.)';
+	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '(For your information, if the connection is successful, you will see the IP assigned to the profile. Don\'t worry that this IP is different from the IP you selected in '.$account_url.'. Due to OpenVPN technical limitations, private IP band is allocated. But when go to the Internet through ‘.$band_name.’ server, the actual public IP selected in "Account Management" is used. Check your IP in internet. You can also check it in '.$account_url.' Website.)';
 	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다.'] = 'If you want to connect again next time, you do not need to register the configuration file again.';
 	$text['우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.'] = 'At first, check if SSLDroid is executing. If it is not executing, open SSLDroid and select "Start service" to execute it.';
 	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = 'Do not forget it. Before connecting to OpenVPN, you need to check if SSLDroid is executing.';
