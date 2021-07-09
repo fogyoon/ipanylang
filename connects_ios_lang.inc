@@ -55,9 +55,9 @@ if ($browserlang == "en") {
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
 	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = 'Go to Edit VPN Settings as described in "Change settings" above and re-enter your ID and password. You can check the ID and password of the VPN connection account you created in '.$account_url;
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';
-	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN connection account has not expired on '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
+	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN connection account has not expired in '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
 	$text['이중으로 접속된 경우'] = 'In case of duplicate connection';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not connected to other device and disconnect the VPN connection from the connected device if have. If you click the "Check the current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server and forcibly terminate the connection.';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not connected to other device and disconnect the VPN connection from the connected device if have. If you click the "Check the current VPN connection status" button in '.$account_url.', you can check the status of connection to the VPN server and forcibly terminate the connection.';
 	$text['DNS 서버 문제'] = 'DNS server problem';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'If VPN server is not found due to DNS issue, the VPN connection is not possible. Change the DNS server address as 168.126.63.1 in the DNS settings of AirPort or Ethernet in the network settings.';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select other server to connect to and find a server that suits you.';
@@ -179,9 +179,9 @@ if ($browserlang == "en") {
 	$text['접속끊기'] = 'Disconnection';
 	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = 'If you put the mouse over the Tunnelblick icon in the menu bar and select "Disconnect" from the status window that appears, or click the Tunnelblick icon and select "Disconnect ipany", It will be disconnected.';
 	$text['삭제하기'] = 'Uninstallation';
-	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'If you don’t use OpenVPN anymore and want to uninstall Tunnelblick, click the Download button below to download and run the Tunnelblick_Uninstaller file to uninstall it. If Tunnelblick is running, you have to quit it before uninstalling in advance.';
+	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'If you don’t use OpenVPN anymore and want to uninstall Tunnelblick, click the Download button below to download and run the Tunnelblick Uninstaller file to uninstall it. If Tunnelblick is running, you have to quit it before uninstalling in advance.';
 	$text['Tunnelblick 삭제 파일 다운받기'] = 'Download Tunnelblick uninstaller';
-	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'You can check the VPN connection log to determine the cause of the connection failure. To check the logs, click the Tunnelblick icon in the menu bar and select "VPN Details".';
+	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'You can check the VPN connection log to figure out the cause of the connection failure. To check the log, click the Tunnelblick icon in the menu bar and select "VPN Details".';
 	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = 'If you select the "Log" tab, you can check the access log. Check the log contents by referring to the table below.';
 
 
