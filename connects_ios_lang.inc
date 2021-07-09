@@ -16,7 +16,7 @@ if ($browserlang == "en") {
 	$text['유형'] = 'Type';
 	$text['"IKEv2" 선택'] = 'Select IKEv2';
 	$text['설명'] = 'Description';
-	$text['"IPany" 입력'] = 'Enter IPany';
+	$text['"IPany" 입력'] = $brand_name;
 	$text['서버'] = 'Server';
 	$text['아래 주소 중 하나를 선택해 입력'] = 'Select and enter one of the addresses below';
 	$text['원격 ID'] = 'Remote ID';
@@ -32,35 +32,35 @@ if ($browserlang == "en") {
 	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = 'Enter the password you entered when creating '.$vpnid.'.';
 	$text[$account_url.'에서 생성한 계정의 비밀번호를 입력합니다.'] = 'Enter the password created in '.$account_url.'.';
 	$text['입력이 끝나면 "완료"를 선택하여 저장합니다.'] = 'When finished, select "Done" to save.';
-	$text['설정이 끝나면 그림과 같이 "IPany"가 생성됩니다. 접속하려면 <strong>"IPany"를 선택</strong>하고 "상태"의 연결 안 됨 옆 버튼을 눌러줍니다.'] = '"IPany" is created as below after setting. To connect, select "IPany" and click the button next to "Not Connected" on "Status".';
+	$text['설정이 끝나면 그림과 같이 "IPany"가 생성됩니다. 접속하려면 <strong>"IPany"를 선택</strong>하고 "상태"의 연결 안 됨 옆 버튼을 눌러줍니다.'] = $brand_name.' is created as below after setting. To connect, select "'.$brand_name.'" and click the button next to "Not Connected" on "Status".';
 	$text['연결에 성공하면 "상태"가 "연결됨"으로 바뀌게 됩니다. 접속을 끊으려면 "상태"의 "연결됨" 옆 버튼을 한번 더 눌러줍니다.'] = 'If the connection is successful, the "Status" will change to "Connected". To disconnect, click the button next to "Connected" in "Status" again.';
 	$text['직접 VPN 설정하는 것이 어렵다면, 여기를 클릭해 프로파일을 이용해 쉽게 설정할 수 있습니다.'] = 'If direct VPN setting is difficult, you can easily set up using profile by clicking here.';
 	$text['중국'] = 'China';
 	$text['중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = 'In China, if website(ex : Google) or social media like Facebook, Instagram and etc. is not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
 	$text['Wi-Fi 설정에서 현재 연결되어 있는 Wi-Fi의 오른쪽 물음표를 눌러줍니다.'] = 'In Wi-Fi settings, press the (i) mark to the right of the currently connected Wi-Fi.';
-	$text['DNS를 눌러 기존 내용을 지우고 그림과 같이 한국 DNS 서버 주소를 입력합니다. (168.126.63.1, 168.126.63.2  쉼표와 마침표를 구분해주세요.)'] = 'Click DNS to clear the existing content and enter the Korea DNS server address as shown in the figure. (168.126.63.1, 168.126.63.2 Pay attention to comma(,), period(.)!)';
+	$text['DNS를 눌러 기존 내용을 지우고 그림과 같이 한국 DNS 서버 주소를 입력합니다. (168.126.63.1, 168.126.63.2  쉼표와 마침표를 구분해주세요.)'] = 'Click DNS to clear the existing content and enter the Korea DNS server address as shown in the figure.';
 	$text['이 방법으로도 해결이되지 않는다면 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속 방법</a>을 사용해야 합니다.'] = 'If this does not work, you should use <a href="connects_rpi_rpi.php">VPN connection method using PI board</a>.';
 	$text['설정 변경'] = 'Change settings';
-	$text['아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.'] = 'If you want to change your ID, password or connection server address, press "i" to the right of "IPany".';
+	$text['아이디나 비밀번호 또는 접속 서버 주소를 변경하기 원한다면 "IPany" 우측의 "i"를 눌러줍니다.'] = 'If you want to change your ID, password or connection server address, press "i" to the right of "'.$brand_name.'".';
 	$text['우측 상단의 "편집"을 눌러 아이디, 비밀번호, 접속 서버를 변경할 수 있습니다.'] = 'You can change the ID, password and connection server by clicking "Edit" in the upper right corner.';
 	$text['설정 삭제'] = 'Delete settings';
 	$text['VPN을 더이상 사용하지 않는다면, "설정 -> 일반 -> VPN"에서 설정된 VPN을 삭제할 수 있습니다.'] = 'If you dont use VPN anymore, you can delete the VPN set in "Settings -> General -> VPN".';
 	$text['접속 실패 원인 확인'] = 'Check the cause of connection failure';
 	$text['iOS 10 이전의 오래된 버전을 사용 중이라면  PPTP 방법을 이용하세요.'] = 'If you are using an older version prior to iOS 10, use the PPTP method.';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '<strong>You can change the connection server</strong> to solve connection problem or improve quality. Check the "<strong>Change Connection Server</strong>" above.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>설정 변경</strong>" 내용을 확인하세요.'] = '<strong>You can change the connection server</strong> to solve connection problem or improve quality. Check the "<strong>Change settings</strong>" above.';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = 'If you cannot connect even if you change the server, check the details below.';
-	$text['(표)IKEv2 접속문제 해결'] = '(Table) IKEv2 connection problem troubleshooting';
+	$text['(표)IKEv2 접속문제 해결'] = '(Table) IKEv2 connection problem solution';
 	$text['접속 실패 원인'] = 'Cause of connection failure';
-	$text['해결 방법'] = 'Troubleshooting';
+	$text['해결 방법'] = 'Solution';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
-	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = 'Go to Edit VPN Settings as described in "Change Settings" above and re-enter your ID and password. You can check the ID and password of the VPN connection account you created in '.$account_url;
+	$text['위 "설정 변경" 내용대로 VPN 설정 편집으로 들어가 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.'] = 'Go to Edit VPN Settings as described in "Change settings" above and re-enter your ID and password. You can check the ID and password of the VPN connection account you created in '.$account_url;
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';
 	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN connection account has not expired on '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
 	$text['이중으로 접속된 경우'] = 'In case of duplicate connection';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not connected to another device, and disconnect the VPN connection from the connected device if have. If you click the "Check current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server and forcibly terminate the connection.';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not connected to other device and disconnect the VPN connection from the connected device if have. If you click the "Check the current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server and forcibly terminate the connection.';
 	$text['DNS 서버 문제'] = 'DNS server problem';
-	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'If the IPany VPN server is not found due to DNS issue, the VPN connection is not possible. Change the DNS server address as 168.126.63.1 in the DNS settings of AirPort or Ethernet in the network settings.';
-	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select another server to connect to and find a server that suits you.';
+	$text['DNS 문제로 IPany VPN 서버를 찾지 못하면 VPN 연결이 가능하지 않습니다. 네트워크 설정에서 AirPort나 이더넷의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'If VPN server is not found due to DNS issue, the VPN connection is not possible. Change the DNS server address as 168.126.63.1 in the DNS settings of AirPort or Ethernet in the network settings.';
+	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select other server to connect to and find a server that suits you.';
 
 	$text['접속 설정(프로파일 등록)'] = 'Connection setting(Profile registration)';
 	$text['IKEv2는 별도의 앱을 설치하지 않고 iOS 자체에 내장된 VPN 접속 기능으로 접속이 가능합니다.'] = 'IKEv2 can be connected through the VPN connection function built into iOS itself without installing a separate app.';
@@ -74,7 +74,7 @@ if ($browserlang == "en") {
 	$text['MAC OS X에는 Sierra 버전 부터 IKEv2 VPN 접속 기능이 내장되어 있어 별도 프로그램 설치없이 VPN 접속이 가능합니다.'] = 'MAC OS X has built-in IKEv2 VPN connection function from Sierra version, so VPN connection is possible without installing a separate program.';
 	$text['IPany.net은 모두 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = $brand_name.' provides 12 connection servers. You can register multiple servers and connect them by changing the server according to the situation.';
 	$text['아래 각 서버를 클릭하면 프로파일 설치 창이 열리게 됩니다.'] = 'Click on each server below to open the profile installation window.';
-	$text['중국에서 접속하는 경우 가능하면 ipany1, ipany2, ipany3, ipany12 서버는 피해서 다른 서버로 접속하는 것이 좋습니다.'] = 'When connecting from China, it is recommended to avoid ipany1, ipany2, ipany3, ipany12 servers if possible.';
+	$text['중국에서 접속하는 경우 가능하면 ipany1, ipany2, ipany3, ipany12 서버는 피해서 다른 서버로 접속하는 것이 좋습니다.'] = 'When connecting from China, it is recommended to avoid ipany1, ipany2, ipany3, ipany12 servers.';
 	$text['IPany1 서버 등록'] = 'IPany1 server registration';
 	$text['IPany2 서버 등록'] = 'IPany2 server registration';
 	$text['IPany3 서버 등록'] = 'IPany3 server registration';
@@ -90,8 +90,8 @@ if ($browserlang == "en") {
 
 	$text['설정을 열면 그림과 같이 "프로파일이 다운로드됨"이 생성된 걸 확인할 수 있습니다. 이걸 선택하여 프로파일 설치를 시작합니다.'] = 'If you open the settings, you can see that "Profile downloaded" is created as shown in the picture. Select this to start installing the profile.';
 	$text['프로파일 설치창에서 "설치"를 눌러주고'] = 'Click "Install" in the profile installation window';
-	$text['<strong>iPhone 또는 iPad의 잠금 비밀번호</strong>를 입력합니다.'] = 'Enter <strong>the lock password for your iPhone or iPad</strong>.';
-	$text['사용자 이름 입력과 암호 입력에 "'.$vpnid.'"와(과) 비밀번호를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'Enter "'.$vpnid.'" and password in user name and password in order, and click "Done" to register the VPN connection profile.';
+	$text['<strong>iPhone 또는 iPad의 잠금 비밀번호</strong>를 입력합니다.'] = 'Enter <strong>the lock passcode for your iPhone or iPad</strong>.';
+	$text['사용자 이름 입력과 암호 입력에 "'.$vpnid.'"와(과) 비밀번호를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'Enter "'.$vpnid.'" and password in Username and Password in order, and click "Done" to register the VPN connection profile.';
 	$text['사용자 이름 입력과 암호 입력에 '.$account_url.'에서 생성한 <strong>VPN 접속 계정의 아이디와 비밀번호</strong>를 차례로 입력하고 "완료"를 눌러주면 VPN 접속 프로파일이 등록됩니다.'] = 'In username and password, Enter <strong>the ID and password of VPN connection account</strong> created in '.$account_url.' And click "Done" to register the VPN connection profile.';
 	$text['프로파일 설정 입력에서 "사용자 이름"과 "암호"에  "'.$vpnid.'"와(과) 비밀번호를 입력하고 설치를 클릭합니다.'] = 'In Profile settings, enter "'.$vpnid.'" and password in "Username" and "Password" and click Install.';
 	$text['프로파일 설정 입력에서 "사용자 이름"과 "암호"에  '.$account_url.'에서 생성한 VPN 접속 계정의 아이디와 비밀번호를 입력하고 설치를 클릭합니다.'] = 'In "Username" and "Password" in Profile settings, enter the the ID and password created in '.$account_url.' and click Install.';
@@ -103,7 +103,7 @@ if ($browserlang == "en") {
 	$text['프로파일 설치가 완료되면 <strong>"시스템환경설정 -> 네트워크"</strong>에서 그림과 같이 "IPanyXX" 연결이 생성된 것을 확인할 수 있습니다. 접속하려면 <strong>"IPanyXX"를 선택</strong>하고 "연결"을 클릭합니다.'] = 'If the profile is installed, you can see that "IPanyXX" has been created in <strong>"System Preferences ->Network"</strong> as shown in the picture. To connect, select <strong>"IPanyXX"</strong> and click "Connect".';
 	$text['<strong>"설정 -> VPN"</strong>을 열어 확인해 보면, 그림과 같이 "IPanyXX"가 생성된 것을 확인할 수 있습니다. 접속하려면 <strong>"IPanyXX"를 선택</strong>하고 "상태"의 연결 안 됨 옆 버튼을 눌러줍니다.'] = 'If you open <strong>"Settings -> VPN"</strong>, you can see that "IPanyXX" has been created as shown in the picture. To connect, select <strong>"IPanyXX"</strong> and click the button next to Not Connected in "Status".';
 	$text['(VPN 설정을 처음으로 만들고 서버를 하나만 등록한 경우 IPanyXX는 보이지 않고 아래 그림과 같이 설정에 "VPN" 만 활성화 됩니다. 이 경우 VPN의 오른쪽 버튼을 눌러주면 접속됩니다.)'] = '(If you create VPN setting for the first time and register only one server, IPanyXX is not visible and only "VPN" is activated in the setting as shown in the figure below. In this case, click the right button of the VPN to connect.)';
-	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = 'If the connection fails, refer to "Checking the cause of connection failure" below.';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = 'If the connection fails, refer to "Check the cause of connection failure" below.';
 	$text['간편 접속 및 접속 끊기'] = 'Easy Connect and Disconnect';
 	$text['그림과 같이 메뉴 막대의 VPN 상태 아이콘을 클릭하고 "IPanyXX 연결"을 선택하면 접속됩니다.'] = 'Click the VPN status icon in the menu bar as shown in the picture and select "Connect IPanyXX" to connect.';
 	$text['VPN 상태 아이콘을 클릭했을 때 "IPany 연결"이 "<strong>IPanyXX 연결 해제</strong>"로 변경되어 있으면 접속에 성공한 것입니다. "IPanyXX 연결 해제"를 클릭하면 접속이 끊어지게됩니다.'] = 'When you click the VPN status icon, if "Connect IPany" is changed to "<strong>Disconnect IPanyXX</strong>", the connection is successful. Click "Disconnect IPanyXX" and disconnection will be done.';
@@ -118,10 +118,10 @@ if ($browserlang == "en") {
 	$text['프로파일을 삭제했다면 위의 "접속 설정" 과정에서 프로파일을 다시 설치합니다.'] = 'If you have deleted the profile, reinstall the profile in the "Connection Settings" process above.';
 	$text['VPN을 더이상 사용하지 않는다면, "설정 -> 일반 -> 프로파일"에서 설치된 프로파일을 삭제할 수 있습니다.'] = 'If you don’t use VPN anymore, you can delete the installed profile from "Settings -> General -> Profiles".';
 	$text['접속 서버 변경 방법'] = 'How to change the connection server';
-	$text[$brand_name.'는 다중 접속 서버를 제공합니다. 언제든 원한다면 자신이 사용 중인 인터넷과 잘 맞는 서버를 선택해 접속할 수 있습니다. 여러 개의 접속 서버 프로파일을 등록해 놓고 접속에 문제가 있을 때 다른 서버로 변경해 접속하세요. 상기 "접속 설정" 내용을 확인하세요.'] = $brand_name.' offers multiple connection servers. You can connect to a server that is well suited to the Internet you are using at any time. When registering for multiple access servers, change to a different server and connect. Check the "Connection Settings" above.';
-	$text['아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)'] = 'Check if you have not entered your ID and password incorrectly. (You can check the ID and password of the VPN connection account you created in'.$account_url.'.)';
-	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = 'If you entered an incorrect ID or password, you cannot change it. Delete the installed profile and install a new one. See "Delete settings" above how to delete the profile';
-	$text['접속 설정 삭제'] = 'Delete connection settings';
+	$text[$brand_name.'는 다중 접속 서버를 제공합니다. 언제든 원한다면 자신이 사용 중인 인터넷과 잘 맞는 서버를 선택해 접속할 수 있습니다. 여러 개의 접속 서버 프로파일을 등록해 놓고 접속에 문제가 있을 때 다른 서버로 변경해 접속하세요. 상기 "접속 설정" 내용을 확인하세요.'] = $brand_name.' offers multiple connection servers. You can connect to a server that is well suited to the Internet you are using at any time. When registering for multiple access servers, shift to a different server and connect. Check the "Connection settings" above.';
+	$text['아이디와 비밀번호를 잘못 입력하지 않았는지 확인합니다. ('.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 확인할 수 있습니다.)'] = 'Check if you have not entered your ID and password incorrectly. (You can check the ID and password of the VPN connection account you created in '.$account_url.'.)';
+	$text['아이디나 비밀번호를 잘못 입력했다면 수정할 수 없습니다. 설치된 프로파일을 지우고 새로 설치하세요. 프로파일 지우는 방법은 위 "설정 삭제" 내용을 확인하세요.'] = 'If you entered incorrect ID or password, you cannot change it. Delete the installed profile and install a new one. See "Delete settings" above how to delete the profile';
+	$text['접속 설정 삭제'] = 'Delete settings';
 	$text['<strong>"시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = 'If you select the installed profile in "<strong>System Preferences -> Profile</strong>" and delete it, the VPN connection settings are deleted.';
 
 	//openvpn ios
@@ -131,7 +131,7 @@ if ($browserlang == "en") {
 	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"You need to install the "OpenVPN Connect" app and connect the "connection configuration file" to the app.';
 	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(Note) You have to load the connection configuration file from the link on this connection method page.';
 	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = 'Open this connection page in Safari on your iPhone or iPad and proceed.';
-	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'Install <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>OpenVPN Connect</a> in App Store.';
+	$text['App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.'] = 'Install <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a> in App Store.';
 	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = 'In <strong>Safari on your iPhone or iPad</strong>, click the Download the configuration file button below.';
 	$text['설정 파일 다운받기'] = 'Download the configuration file';
 	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = 'If the download window opens, click <strong>"Download"</strong>';
@@ -141,8 +141,8 @@ if ($browserlang == "en") {
 	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = 'Select <strong>"Copy to OpenVPN"</strong> among the app items.';
 	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = 'If the OpenVPN app launches automatically and the Import Profile window opens as shown, select <strong>ADD</strong>.';
 	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = 'If the OpenVPN app is not executed automatically, execute the OpenVPN app and click the "Profile ADD button" <img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40"> to open the Import Profile window. And then you can see the ipany profile in <strong>FILE</strong> tab.';
-	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = 'Select "Save Password", enter '.$vpnid.' and password in Username and Password, and click "ADD" to save.';
-	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Select "Save Password", enter the ID and password of the account created in '.$account_url.' in Username and Password, and click "ADD" to save.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = 'Select "Save password", enter '.$vpnid.' and password in Username and Password, and click "ADD" to save.';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Select "Save password", enter the ID and password of the account created in '.$account_url.' in Username and Password, and click "ADD" to save.';
 	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = 'As shown in the figure, you can see that the Profile starting with ipany has been created. You can connect it by clicking the button on the left of the profile.';
 	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = 'If message window like the picture below opens, select "Yes" to connect.';
 	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = 'If the connection is successful, "Disconnected" changes to "Connected" and you can see the connection status in "Connection Stats". To disconnect, click the button below "Connected".';
@@ -150,7 +150,7 @@ if ($browserlang == "en") {
 	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = 'You can easily reconnect by selecting and opening the "OpenVPN" app on the home screen and pressing the left button of the profile.';
 	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect because of incorrect VPN connection ID and password, you can change Username and Password by clicking the pencil icon on the right side of the Profile.';
 	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = 'If the message "<strong>Authentication Failed</strong>" is displayed as shown in the figure below, it means that the connection failed because authentication failed. It’s because VPN connection ID or password is entered incorrectly, VPN expiration date has passed, or the connection has been duplicated.';
-	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = 'Unless authentication has failed, you can check the VPN connection log to determine the cause of the connection failure. You can check the log by clicking the roll paper shape button in the upper right corner. Check the connection log contents and find the cause of connection failure in the table below';
+	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = 'Unless authentication has failed, you can check the VPN connection log to figure out the cause of the connection failure. You can check the log by clicking the roll paper shape button in the upper right corner. Check the connection log contents and find the cause of connection failure in the table below';
 
 	//openvpn mac
 	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.'] = 'This is <strong>OpenVPN connection method</strong>. If IKEv2 connection is not possible, use this method. However, OpenVPN access is not available in China.';
@@ -159,18 +159,18 @@ if ($browserlang == "en") {
 	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'OpenVPN connection in MAC OS X uses a program called "Tunnelblick", and it can be used in MAC OS X version 10.4.11 or later. An Admin account is required to install the program.';
 	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = 'Click the button below to download the installation file, and double-click the Tunnelblick icon for installation.';
 	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick installation file download';
-	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = 'If "Tunnelblick.app is an application download from the internet. Are you sure you want to open it" message appears, click Open';
+	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = 'If "Tunnelblick.app is an application download from the internet. Are you sure you want to open it?" message appears, click Open.';
 	$text['설치 권한을 가지고 있는 계정의 암호를 입력합니다.'] = 'Enter the password for an account that has installation privileges.';
 	$text['"설치 성공" 메세지가 나오면 "실행"을 선택합니다.'] = '"If "Installation succeed" message appears, select "Launch".';
-	$text['"설정 파일 있음"을 선택합니다.'] = 'Select "I have a configuration file"';
+	$text['"설정 파일 있음"을 선택합니다.'] = 'Select "I have configuration files"';
 	$text['IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.'] = 'Select "Check for a change" so that you can check the IP address change.';
-	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = 'Select Check Automatically if want to check program update automatically.';
+	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = 'Select "Check Automatically" if want to check program update automatically.';
 	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = 'If "Add a Configuration" window opens, click "OK" and close it.';
 	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = 'Click the download button below to download the configuration file.';
 	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = 'If the download is finished, run "ipany.ovpn" from "Download" and select the user who will use this configuration. Click "All Users" or "Only Me".';
 	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = 'Enter the password for an account with installation privileges and click "OK".';
 	$text['접속하기'] = 'Connection';
-	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = 'Click the Tunnelblick icon in the menu menu bar as shown and select "Connect ipany".';
+	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = 'Click the Tunnelblick icon in the menu bar as shown and select "Connect ipany".';
 	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = 'If the login window opens, enter '.$vpnid.' and password and click the "OK" button to connect.';
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = 'If the login window opens, enter the ID and password created in '.$account_url.' and click the "OK" button to connect.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = 'If you select "Save in Keychain", you can connect immediately without logging in next time.';
@@ -190,13 +190,13 @@ if ($browserlang == "en") {
 	$text['접속 로그 내용'] = 'Connection log contents';
 	$text['접속 실패 원인 및 해결 방법'] = 'Connection failure causes and solutions';
 	$text['AUTH: Received control message: AUTH_FAILED'] = 'AUTH: Received control message: AUTH_FAILED';
-	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in '.$account_url.'.';
 	$text['RESOLVE: Cannot resolve host address: ipany...'] = 'RESOLVE: Cannot resolve host address: ipany...';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. 컴퓨터의 DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
 	$text['All TAP-Win32 adapters on this system are currently in use'] = 'All TAP-Win32 adapters on this system are currently in use';
 	$text['가상 드라이브가 이미 실행되고 있는 경우입니다. 컴퓨터를 재부팅하고 접속합니다.'] = 'Virtual drive running is already done. Reboot your computer and connect.';
 	$text['"Unable to connect because your certificate is not yet valid. Check that your system time is correct" 라는 메세지가 뜨는 경우'] = 'In case of message display "Unable to connect because your certificate is not yet valid. Check that your system time is correct"';
-	$text['사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.'] = 'The current time on your computer is incorrect. Connect after adjusting the current time correctly on your computer.';
+	$text['사용자 컴퓨터의 현재 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간을 현재시간으로 조정한 후 접속합니다.'] = 'The current time in your computer is incorrect. Connect after adjusting the current time correctly in your computer.';
 	$text['TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)'] = 'TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)';
 	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 컴퓨터의 시간이 잘못되어 있는 경우입니다. 컴퓨터의 시간 설정을 확인하세요.'] = 'This error occurs by unstable user’s internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using router, turn it off for about 10 minutes and try again. Another reason is due to wrong time set in your computer. Adjust time setting correctly in your computer.';
 	$text['TLS Error: Unroutable control packet received'] = 'TLS Error: Unroutable control packet received';
@@ -256,7 +256,7 @@ if ($browserlang == "en") {
 	$text['VPN을 더이상 사용하지 않는다면, "설정 -> 일반 -> VPN"에서 설정된 VPN을 삭제할 수 있습니다.'] = '如果不再使用VPN，则可以删除在"设置->通用-> VPN"中设置的VPN。';
 	$text['접속 실패 원인 확인'] = '检查连接失败的原因';
 	$text['iOS 10 이전의 오래된 버전을 사용 중이라면  PPTP 방법을 이용하세요.'] = '如果您使用的是iOS 10之前的旧版本，请使用PPTP方法。';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '<strong>对于从海外连接的用户，您可以更改连接服务器</strong>以解决连接问题或提高质量。 请检查上方的" <strong>更改连接服务器</strong>"。';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>설정 변경</strong>" 내용을 확인하세요.'] = '<strong>对于从海外连接的用户，您可以更改连接服务器</strong>以解决连接问题或提高质量。 请检查上方的" <strong>更改连接服务器</strong>"。';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = '如果即使更换服务器也无法连接，请检查以下详细信息。';
 	$text['(표)IKEv2 접속문제 해결'] = '（表）IKEv2连接问题解决';
 	$text['접속 실패 원인'] = '连接失败的原因';
@@ -340,7 +340,7 @@ if ($browserlang == "en") {
 	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
 	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
 	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
-	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.';
+	$text['App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.';
 	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
 	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
 	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';
@@ -465,7 +465,7 @@ if ($browserlang == "en") {
 	$text['VPN을 더이상 사용하지 않는다면, "설정 -> 일반 -> VPN"에서 설정된 VPN을 삭제할 수 있습니다.'] = 'VPN을 더이상 사용하지 않는다면, "설정 -> 일반 -> VPN"에서 설정된 VPN을 삭제할 수 있습니다.';
 	$text['접속 실패 원인 확인'] = '접속 실패 원인 확인';
 	$text['iOS 10 이전의 오래된 버전을 사용 중이라면  PPTP 방법을 이용하세요.'] = 'iOS 10 이전의 오래된 버전을 사용 중이라면  PPTP 방법을 이용하세요.';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>설정 변경</strong>" 내용을 확인하세요.'] = '<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>설정 변경</strong>" 내용을 확인하세요.';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = '서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.';
 	$text['(표)IKEv2 접속문제 해결'] = '(표)IKEv2 접속문제 해결';
 	$text['접속 실패 원인'] = '접속 실패 원인';
@@ -549,7 +549,7 @@ if ($browserlang == "en") {
 	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
 	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
 	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
-	$text['App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="<?=$ios_ovpn_app_url;?>">OpenVPN Connect</a>를 설치합니다.';
+	$text['App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.';
 	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
 	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
 	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';

@@ -4,18 +4,18 @@ if ($browserlang == "en") {
 
 	$text['안드로이드 VPN 접속 방법'] = 'How to connect to a VPN in Android';
 	$text['다른 디바이스 접속 방법 보러 가기'] = 'Go to see how to connect from other devices';
-	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다. IKEv2 접속에 문제가 있다면, 위 탭에서 다른 VPN 방식을 확인할 수 있습니다.'] = 'This is the most used <strong>IKEv2 VPN connection method</strong>. If you are having trouble connecting to IKEv2, you can check other VPN methods in the tab above.';
+	$text['가장 많이 사용되는 <strong>IKEv2 VPN 접속 방법</strong>입니다. IKEv2 접속에 문제가 있다면, 위 탭에서 다른 VPN 방식을 확인할 수 있습니다.'] = 'This is the most used <strong>IKEv2 VPN connection method</strong>. If you have trouble to connect to IKEv2, you can check other VPN methods in the tab above.';
 	$text['어플 설치 및 설정'] = 'Application installation and setting';
 	$text['안드로이드 기기에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = 'To access IKEv2 from an Android device, use an application called "StrongSwan".';
 	$text['안드로이드에서 IKEv2 접속 동영상을 시청하고 아래 설명을 확인하면 이해에 도움이 됩니다.'] = 'Watching the IKEv2 connection video on Android first will help you understand the description below.';
 	$text['(주의) 이 연결방법 페이지를 VPN 연결에 사용할 안드로이드 핸드폰 또는 테블릿의 웹브라우저에서 열고 진행하세요.'] = '(Note) Open this connection method page in the web browser of the Android mobile phone or tablet to be used for VPN connection and proceed.';
 	$text['여기를 눌러 Play 스토어에서 <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>을 설치합니다.'] = 'Click here to install <a href="'.$strongswan_google_url.'" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan from the Google Play Store</a>.';
-	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = 'If you cannot access the Google Play Store, such as <strong>In China</strong>, you can directly download the StrongSwan APK installation file and install the app.';
+	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 StrongSwan APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = 'If you cannot access to Google Play Store such as <strong>In China</strong>, you can directly download the StrongSwan APK installation file and install the app.';
 	$text['APK 설치 파일 다운받기'] = 'Download APK installation file';
-	$text['다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.'] = 'To install an app from an APK file, you need to <strong>"Allow unknown apps to be installed"</strong> under "Security" in your mobile\'s settings.';
+	$text['다운 받은 APK 파일로 앱을 설치하려면 핸드폰 설정의 "보안"에서 <strong>"출처를 알 수 없는 앱 설치를 허용"</strong>해 주어야 합니다.'] = 'To install an app from an APK file, you need to check the option <strong>"Unknown sources"</strong> under "Security" in your mobile\'s settings.';
 	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "strongSwan-xxxx.apk"입니다.'] = 'The downloaded APK file can be found in the "Download" path of the File Explorer app. The file name is "strongSwan-xxxx.apk".';
 	$text['"StrongSwan"이 설치되었으면 VPN 접속 서버를 등록해야 합니다.'] = 'If "StrongSwan" is installed, you need to register the VPN connection server.';
-	$text['IPany.net은 모두 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = 'IPany.net provides 12 connection servers. You can register multiple servers and access them by changing the server according to the situation.';
+	$text['IPany.net은 모두 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = $brand_name.' provides 12 connection servers. You can register multiple servers and access them by changing the server according to the situation.';
 	$text['VPN 접속에 사용할 안드로이드 모바일 기기에서 아래 서버등록 링크를 눌러 다운받습니다.'] = 'Click the server registration link below on the Android mobile device to be used for VPN connection and download it.';
 	$text['아래 서버등록 링크를 눌러 다운받습니다.'] = 'Click the server registration link below to download.';
 	$text['다운로드 받은 파일을 실행시킬 앱을 물으면 StrongSwan의 Import VPN pfofile을 선택합니다.'] = 'When prompted to select an app to run the downloaded file, select StrongSwan\'s Import VPN pfofile.';
@@ -38,35 +38,35 @@ if ($browserlang == "en") {
 	$text['등록된 ipany 프로파일을 눌러주면 접속됩니다.'] = 'Click the registered ipany profile to connect.';
 	$text['접속에 성공하면 그림과 같이 Status가 Connected가 됩니다.'] = 'If the connection is successful, the Status becomes "Connected" as shown in the picture.';
 	$text['접속을 끊으려면 "Disconnect"를 눌러줍니다.'] = 'Press "Disconnect" to disconnect.';
-	$text['다음에 다시 접속을 원한다면 서버 등록 과정이 다시 필요하지 않습니다. StrongSwan 어플을 열고 단지 원하는 IPany 서버 프로파일을 눌러주어 간편하게 접속할 수 있습니다.'] = 'The server registration process is not required again the next time you want to connect. Simply open the StrongSwan app and tap the desired IPany server profile to access it easily.';
+	$text['다음에 다시 접속을 원한다면 서버 등록 과정이 다시 필요하지 않습니다. StrongSwan 어플을 열고 단지 원하는 IPany 서버 프로파일을 눌러주어 간편하게 접속할 수 있습니다.'] = 'The server registration process is not required again next time you want to connect. Simply open the StrongSwan app and tap the desired IPany server profile to access it easily.';
 	$text['중국'] = 'China';
 	$text['중국에서 접속 시 VPN 접속 후에도 유투브 페이스북 등이 열리지 않는다면 현지 인터넷 또는 사용기기의 DNS 서버 문제 때문입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'When connnect from China, if specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection, it is due to problem with the local Internet or DNS server of the device used. In this case, you have to use "VPN connection using PI board".';
 	$text['중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = 'When connect from China, if specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection, you need to change the DNS server settings. Click here to see how.';
 	$text['접속 서버 변경'] = 'Connection server change';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. If you want to change the connection server, register all servers in the above setting method and change to the server you want to connect.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. If you want to change the connection server, register all servers in the above setting method and change the server you want to connect.';
 	$text['설정 변경'] = 'Change settings';
 	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect due to incorrect VPN connection ID and password input, you can edit the Username and Password by clicking the Edit button that appears when you click the Profile to be modified for 3 seconds.';
 	$text['SAVE를 눌러 변경 내용을 저장합니다.'] = 'Press SAVE to save your changes.';
 	$text['설정 삭제'] = 'Delete settings';
 	$text['접속 실패 원인 확인'] = 'Check the cause of connection failure';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. Please check the "<strong>Change Connection Server</strong>" above.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. Please check the "<strong>Connection Server change</strong>" above.';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = 'If you cannot connect even if you change the server, check the details below.';
 	$text['(표)IKEv2 접속문제 해결'] = '(Table) IKEv2 connection problem solving';
 	$text['접속 실패 원인'] = 'Cause of connection failure';
-	$text['해결 방법'] = 'Troubleshooting';
+	$text['해결 방법'] = 'Solution';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
-	$text['위 설정변경 방법으로 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = 'Enter the ID and password again using the above setting change method. In '.$account_url.', check the ID and password of the VPN connection account again.';
+	$text['위 설정변경 방법으로 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = 'Enter the ID and password again using the above "Change settings". In '.$account_url.', check the ID and password of the VPN connection account again.';
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';
 	$text[$account_url.'에서 VPN 접속 계정의 사용 기일이 지나지 않았는지 확인합니다. 사용 기한이 지났다면 "연장" 버튼을 클릭하여 결제하고 연장합니다.'] = 'Make sure that your VPN access account has not expired on '.$account_url.'. If the expiration date has passed, click the "Extend" button to pay and extend it.';
 	$text['이중으로 접속된 경우'] = 'In case of duplicate connection';
-	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected from another device and disconnect the VPN connection from the connected device. If you click the "Check current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server, and force connection termination is possible.';
+	$text['이미 다른 기기에서 접속되어 있지 않은지 확인하고 접속되어 있는 기기에서 VPN 연결을 끊어줍니다. '.$account_url.'의 "현재 VPN 연결 현황 확인하기" 버튼을 클릭하면 VPN 서버에 연결되어 있는 현황를 확인할 수 있으며, 강제 접속 종료도 가능합니다.'] = 'Make sure that you are not already connected from another device and disconnect the VPN connection from the connected device. If you click the "Check the current VPN connection status" button on '.$account_url.', you can check the status of connection to the VPN server, and force connection termination is possible.';
 	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = 'If specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection in China';
 	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'Thi is due to local internet or DNS problem of your device. In this case, you have to use <a href="connects_rpi_rpi.php">VPN connection using PI board</a>.';
 
 // PPTP
 	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = 'This is <strong>PPTP VPN connection method</strong>.';
-    $text['예전에 사용하던 VPN 방식입니다.'] = 'It\'s VPN protocol that used in the past.';
-    $text['방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = 'Connection may not be possible in environments with firewall or some old router (Error 619)';
+    $text['예전에 사용하던 VPN 방식입니다.'] = 'It\'s VPN type that used in the past.';
+    $text['방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = 'Connection may not be possible in the environment where a firewall or some old router is used (Error 619)';
     $text['접속 설정'] = 'Connection setting';
     $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'Android device has a built-in PPTP connection function so that VPN connection is possible with simple setting without installing a separate app.';
     $text['안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = 'To use the PPTP VPN function on Android, you need to set the screen unlock in "Settings" -> "Lock screen" before starting.';
@@ -76,17 +76,17 @@ if ($browserlang == "en") {
     $text['이름'] = 'Name';
     $text['유형'] = 'Type';
     $text['서버 주소'] = 'Server address';
-    $text['입력'] = '입력';
-    $text['선택'] = '선택';
+    $text['입력'] = '';
+    $text['선택'] = '';
     $text['아래 서버 중 하나를 입력합니다.'] = 'Enter one of the servers below.';
     $text['PPP 암호화(MPPE)'] = 'PPP Encryption (MPPE)';
     $text['선택하지 않는 것이 속도면에서 이득이 있습니다. 보안이 걱정된다면 선택하세요.'] = 'Not selecting it has a speed advantage. Select if you concern about security.';
-    $text['저장을 하고나면 "IPany"가 생성됩니다.'] = 'After saving, "Dasanvpn" is created.';
+    $text['저장을 하고나면 "IPany"가 생성됩니다.'] = 'After saving, '.$brand_name.' is created.';
     $text['"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.'] = 'Click '.$brand_name.' to open an connection window asking for username and password.';
-    $text['"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter "'.$vpnid.'" and password and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password the next time.)';
-    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter the ID and password created in '.$account_url.' and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password the next time.)';
+    $text['"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter "'.$vpnid.'" and password and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password next time.)';
+    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Enter the ID and password created in '.$account_url.' and click "Connect" to connect. (If you select "Save account information", you can connect immediately without entering username and password next time.)';
     $text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = 'If the connection fails, refer to "Check the cause of connection failure" below.';
-    $text['접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.'] = 'If you want to disconnect or reconnect at any time, go to "VPN" in "Settings" -> "Connections" -> "More connection settings” and click ".$brand_name".';
+    $text['접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.'] = 'If you want to disconnect or reconnect at any time, go to "VPN" in "Settings" -> "Connections" -> "More connection settings” and click "'.$brand_name.'"';
     $text['서버 주소, 사용자 이름 및 비밀번호를 변경하기 원한다면,'] = 'If you want to change the server address, username and password,';
     $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 잠시 누르면 나타나는 메뉴 중 "수정" 또는 "편집"을 선택합니다.'] = 'Go to "VPN" in "Settings" -> "Connections" -> "More connection settings" and click gear shape to edit or change.';
     $text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 상기 설정 변경의 방법으로 프로필 수정에서 서버주소를 변경해 접속하면 됩니다.'] = 'If you want to change the connection server, you can change it as above.';
@@ -95,14 +95,14 @@ if ($browserlang == "en") {
     $text['서버주소를 잘못 입력한 경우'] = 'If the server address is entered incorrectly';
     $text['VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.'] = 'Check if you did not enter the server address correctly during the VPN setting process.';
     $text['다른 기기에서 접속을 시도해 봅니다.'] = 'Try to connect in other device.';
-    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. <?=$openvpna_url;?>을 시도해봅니다.'] = 'If it is not an account or server address problem, try to connect to other device in the same Internet (AP or router) environment. If you cannot connect with other device, it may be a firewall or router problem. Try <?=$openvpna_url;?>.';
+    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.'] = 'If it is not an account or server address problem, try to connect to other device in the same Internet (AP or router) environment. If you cannot connect with other device, it may be a firewall or router problem. Try '.$openvpna_url.'.';
 
 // OpenVPN
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = 'These are the causes and solutions for connection failure according to the contents of the connection log.';
 	$text['(표)OpenVPN 오류 로그'] = '(Table)OpenVPN Error log';
 	$text['접속 로그 내용'] = 'Connection log contents';
 	$text['접속 실패 원인 및 해결 방법'] = 'Connection failure causes and solutions';
-	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in Account Management of '.$account_url.'.';
+	$text['Username 이나 Password를 잘못 입력하거나, 만기일이 지나거나, 이미 다른 기기나 컴퓨터에서 접속되어 있는 경우입니다. IPany 서비스는 같은 계정으로 동시에 이중 접속이 되지 않습니다. '.$account_url.'에서 계정 상태를 확인하세요.'] = 'This error occurs by incorrect username or incorrect password or expiry or reacces try while accessed. '.$brand_name.' doesn\'t provide duplicate connection with same account. You can check the status of your account in '.$account_url.'.';
 	$text['DNS 문제로 IPany VPN 서버를 찾지 못하는 경우입니다. DNS 설정에서 DNS 서버 주소를 168.126.63.1로 변경해 주세요.'] = 'This error occurs by no '.$brand_name.' server found due to DNS problem. Change the DNS server address as 168.126.63.1 in your computer\'s DNS settings.';
 	$text['사용자의 인터넷 연결 상태가 불안하거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다. 또 다른 이유는 시스템 시간이 잘못되어 있는 경우입니다. 시스템의 시간 설정을 확인하세요.'] = 'This error occurs by unstable user’s internet connection, or bad connection status between user’s local internet and '.$brand_name.' line. If you are using router, turn it off for about 10 minutes and try again. Another reason is due to wrong time set in your computer. Adjust time setting correctly in your computer.';
 	$text['UDP/TCP: connect to ipany... failed'] = 'UDP/TCP: connect to ipany... failed';
@@ -110,12 +110,12 @@ if ($browserlang == "en") {
 	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 SSLDroid이 먼저 실행되어 있어야 합니다. SSLDroid이 실행되어 있지 않아 발생하는 문제입니다. SSLDroid를 먼저 실행하고 다시 접속합니다.'] = 'Stunnel must be running before OpenVPN access. This is occurred by inactivated SSLDroid. Activate SSLDroid first and connect again';
 
-    $text['OpenVPN 접속 방법</strong>입니다.'] = 'This is <strong>How to connect to OpenVPN</strong>.';
+    $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = 'This is How to connect to OpenVPN.';
 	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'If IKEv2 connection is not possible, use this method. However, OpenVPN access is not available in China. Use OpenVPN SSL (double encryption) instead.';
 	$text['어플 설치 및 설정'] = 'App installation and setting';
 	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = 'To connect to OpenVPN on Android devices, use an application called "OpenVPN Connect".';
 	$text['아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
-	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = 'Search for <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>  in the Play Store and install it.';
+	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = 'Search for <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>  in Google Play Store and install it.';
 	$text['VPN 접속에 사용할 안드로이드 모바일 기기에서 '.$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = 'Open '.$brand_name.' website on the Android mobile device to be used for VPN connection and click the button below to download the configuration file.';
 	$text[$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = 'Open '.$brand_name.' website and click the button below to download the configuration file.';
 	$text['설정 파일 다운받기'] = 'Download the configuration file';
@@ -123,7 +123,7 @@ if ($browserlang == "en") {
 	$text['다운 받은 설정 파일인 <strong>ipany.ovpn</strong>을 실행시키면 OpenVPN 어플이 열리고 프로파일을 가져올 것인지를 묻습니다.'] = 'If you execute the downloaded configuration file <strong>ipany.ovpn</strong>, the OpenVPN application opens and asks if you want to import a profile.';
 	$text['Imported Profile 창이 열리면 Username과 Password에 "'.$vpnid.'"와(과)" 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = 'If the Imported Profile window opens, enter "'.$vpnid.'" and password for Username and Password and click "<strong>ADD</strong>" to save.';
 	$text['Imported Profile 창이 열리면 Username과 Password에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = 'If the Imported Profile window opens, enter the ID and password created in '.$account_url.' in Username and Password and click "<strong>ADD</strong>" to save.';
-	$text['("Save Password"를 활성화하면 다음 연결 시 Username과 Password를 입력하지 않고 바로 접속할 수 있습니다.)'] = '(If you enable "Save Password", you can connect immediately without entering Username and Password next time when you connect.)';
+	$text['("Save Password"를 활성화하면 다음 연결 시 Username과 Password를 입력하지 않고 바로 접속할 수 있습니다.)'] = '(If you enable "Save password", you can connect immediately without entering Username and Password next time when you connect.)';
 	$text['생성된 Profile을 눌러주면 VPN 접속을 시도합니다.'] = 'If you click the created Profile, VPN connection is attempted.';
 	$text['그림과 같이 "Select Certificate" 창이 열리면 "<strong>CONTINUE</strong>"을 선택합니다.'] = 'If the "Select Certificate" window opens as shown, select "<strong>CONTINUE</strong>".';
 	$text['접속에 성공하면 상태가 "CONNECTED"로 변경되며, 접속 상태를 확인할 수 있습니다. <br>(좌측 상단의 알림 아이콘으로도 접속 상태를 확인할 수 있습니다.)'] = 'If the connection is successful, the status changes to "CONNECTED", and you can check the connection status.<br>(You can also check the connection status with the notification icon in the upper left corner.)';
@@ -145,8 +145,8 @@ if ($browserlang == "en") {
 	$text['OpenVPN 설정 파일을 다운받기'] = 'Download the OpenVPN configuration file';
 	$text['SSLDroid 인증 파일을 다운받기'] = 'Download SSLDroid authentication file';
 	$text['<span class="text-redfaded">설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.'] = '<span class="text-redfaded">If the configuration file is not downloaded, use <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i>Chrome browser</a>.';
-	$text['이중 암호화 구성을 위해 Play 스토어에서 <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>를 검색해 설치합니다.'] = 'Search for <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i>  SSLDroid</a>  in Play Store and install it for double encryption configuration.';
-	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 SSLDroid APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = 'If you cannot connect to the Google Play Store as in <strong>China</strong>, you can directly download the SSLDroid APK installation file and execute the downloaded APK file to install the app.';
+	$text['이중 암호화 구성을 위해 Play 스토어에서 <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>를 검색해 설치합니다.'] = 'Search for <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i>  SSLDroid</a>  in Google Play Store and install it for double encryption configuration.';
+	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 SSLDroid APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = 'If you cannot connect to Google Play Store such as in <strong>China</strong>, you can directly download the SSLDroid APK installation file and execute the downloaded APK file to install the app.';
 	$text['SSLDroid APK 설치 파일 다운받기'] = 'Download SSLDroid APK installation file';
 	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "SSLDroid.apk"입니다.'] = 'The downloaded APK file can be found in the "Download" path of the File Explorer app. The file name is "SSLDroid.apk".';
 	$text['SSLDroid를 실행하고 "메뉴"를 눌러 "Add tunnel"을 선택합니다.'] = 'Launch SSLDroid, click "Menu" and select "Add tunnel".';
@@ -162,24 +162,24 @@ if ($browserlang == "en") {
 	$text['"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.'] = 'Click "Menu" and select <strong>"Start service"</strong> to start SSLDroid.';
 	$text['SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.'] = 'If SSLDroid is executed, the SSLDroid icon will appear in the upper left corner. Always check if the SSLDroid icon is executing before connecting to OpenVPN. If it is not running, open SSLDroid and select "Start service" to run it.';
 	$text['OpenVPN 접속용 어플을 설치합니다.'] = 'Install the OpenVPN connection app.';
-	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = 'Search for and install <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a> which is used to connect to OpenVPN in Play Store.';
+	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = 'Search for and install <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a> which is used to connect to OpenVPN in Google Play Store.';
 	$text['OpenVPN for Android APK 설치 파일 다운받기'] = 'Download OpenVPN for Android APK installation file';
 	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.'] = 'The downloaded APK file can be found in the "Download" path of the File Explorer app. The file name is "openvpn-xxxx.apk".';
-	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = 'You need to execute the app at first and import the configuration file you downloaded earlier. If the app is opened, click the folder shaped icon find and select "ipanyA.ovpn" in the "Download" path, and register it.';
+	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = 'You need to run the app at first and import the configuration file you downloaded earlier. If the app is opened, click the folder shaped icon, find and select "ipanyA.ovpn" in the "Download" path, and register it.';
 	$text['등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.'] = 'Click edit (pencil shape) on the right side of the registered ipanyA profile.';
 	$text['<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.'] = 'in <strong>ALLOWED APPS</strong> tab<br>enable "<strong>VPN is used for all apps but exclude selected</strong>",<br>	scroll down a bit and select "<strong>SSLDroid</strong>".';
 	$text['모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.'] = 'Close the edit window by clicking the back button on the mobile device.';
 	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 "'.$vpnid.'"와(과) 비밀번호를 입력합니다.'] = 'Click <strong>"ipanyA"</strong> profile and enter "'.$vpnid.'" and password in "Username" and "Password".';
 	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력합니다.'] = 'Click <strong>"ipanyA"</strong> profile and enter the ID and password created in '.$account_url.' in "Username" and "Password".';
-	$text['"확인"을 눌러주면 바로 접속됩니다. ("암호 저장"를 활성화하면 다음 연결 시 계정과 암호를 다시 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Click "OK" to connect immediately. (Enabling "Save Password" allows you to connect directly the next time without re-entering your ID and password.)';
-	$text['애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.'] = 'If a message pop up to ask to trust the app, select "OK" to start the connection.';
+	$text['"확인"을 눌러주면 바로 접속됩니다. ("암호 저장"를 활성화하면 다음 연결 시 계정과 암호를 다시 입력하지 않고 바로 접속할 수 있습니다.)'] = 'Click "OK" to connect immediately. (Enabling "Save password" allows you to connect directly without re-entering your ID and password.)';
+	$text['애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.'] = 'If a message pops up to ask to trust the app, select "OK" to start the connection.';
 	$text['접속에 성공하면 접속 로그가 보이고 프로파일은 "연결됨" 상태가 됩니다.'] = 'If the connection is successful, you will see the connection log and the profile will be in "Connected" status.';
 	$text['접속을 끊으려면 프로파일을 눌러주고 "연결 끊기"를 선택합니다.'] = 'To disconnect, tap on the profile and select "Disconnect".';
-	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '(For your information, if the connection is successful, you will see the IP assigned to the profile. Don\'t worry that this IP is different from the IP you selected in '.$account_url.'. Due to OpenVPN technical limitations, private IP band is allocated. But when go to the Internet through ‘.$band_name.’ server, the actual public IP selected in "Account Management" is used. Check your IP in internet. You can also check it in '.$account_url.' Website.)';
+	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '(For your information, if the connection is successful, you will see the IP assigned to the profile. Don\'t worry that this IP is different from the IP you selected in '.$account_url.'. Due to OpenVPN technical limitations, private IP address is allocated. But when go to the Internet through '.$band_name.' server, the actual public IP selected in "Account Management" is used. Check your IP in internet. You can also check it in '.$account_url.'.)';
 	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다.'] = 'If you want to connect again next time, you do not need to register the configuration file again.';
-	$text['우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.'] = 'At first, check if SSLDroid is executing. If it is not executing, open SSLDroid and select "Start service" to execute it.';
+	$text['우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.'] = 'At first, check if SSLDroid is executing. If it is not executing, open SSLDroid and select "Start service" to run it.';
 	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = 'Do not forget it. Before connecting to OpenVPN, you need to check if SSLDroid is executing.';
-	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = 'Open OpenVPN for Android app and click </strong>"ipanyA" in "profile"<strong> to connect.';
+	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = 'Open OpenVPN for Android app and click <strong>"ipanyA" in "profile"</strong> to connect.';
 	$text['로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.'] = 'You can check the log to find out the cause of connection failure.';
 
 
@@ -281,7 +281,7 @@ if ($browserlang == "en") {
     $text['서버주소를 잘못 입력한 경우'] = '서버주소를 잘못 입력한 경우';
     $text['VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.'] = 'VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.';
     $text['다른 기기에서 접속을 시도해 봅니다.'] = '다른 기기에서 접속을 시도해 봅니다.';
-    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. <?=$openvpna_url;?>을 시도해봅니다.'] = '계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. <?=$openvpna_url;?>을 시도해봅니다.';
+    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.'] = '계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.';
 
 // OpenVPN
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '根据登录日志内容的连接失败原因和解决方法。';
@@ -294,7 +294,7 @@ if ($browserlang == "en") {
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = '无法连接到'.$brand_name.' VPN服务器。如果网络没有连接，或者从国外连接，当地网络和IPany线路之间的路径不好。如果使用共享机的话关掉10分钟左右再打开';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 SSLDroid이 먼저 실행되어 있어야 합니다. SSLDroid이 실행되어 있지 않아 발생하는 문제입니다. SSLDroid를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN双重密码连接必须在OpenVPN连接前先运行SSLDroid。因为没有运行SSLDroid所以发生的问题先运行SSLDroid再连接';
 
-    $text['OpenVPN 접속 방법</strong>입니다.'] = 'OpenVPN 접속 방법</strong>입니다.';
+    $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = '<srong>OpenVPN 접속 방법</strong>입니다.';
 	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
 	$text['어플 설치 및 설정'] = '어플 설치 및 설정';
 	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = '안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.';
@@ -465,7 +465,7 @@ if ($browserlang == "en") {
     $text['서버주소를 잘못 입력한 경우'] = '서버주소를 잘못 입력한 경우';
     $text['VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.'] = 'VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.';
     $text['다른 기기에서 접속을 시도해 봅니다.'] = '다른 기기에서 접속을 시도해 봅니다.';
-    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. <?=$openvpna_url;?>을 시도해봅니다.'] = '계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. <?=$openvpna_url;?>을 시도해봅니다.';
+    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.'] = '계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.';
 
 //Openvpn
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.';
@@ -478,7 +478,7 @@ if ($browserlang == "en") {
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 SSLDroid이 먼저 실행되어 있어야 합니다. SSLDroid이 실행되어 있지 않아 발생하는 문제입니다. SSLDroid를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 SSLDroid이 먼저 실행되어 있어야 합니다. SSLDroid이 실행되어 있지 않아 발생하는 문제입니다. SSLDroid를 먼저 실행하고 다시 접속합니다.';
 
-    $text['OpenVPN 접속 방법</strong>입니다.'] = 'OpenVPN 접속 방법</strong>입니다.';
+    $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = '<srong>OpenVPN 접속 방법</strong>입니다.';
 	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
 	$text['어플 설치 및 설정'] = '어플 설치 및 설정';
 	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = '안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.';

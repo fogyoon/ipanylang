@@ -68,11 +68,11 @@ if ($browserlang == "en") {
 	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 수정할 Profile을 3초간 누르면 나타나는 Edit 버튼을 눌러 Username과 Password를 수정할 수 있습니다.'] = 'If you cannot connect due to incorrect VPN connection ID and password input, you can change the Username and Password by clicking the Edit button that appears when you press the Profile to be modified for 3 seconds.';
 	$text['SAVE를 눌러 변경 내용을 저장합니다.'] = 'Press SAVE to save your changes.';
 	$text['접속 실패 원인 확인'] = 'Check the cause of connection failure';
-	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. Please check the "<strong>Change Connection Server</strong>" above.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'By changing the connection server, you can solve the connection failure or improve the quality. Please check the "<strong>Connection server change</strong>" above.';
 	$text['서버를 변경해도 접속이 되지 않는다면 아래 내용을 확인하세요.'] = 'If you cannot connect even if you change the server, check the details below.';
 	$text['(표)VPN 접속문제 해결'] = '(Table) VPN connection problem solving';
 	$text['접속 실패 원인'] = 'Cause of connection failure';
-	$text['해결 방법'] = 'Resolution';
+	$text['해결 방법'] = 'Solution';
 	$text['Username 이나 Password를 잘못 입력한 경우'] = 'In case of incorrect Username or Password input';
 	$text['위 설정변경 방법으로 아이디와 비밀번호를 다시 입력합니다. '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = 'Enter the ID and password again using the above setting change method. In '.$account_url.', check the ID and password of the VPN connection account again.';
 	$text['만기일이 지난 경우'] = 'If the expiration date has passed';

@@ -53,14 +53,14 @@ if ($browserlang == "ko") {
 } else {  //en
 	$text['결제 내역'] = 'Payment history';
 	$text['서버 접속에 실패했습니다. 죄송합니다. 잠시 후 다시 접속 부탁드립니다.'] = 'Failed to connect to the server. Sorry. Please try again after a while.';
-	$text['주문번호'] = '주문번호';
+	$text['주문번호'] = 'Order Number';
 	$text['날짜'] = 'Date';
 	$text['결제자 IP'] = 'Payer\'s IP';
 	$text['추가 할인율'] = 'Additional discount rate';
 	$text['결제 방법'] = 'Payment Method';
 	$text['결제 금액'] = 'Amount of payment';
 	$text['결제자'] = 'Payer';
-	$text['연장 아이디(연장 개월, 단가)<br>연장전 만기일 to 연장후 만기일'] = 'Extended ID(number of extended months, unit price)<br>Expiration date before extension to Expiration date after extension';
+	$text['연장 아이디(연장 개월, 단가)<br>연장전 만기일 to 연장후 만기일'] = 'Extended ID(number of extended months, unit price)<br>"Expiration date before extension" to "Expiration date after extension"';
 	$text['신용카드'] = 'Credit card';
 	$text['매출전표 확인'] = 'Check sales slip';
 	$text['거래명세표 확인'] = 'Check the transaction statement';

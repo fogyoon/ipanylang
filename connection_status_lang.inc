@@ -36,7 +36,7 @@ if ($browserlang == "ko") {
 	$text['돌아가기'] = '返回';
 
 } else {  //en
-	$text['VPN 접속 현황'] = 'Current VPN Connection Statsu';
+	$text['VPN 접속 현황'] = 'Current VPN Connection Status';
 	$text['현재 VPN 접속 중인 아이디 리스트 입니다. "끊기" 버튼으로 접속을 강제 종료할 수 있지만, 비밀 번호를 변경하지 않았다면 바로 다시 접속될 수 있습니다.'] = 'This is a list of IDs currently connected to the VPN. The connection can be forcibly terminated with the "Disconnect" button, but if the password of the ID has not been changed, the ID can be reconnected immediately.';
 	$text['서버 접속에 실패했습니다. 죄송합니다. 잠시 후 다시 접속 부탁드립니다.'] = 'Failed to connect to the server. Sorry. Please try again after a while.';
 	$text['아이디'] = 'ID';
