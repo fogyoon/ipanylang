@@ -9,12 +9,14 @@ if ($browserlang == "en") {
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = 'This is how you set up IKEv2 yourself. You can choose a different VPN method from the tab above.';
 	$text['접속 설정 만들기'] = 'Create connection settings';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'In iOS, the IKEv2 connection function is built-in, so you can connect to the VPN with simple setup without installing a separate app.';
+	$text['iOS에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'In iOS, L2TP/IPsec connection function is built-in, so you can connect to the VPN with simple setup without installing a separate app.';
 	$text['아이폰에서 IKEv2 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = 'If you watch the IKEv2 connection video and do read following explanation, you can easly understand.';
 	$text['"설정" -> "일반" -> "VPN"으로 들어갑니다.'] = 'Go to "Settings -> General -> VPN"';
 	$text['"VPN 구성 추가"를 선택합니다.'] = 'Select "Add VPN Configuration".';
 	$text['아래와 같이 각 항목을 입력 또는 선택합니다.'] = 'Enter or select each item as shown below.';
 	$text['유형'] = 'Type';
 	$text['"IKEv2" 선택'] = 'Select IKEv2';
+	$text['"L2TP" 선택'] = 'Select L2TP';
 	$text['설명'] = 'Description';
 	$text['"IPany" 입력'] = $brand_name;
 	$text['서버'] = 'Server';
@@ -26,9 +28,11 @@ if ($browserlang == "en") {
 	$text['사용자 인증'] = 'User Authentication';
 	$text['"사용자 이름"을 선택'] = 'Choose "Username"';
 	$text['사용자 이름'] = 'Username';
+	$text['계정'] = 'Acount';
 	$text['"'.$vpnid.'"을(를) 입력합니다.'] = 'Enter '.$vpnid.'.';
 	$text[$account_url.'에서 생성한 계정의 아이디를 입력합니다.'] = 'Enter the ID of the account created by '.$account_url.'.';
 	$text['암호'] = 'Password';
+	$text['비밀'] = 'Secret';
 	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = 'Enter the password you entered when creating '.$vpnid.'.';
 	$text[$account_url.'에서 생성한 계정의 비밀번호를 입력합니다.'] = 'Enter the password created in '.$account_url.'.';
 	$text['입력이 끝나면 "완료"를 선택하여 저장합니다.'] = 'When finished, select "Done" to save.';
@@ -156,7 +160,7 @@ if ($browserlang == "en") {
 	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.'] = 'This is <strong>OpenVPN connection method</strong>. If IKEv2 connection is not possible, use this method. However, OpenVPN access is not available in China.';
 	$text['대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'Use OpenVPN SSL (double encryption) instead.';
 	$text['접속 프로그램 설치'] = 'Connection program installation';
-	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'OpenVPN connection in MAC OS X uses a program called "Tunnelblick", and it can be used in MAC OS X version 10.4.11 or later. An Admin account is required to install the program.';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다.'] = 'OpenVPN connection in MAC OS X uses a program called "Tunnelblick", and it can be used in MAC OS X version 10.4.11 or later.';
 	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = 'Click the button below to download the installation file, and double-click the Tunnelblick icon for installation.';
 	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick installation file download';
 	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = 'If "Tunnelblick.app is an application download from the internet. Are you sure you want to open it?" message appears, click Open.';
@@ -168,9 +172,11 @@ if ($browserlang == "en") {
 	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = 'If "Add a Configuration" window opens, click "OK" and close it.';
 	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = 'Click the download button below to download the configuration file.';
 	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = 'If the download is finished, run "ipany.ovpn" from "Download" and select the user who will use this configuration. Click "All Users" or "Only Me".';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipanyS.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = 'If the download is finished, run "ipanyS.ovpn" from "Download" and select the user who will use this configuration. Click "All Users" or "Only Me".';
 	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = 'Enter the password for an account with installation privileges and click "OK".';
 	$text['접속하기'] = 'Connection';
-	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = 'Click the Tunnelblick icon in the menu bar as shown and select "Connect ipany".';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = 'Click the Tunnelblick icon in the menu bar as shown and select "Connect ipany".';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipanyS 연결하기"을 선택합니다.'] = 'Click the Tunnelblick icon in the menu bar as shown and select "Connect ipanyS".';
 	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = 'If the login window opens, enter '.$vpnid.' and password and click the "OK" button to connect.';
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = 'If the login window opens, enter the ID and password created in '.$account_url.' and click the "OK" button to connect.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = 'If you select "Save in Keychain", you can connect immediately without logging in next time.';
@@ -206,6 +212,66 @@ if ($browserlang == "en") {
 	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'Stunnel must be running before OpenVPN connection. This is occurred by inactivated Stunnel. Activate Stunnel at first and connect again';
 
+	// L2TP/IPsec
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = 'This is <strong>L2TP/IPsec VPN connection method</strong>.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = 'This is a method of configuring dual tunnels with IPsec to supplement the old L2TP method. It is not blocked even in China because it goes through an IPsec tunnel. It can replace the problematic PPTP method. If you are having problems connecting to IKEv2, you can use this method instead.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'Servers that can connect to L2TP/IPsec are as follows.';
+	$text['"redsun"을 입력합니다.'] = 'Enter "redsun".';
+
+	// mac ikev2 m
+	$text['MAC OS X에는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'MAC OS X has a built-in IKEv2 connection function, so you can connect to VPN with simple settings without installing a separate app.';
+	$text['"시스템 환경 설정"에서 "네트워크" 를 클릭하세요.'] = 'Click "Network" in "System Preferences"';
+	$text['좌측 하단의 + 버튼을 클릭하세요.'] = 'Click + button in the lower left corner.';
+	$text['"인터페이스"에 VPN을,'] = 'Select VPN for Interface';
+	$text['"VPN 유형"에는 IKEv2를 선택합니다.'] = 'Select IKEv2 for VPN Type.';
+	$text['"서비스 이름"에 '.$brand_name.'을 입력하고, 생성을 클릭합니다.'] = 'Enter '.$brand_name.' in Service name and click Create.';
+	$text['"서버 주소"에 아래 서버 주소 중 하나를 선택해 입력합니다.'] = 'In Server Address, select one of the list of server addresses below and enter it.';
+	$text['"원격 ID"는 서버 주소에 입력한 것과 동일한 서버 주소를 입력합니다.'] = 'For Remote ID, enter the same server address you entered in Server Address.';
+	$text['"로컬 ID"는 비워둡니다.'] = 'Leave Local ID blank.';
+	$text['인증 설정을 클릭합니다.'] = 'Click Authentication Settings.';
+	$text['"메뉴 막대에서 VPN 상태 보기"를 체크해주면 더욱 편리하게 사용할 수 있습니다.'] = 'Check "Show VPN status in menu bar" for more convenient use.';
+	$text['인증 설정에 "사용자 이름"을 선택하고,'] = 'Select "Username" for authentication settings,';
+	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 VPN 접속 아이디와 비밀번호를 입력합니다.'] = 'In Username and Password, enter the VPN connection ID and password you created yourself on '.$account_url.'.';
+	$text['연결을 클릭하면 VPN에 접속됩니다.'] = 'Click Connect to connect to the VPN.';
+	$text['메뉴 막대의 VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 선택하여 서버주소를 변경할 수 있습니다.'] = 'You can change the server address by clicking the VPN status icon in the menu bar and choosing "Open Network Preferences".';
+	$text['IKEv2 접속이 가능한 서버는 아래와 같습니다.'] = 'Servers that can connect to IKEv2 are as follows.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = 'For users accessing from overseas, you can solve connection problems or improve quality by changing the access server. Please check the above "How to change the connection server".';
+
+	// mac l2tp
+	$text['MAC OS X에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'In MAC OS X, L2TP/IPsec connection function is built-in, so VPN connection is possible with simple setup without installing a separate app.';
+	$text['"VPN 유형"에는 "IPSec을 통한 L2TP"를 선택합니다.'] = 'Select "L2TP over IPSec" for VPN Type.';
+	$text['"구성"은 기본값을 선택합니다.'] = 'For Configuration, choose Default.';
+	$text['"계정 이름"에 '.$account_url.'에서 생성한 VPN 접속 아이디를 입력합니다.'] = 'In Account Name, enter the VPN connection ID created by you in '.$account_url.'.';
+	$text['"인증 설정"을 클릭합니다.'] = 'Click "Authentication Settings".';
+	$text['"암호"에 '.$account_url.'에서 생성한 VPN 접속 아이디의 비밀번호를 입력합니다.'] = 'In Password, enter the password of VPN connection ID created by you in '.$account_url.'.';;
+	$text['"공유 보안"에 "redsun"을 입력합니다.'] = 'Enter "redsun" for Shared Secret.';
+	$text['"확인" 클릭 후 "고급"을 클릭합니다.'] = 'Click "OK" and then click "Advanced".';
+	$text['"VPN 연결을 통해 모든 트래픽 전송"을 선택합니다.'] = 'Select "Send all traffic over VPN connection".';
+	$text['"확인"과 "적용"을 클릭해 설정을 저장합니다.'] = 'Click "OK" and "Apply" to save the settings.';
+
+	//mac openvpn
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고 실행합니다.'] = 'Click the button below to download and run the installation file.';
+	$text['Tunnelblick 아이콘을 더블 클릭하여 프로그램을 설치합니다.'] = 'Double-click the Tunnelblick icon to install the program.';
+	$text['프로그램이 설치되면 응용프로그램에 Tunnelblick이 생겨납니다. Tunnelblick을 실행합니다.'] = 'Once the program is installed, Tunnelblick will appear in the application. Launch Tunnelblick.';
+	$text['"키체인에 저장"을 선택한 후 아이디나 비밀번호를 수정해야 한다면, Command + Space (Spotlight 검색)에서 "키체인 접근"을 입력해 키체인 접근 창을 열어줍니다. Tunnelblick.Auth.ipany 두 개를 찾아 지워주면 VPN 접속 시 다시 아이디와 비밀번호를 입력할 수 있습니다.'] = 'If you need to edit your ID or password after selecting “Save to Keychain”, type “Keychain Access” in Command + Space (Spotlight search) to open the Keychain Access window. If you find and delete the two Tunnelblick.Auth.ipany, you can enter the ID and password again when connecting to the VPN.';
+	$text['Tunnelblick이 실행됩니다.'] = 'Tunnelblick launches.';
+	$text['설정파일 있음을 선택하고, 확인을 선택해 창을 닫습니다.'] = 'Select "I have configuration files" and select OK to close the window.';
+	
+	//mac openvpns
+	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.'] = 'OpenVPN double encryption access method.';
+	$text['중국에서 Openvpn 접속이 가능하지 않기 때문에 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = 'We use this method because Openvpn access is not available in China. This is a method of pre-configuring an encryption tunnel called Stunnel and enabling OpenVPN access through the tunnel.';
+	$text['OpenVPN 이중 암호화 방식을 사용하려면 Stunnel 과 OpenVPN 접속 프로그램(Tunnelblick)을 설치하고 각각의 설정 파일 들을 다운받아 저장해 주어야 합니다.'] = 'To use OpenVPN double encryption method, you need to install Stunnel and OpenVPN access program (Tunnelblick), and download and save each configuration file.';
+	$text['이제는 이중 암호화 터널을 구성해주는 "Stunnel" 프로그램을 설치해야 합니다. Stunnel을 설치하기 위해서는 MAC 용 패키지 관리자인 "Homebrew"를 먼저 설치해야 합니다.'] = 'Now you need to install the "Stunnel" program to configure the double encryption tunnel. In order to install Stunnel, you must first install "Homebrew", a package manager for MAC.';
+	$text['"Homebrew"와 "Stunnel"은 <strong>"터미널"</strong>에서 설치할 수 있습니다.'] = '"Homebrew" and "Stunnel" can be installed from "Terminal".';
+	$text['Command + Space (Spotlight 검색)에서 "터미널"을 입력해 터미널을 열어줍니다.'] = 'Open Terminal by typing "Terminal" in Command + Space (Spotlight search).';
+	$text['<strong>터미널</strong>이 열리면 아래 내용을 복사 붙여넣기하여 실행합니다.'] = 'When the terminal opens, copy and paste the content below to run it.';
+	$text['Homebrew 설치에 성공했다면, 다시 터미널에서 아래 내용을 복사 붙여넣기하여 "Stunnel"을 설치합니다.'] = 'If the Homebrew installation is successful, copy and paste the command line below from the terminal again to install "Stunnel".';
+	$text['Stunnel 설치에 성공했다면, 터미널을 닫지 않고 그대로 두고 아래 다운로드 버튼을 클릭하여 Stunnel 설정파일과 인증파일을 다운로드 폴더로 다운받습니다.'] = 'If the stunnel installation is successful, do not close the terminal and click the download button below to download the stunnel configuration file and authentication file to the download folder.';
+	$text['설정 인증 파일 다운받기'] = '설정 인증 파일 다운받기';
+	$text['다시 터미널에서 아래 내용을 차례로 복사 붙여넣기 실행하여 다운 받은 Stunnel의 설정파일과 인증파일을 Stunnel이 설치된 폴더로 복사합니다.'] = 'In the terminal again, enter and execute the following command lines in order to copy the downloaded Stunnel\'s configuration file and authentication file to the folder where Stunnel is installed.';
+	$text['터미널에 아래와 같이 입력하고 "Stunnel"을 실행합니다.'] = 'Run "Stunnel" by entering the command line as shown below in the terminal.';
+	$text['Stunnel을 이용해 OpenVPN을 연결하려면 항상 터미널에서 Stunnel을 먼저 실행해야 합니다.'] = 'To connect to OpenVPN using Stunnel, you must always launch Stunnel first in the terminal.';
+
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "iOS ".$vpnname."VPN Connection Method";
 } elseif ($browserlang == "zh") {
@@ -218,12 +284,14 @@ if ($browserlang == "en") {
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = '这是您自己设置IKEv2的方式。 您可以从上面的标签中选择其他VPN方法。';
 	$text['접속 설정 만들기'] = '创建连接设置';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '在iOS中，IKEv2连接功能是内置的，因此您可以通过简单的设置连接到VPN，而无需安装单独的应用程序。';
+	$text['iOS에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '在iOS中，L2TP/IPsec连接功能是内置的，因此您可以通过简单的设置连接到VPN，而无需安装单独的应用程序。';
 	$text['아이폰에서 IKEv2 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '首先在iPhone上观看IKEv2连接视频将有助于您理解以下说明。';
 	$text['"설정" -> "일반" -> "VPN"으로 들어갑니다.'] = '转到"设置->通用-> VPN"';
 	$text['"VPN 구성 추가"를 선택합니다.'] = '选择"添加VPN配置"。';
 	$text['아래와 같이 각 항목을 입력 또는 선택합니다.'] = '输入或选择每个项目，如下所示。';
 	$text['유형'] = '类型';
 	$text['"IKEv2" 선택'] = '选择IKEv2';
+	$text['"L2TP" 선택'] = '选择L2TP';
 	$text['설명'] = '描述';
 	$text['"IPany" 입력'] = '输入IPany';
 	$text['서버'] = '服务器';
@@ -235,9 +303,11 @@ if ($browserlang == "en") {
 	$text['사용자 인증'] = '用户认证';
 	$text['"사용자 이름"을 선택'] = '选择你的用户名';
 	$text['사용자 이름'] = '用户名';
+	$text['계정'] = '帐号';
 	$text['"'.$vpnid.'"을(를) 입력합니다.'] = '输入'.$vpnid.'。';
 	$text[$account_url.'에서 생성한 계정의 아이디를 입력합니다.'] = '输入'.$account_url.'创建的帐户的ID。';
 	$text['암호'] = '密码';
+	$text['비밀'] = '密钥';
 	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = '输入您在创建'.$vpnid.'时输入的密码。';
 	$text[$account_url.'에서 생성한 계정의 비밀번호를 입력합니다.'] = '输入'.$account_url.'生成的ID的密码。';
 	$text['입력이 끝나면 "완료"를 선택하여 저장합니다.'] = '完成后，选择"完成"进行保存。';
@@ -334,40 +404,40 @@ if ($browserlang == "en") {
 	$text['"<strong>시스템환경설정 -> 프로파일"</strong>에서 설치된 프로파일을 선택하고 삭제하면 VPN 접속 설정이 지워집니다.'] = '选择并删除设置在<strong>"系统环境设置->配置文件"</strong>中的配置，VPN连接设置将被删除。';
 
 	//openvpn ios
-	$text['앱 설치 및 설정'] = '앱 설치 및 설정';
-	$text['iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.'] = 'iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.';
-	$text['아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
-	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.';
-	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.';
-	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.';
-	$text['App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.'] = 'App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.';
-	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.';
-	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
-	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.';
-	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = '다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.';
-	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = '"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.';
-	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = '연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.';
-	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = '앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.';
-	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = 'OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.';
-	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = '만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.';
-	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
-	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.';
-	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = '그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.';
-	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = '아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.';
-	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = '접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.';
-	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = '다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.';
-	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = '홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.';
-	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = 'VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.';
-	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.';
-	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.';
+	$text['앱 설치 및 설정'] = '安装和设置应用程序';
+	$text['iOS에서 OpenVPN 접속은 "OpenVPN Connect"라는 앱을 이용합니다.'] = '在 iOS 上，OpenVPN 访问使用一个名为“OpenVPN Connect”的应用程序。';
+	$text['아이폰에서 OpenVPN 연결 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '在 iPhone 上观看 OpenVPN 连接视频并阅读以下说明以帮助您理解。';
+	$text['"OpenVPN Connect" 앱을 설치하고, "연결 설정 파일"을 앱에 연결해주어야 합니다.'] = '您需要安装“OpenVPN Connect”应用程序并将“连接配置文件”连接到应用程序。';
+	$text['(주의) 이 연결방법 페이지의 링크에서 연결 설정파일을 불러와야 합니다.'] = '（注意）您必须从该连接方法页面上的链接加载连接设置文件。';
+	$text['이 연결방법 페이지를 iPhone 또는 iPad의 Safari에서 열고 진행하세요.'] = '在 iPhone 或 iPad 上的 Safari 中打开此如何连接页面并继续。';
+	$text['App Store에서 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>를 설치합니다.'] = '从 App Store 安装 <a href="'.$ios_ovpn_app_url.'">OpenVPN Connect</a>。';
+	$text['<strong>아이폰 또는 아이패드의 사파리</strong>에서 아래 설정 파일 다운받기 버튼을 눌러줍니다.'] = '在 iPhone 或 iPad 上的 Safari 中，单击下方的下载设置文件按钮。';
+	$text['설정 파일 다운받기'] = '下载配置文件';
+	$text['다운로드 창이 열리면 <strong>"다운로드"</strong>를 눌러줍니다.'] = '当下载窗口打开时，单击“下载”。';
+	$text['다운로드가 완료되면 상단 오른 쪽에 <strong>"다운로드 항목 버튼"</strong><img class="noshadow" src="images/connects/ios-icon-download.png" width="25">이 생기게 됩니다. 이 버튼을 눌러 "ipany"를 선택합니다.'] = '下载完成后，右上角会有一个“下载项目按钮”<img class="noshadow" src="images/connects/ios-icon-download.png" width="25">。 按此按钮选择“ipany”。';
+	$text['"공유"<img class="noshadow" src="images/connects/ios-icon-share.png" width="18"> 버튼을 눌러줍니다.'] = '单击“<img class="noshadow" src="images/connects/ios-icon-share.png" width="18">共享”按钮。';
+	$text['연결 앱들을 옆으로 스크롤하여 <strong>"더보기"</strong>를 선택합니다.'] = '横向滚动到可连接的应用程序并选择“更多”。';
+	$text['앱 항목 중 <strong>"OpenVPN에 복사"</strong>를 선택합니다.'] = '从应用项目中选择“复制到 OpenVPN”。';
+	$text['OpenVPN 앱이 자동으로 실행되고 그림과 같이 Import Profile 창이 열리면 <strong>ADD</strong>를 선택합니다.'] = '当 OpenVPN 应用程序自动启动并且导入配置文件窗口如图所示打开时，选择添加。';
+	$text['만약 OpenVPN 앱이 자동으로 실행되지 않는다면, OpenVPN 앱을 실행하고 "Profile 추가 버튼"<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">을 눌러 Import Profile 창을 열면, <strong>FILE</strong> 탭에서 ipany 프로파일을 확인할 수 있습니다.'] = '如果 OpenVPN 应用程序没有自动启动，请启动 OpenVPN 应用程序并单击“添加配置文件”按钮打开“<img class="noshadow" src="images/connects/ovpn_add_profile_icon.png" width="40">导入配置文件”窗口，您可以在“FILE”选项卡中看到 ipany 配置文件。';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$vpnid.'와(과) 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '选择“保存密码”，在用户名和密码中输入您的'.$vpnid.'和密码，点击“添加”保存。';
+	$text['"Save Password"를 선택하고 Username와 Password에 '.$account_url.'에서 생성한 계정의 아이디와 비밀번호를 입력한 후 "ADD"를 눌러 저장합니다.'] = '选择“保存密码”，在用户名和密码中输入'.$account_url.'中创建的ID和密码，点击“添加”保存。';
+	$text['그림과 같이 ipany로 시작하는 Profile이 생성된 것을 확인할 수 있습니다. 프로파일 왼쪽 버튼을 눌러 접속할 수 있습니다.'] = '如图，可以看到以ipany开头的Profile已经创建完成。 您可以通过单击配置文件左侧的按钮来访问它。';
+	$text['아래 그림과 같은 메세지 창이 열린다면 "Yes"를 선택하면 연결됩니다.'] = '如果打开如下图所示的消息窗口，请选择“Yes”进行连接。';
+	$text['접속에 성공하면 "Disconnected"에서 "Connected"로 바뀌며 "Connection Stats"에서 접속 상태를 볼수 있습니다. 접속을 끊으려면 "Connected" 아래 버튼을 눌러줍니다.'] = '如果连接成功，“Disconnected”会变为“Connected”，在“Connection Stats”中可以看到连接状态。 要断开连接，请单击“Connected”下方的按钮。';
+	$text['다음에 다시 접속을 원한다면 설정 파일 등록은 다시 필요하지 않습니다.'] = '如果下次想重新连接，不需要重新注册配置文件。';
+	$text['홈 화면에서 "OpenVPN" 앱을 선택해 열고 프로파일 좌측 버튼을 눌러주어 간편하게 다시 접속할 수 있습니다.'] = '您可以通过在主屏幕上选择并打开“OpenVPN”应用程序并按下配置文件的左按钮轻松重新连接。';
+	$text['VPN 접속 아이디와 비밀번호를 잘못 입력하여 접속이되지 않는다면 Profile의 오른쪽 연필모양을 눌러주고 Username과 Password를 수정할 수 있습니다.'] = '如果由于输入了错误的 VPN 连接 ID 和密码而无法连接，您可以通过单击配置文件右侧的铅笔图标来编辑用户名和密码。';
+	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '如果出现如下图所示的“Authentication Failed”信息，则表示连接失败，因为认证失败。 在这种情况下，VPN 连接 ID 或密码输入错误，VPN 过期日期已过，或连接已翻倍。';
+	$text['인증에 실패한 경우가 아니라면 VPN 접속 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 오른쪽 상단의 두루마리 버튼을 눌러주면 로그를 확인할 수 있습니다. 접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '除非身份验证失败，否则您可以检查 VPN 连接日志以确定连接失败的原因。 您可以通过单击右上角的滚动按钮来查看日志。 检查连接日志内容，在下表中查找连接失败的原因。';
 
 	//openvpn mac
-	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.'] = '<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.';
-	$text['대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = '대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
-	$text['접속 프로그램 설치'] = '접속 프로그램 설치';
-	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.';
+	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.'] = '如何连接到 OpenVPN。 如果无法进行 IKEv2 连接，请使用此方法。 但是，OpenVPN 访问在中国不可用。';
+	$text['대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = '请改用 OpenVPN SSL（双重加密）。';
+	$text['접속 프로그램 설치'] = '安装访问程序';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다.'] = 'MAC OS X 中的 OpenVPN 连接使用一个名为“Tunnelblick”的程序，它可以在 MAC OS X 10.4.11 或更高版本中使用。';
 	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.';
-	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick 설치파일 다운받기';
+	$text['Tunnelblick 설치파일 다운받기'] = '下载 Tunnelblick 安装文件';
 	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = '"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.';
 	$text['설치 권한을 가지고 있는 계정의 암호를 입력합니다.'] = '설치 권한을 가지고 있는 계정의 암호를 입력합니다.';
 	$text['"설치 성공" 메세지가 나오면 "실행"을 선택합니다.'] = '"설치 성공" 메세지가 나오면 "실행"을 선택합니다.';
@@ -375,23 +445,25 @@ if ($browserlang == "en") {
 	$text['IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.'] = 'IP 주소 변경을 확인할 수 있게 "업데이트 확인"을 선택 합니다.';
 	$text['프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.'] = '프로그램 업데이트를 자동으로 확인할지 여부를 선택 합니다.';
 	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = '"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.';
-	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.';
-	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
+	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '点击下方的下载按钮下载配置文件。';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '下载完成后，从“下载”运行“ipany.ovpn”并选择将使用此设置的用户。 您可以选择“所有人”或“只有我”。';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipanyS.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '下载完成后，从“下载”运行“ipanyS.ovpn”并选择将使用此设置的用户。 您可以选择“所有人”或“只有我”。';
 	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = '설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.';
-	$text['접속하기'] = '접속하기';
-	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
-	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
-	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
-	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
+	$text['접속하기'] = '连接';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '如图所示，单击菜单栏中的 Tunnelblick 图标，然后选择“连接到 ipany”。';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipanyS 연결하기"을 선택합니다.'] = '如图所示，单击菜单栏中的 Tunnelblick 图标，然后选择“连接到 ipanyS”。';
+	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '登录窗口打开后，输入您的 '.$vpnid.' 和密码，然后单击“确认”按钮进行访问。';
+	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '当登录窗口打开时，输入在 '.$account_url.' 中创建的 ID 和密码，然后单击“确定”按钮进行访问。';
+	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '如果您选择“保存到钥匙串”，您可以立即访问，无需下次登录。';
 	$text['만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.'] = '만약 "키체인에 저장"을 선택하고 아이디나 비밀번호를 잘못 입력하여 접속에 실패했다면, 인증 실패 창에서 "다른 인증으로 재시도"를 선택하여 아이디나 비밀번호를 변경하여 접속할 수 있습니다.';
 	$text[$osname.'에서 DNS 서버를 한국 DNS 서버로 변경하는 방법입니다.'] = '这是将DNS服务器从'.$osname.'变更为韩国DNS服务器的方法。';
-	$text['접속끊기'] = '접속끊기';
-	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.';
-	$text['삭제하기'] = '삭제하기';
-	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = 'OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.';
-	$text['Tunnelblick 삭제 파일 다운받기'] = 'Tunnelblick 삭제 파일 다운받기';
-	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = 'VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.';
-	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = '"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.';
+	$text['접속끊기'] = '断开';
+	$text['메뉴 막대의 Tunnelblick 아이콘에 마우스를 올리면 나타나는 상태 창에서 "연결 해제"를 선택하거나, Tunnelblick 아이콘을 클릭하고 "ipany 연결 해제"를 선택하면 접속이 끊어집니다.'] = '如果您将鼠标悬停在菜单栏中的 Tunnelblick 图标上并从出现的状态窗口中选择“断开连接”，或者单击 Tunnelblick 图标并选择“与 ipany 断开连接”以断开连接。';
+	$text['삭제하기'] = '删除';
+	$text['OpenVPN을 더이상 사용하지 않아 Tunnelblick을 제거하기 원한다면, 아래 다운받기를 클릭하여 Tunnelblick_Uninstaller 파일을 다운받고 실행하면 제거할 수 있습니다. Tunnelblick이 실행 중이라면 Uninstall하기 전에 먼저 종료해야 합니다.'] = '如果您不再使用 OpenVPN 并想卸载 Tunnelblick，请点击下方的“下载 Tunnelblick Uninstaller”下载并运行 Tunnelblick_Uninstaller 文件进行卸载。 如果 Tunnelblick 正在运行，您必须在卸载之前先退出它。';
+	$text['Tunnelblick 삭제 파일 다운받기'] = '下载 Tunnelblick Uninstaller';
+	$text['VPN 연결 로그를 확인하여 접속 실패 원인을 확인할 수 있습니다. 로그를 확인하려면 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "VPN 상세"를 선택합니다.'] = '您可以查看 VPN 连接日志以确定连接失败的原因。 要查看日志，请单击菜单栏中的 Tunnelblick 图标并选择“VPN 详细信息”。';
+	$text['"로그" 탭을 선택하면 접속 로그를 확인할 수 있습니다. 아래 표를 참고하여 로그 내용을 확인합니다.'] = '您可以通过选择“日志”选项卡来检查访问日志。 参考下表检查日志内容。';
 
 
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '根据登录日志内容的连接失败原因和解决方法。';
@@ -415,6 +487,66 @@ if ($browserlang == "en") {
 	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN双重密码连接必须在OpenVPN连接前先运行Stunnel。因为没有运行Stunnel所以发生的问题先运行Stunel再连接';
 
+	// L2TP/IPsec
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN连接方法</strong>。';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '这是一种使用 IPsec 配置双隧道的方法，以补充旧的 L2TP 方法。由于它通过 IPsec 隧道，因此在中国不会被阻止。 它可以替代有问题的 PPTP 方法。 如果您在连接到 IKEv2 时遇到问题，则可以改用此方法。';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = '可连接L2TP/IPsec的服务器如下。';
+	$text['"redsun"을 입력합니다.'] = '输入"redsun"。';
+
+	// mac ikev2 m
+	$text['MAC OS X에는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'MAC OS X 内置了 IKEv2 连接功能，因此您可以通过简单的设置连接到 VPN，而无需安装单独的应用程序。';
+	$text['"시스템 환경 설정"에서 "네트워크" 를 클릭하세요.'] = '点击“系统偏好设置”中的“网络”';
+	$text['좌측 하단의 + 버튼을 클릭하세요.'] = '单击左下角的 + 按钮。';
+	$text['"인터페이스"에 VPN을,'] = '为接口选择 VPN，';
+	$text['"VPN 유형"에는 IKEv2를 선택합니다.'] = '为 VPN 类型选择 IKEv2。';
+	$text['"서비스 이름"에 '.$brand_name.'을 입력하고, 생성을 클릭합니다.'] = '输入'.$brand_name.'作为服务名称，然后单击创建。';
+	$text['"서버 주소"에 아래 서버 주소 중 하나를 선택해 입력합니다.'] = '在服务器地址中，选择下面的服务器地址列表之一并输入。';
+	$text['"원격 ID"는 서버 주소에 입력한 것과 동일한 서버 주소를 입력합니다.'] = '对于远程 ID，输入您在服务器地址中输入的相同服务器地址。';
+	$text['"로컬 ID"는 비워둡니다.'] = '将本地 ID 留空。';
+	$text['인증 설정을 클릭합니다.'] = '然后单击身份验证设置。';
+	$text['"메뉴 막대에서 VPN 상태 보기"를 체크해주면 더욱 편리하게 사용할 수 있습니다.'] = '勾选“在菜单栏中显示 VPN 状态”更方便使用。';
+	$text['인증 설정에 "사용자 이름"을 선택하고,'] = '选择“用户名”进行身份验证设置，';
+	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 VPN 접속 아이디와 비밀번호를 입력합니다.'] = '在用户名和密码中，输入您在'.$account_url.'上自己创建的 VPN 连接 ID 和密码。';
+	$text['연결을 클릭하면 VPN에 접속됩니다.'] = '单击连接以连接到 VPN。';
+	$text['메뉴 막대의 VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 선택하여 서버주소를 변경할 수 있습니다.'] = '您可以通过单击菜单栏中的 VPN 状态图标并选择“打开网络首选项”来更改服务器地址。';
+	$text['IKEv2 접속이 가능한 서버는 아래와 같습니다.'] = '可以连接到 IKEv2 的服务器如下。';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '对于从海外访问的用户，您可以通过更改访问服务器来解决连接问题或提高质量。 请检查上面的“连接服务器更改方法”。';
+
+	// mac l2tp
+	$text['MAC OS X에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '在 MAC OS X 中，内置 L2TP/IPsec 连接功能，因此无需安装单独的应用程序，只需简单的设置即可实现 VPN 连接。';
+	$text['"VPN 유형"에는 "IPSec을 통한 L2TP"를 선택합니다.'] = '为 VPN 类型选择“L2TP over IPSec”。';
+	$text['"구성"은 기본값을 선택합니다.'] = '对于配置，选择默认值。';
+	$text['"계정 이름"에 '.$account_url.'에서 생성한 VPN 접속 아이디를 입력합니다.'] = '在 Account Name 中，输入您在'.$account_url.'中创建的 VPN 连接 ID。';
+	$text['"인증 설정"을 클릭합니다.'] = '单击“身份验证设置”。';
+	$text['"암호"에 '.$account_url.'에서 생성한 VPN 접속 아이디의 비밀번호를 입력합니다.'] = '在密码中，输入您在'.$account_url.'中创建的 VPN 连接 ID 的密码。';
+	$text['"공유 보안"에 "redsun"을 입력합니다.'] = '为共享密钥输入“redsun”。';
+	$text['"확인" 클릭 후 "고급"을 클릭합니다.'] = '单击“确定”，然后单击“高级”。';
+	$text['"VPN 연결을 통해 모든 트래픽 전송"을 선택합니다.'] = '选择“通过 VPN 连接发送所有流量”。';
+	$text['"확인"과 "적용"을 클릭해 설정을 저장합니다.'] = '单击“确定”和“应用”以保存设置。';
+
+	//mac openvpn
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고 실행합니다.'] = '单击下面的按钮下载并运行安装文件。 ';
+	$text['Tunnelblick 아이콘을 더블 클릭하여 프로그램을 설치합니다.'] = '双击 Tunnelblick 图标以安装程序。';
+	$text['프로그램이 설치되면 응용프로그램에 Tunnelblick이 생겨납니다. Tunnelblick을 실행합니다.'] = '安装程序后，Tunnelblick 将出现在应用程序中。 启动 Tunnelblick。';
+	$text['"키체인에 저장"을 선택한 후 아이디나 비밀번호를 수정해야 한다면, Command + Space (Spotlight 검색)에서 "키체인 접근"을 입력해 키체인 접근 창을 열어줍니다. Tunnelblick.Auth.ipany 두 개를 찾아 지워주면 VPN 접속 시 다시 아이디와 비밀번호를 입력할 수 있습니다.'] = '如果您在选择“保存到钥匙串”后需要编辑您的 ID 或密码，请在 Command + Space（Spotlight 搜索）中键入“钥匙串访问”以打开“钥匙串访问”窗口。 如果找到并删除这两个Tunnelblick.Auth.ipany，可以在连接VPN时再次输入ID和密码。';
+	$text['Tunnelblick이 실행됩니다.'] = 'Tunnelblick 启动。';
+	$text['설정파일 있음을 선택하고, 확인을 선택해 창을 닫습니다.'] = '选择“我有配置文件”，然后选择确定关闭窗口。';
+		
+	//mac openvpns
+	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.'] = 'OpenVPN双重加密访问方式。';
+	$text['중국에서 Openvpn 접속이 가능하지 않기 때문에 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '我们使用这种方法是因为 Openvpn 访问在中国不可用。 这是一种预先配置称为 Stunnel 的加密隧道并通过该隧道启用 OpenVPN 访问的方法。';
+	$text['OpenVPN 이중 암호화 방식을 사용하려면 Stunnel 과 OpenVPN 접속 프로그램(Tunnelblick)을 설치하고 각각의 설정 파일 들을 다운받아 저장해 주어야 합니다.'] = '要使用 OpenVPN 双重加密方式，需要安装 Stunnel 和 OpenVPN 访问程序（Tunnelblick），并下载并保存各个配置文件。';
+	$text['이제는 이중 암호화 터널을 구성해주는 "Stunnel" 프로그램을 설치해야 합니다. Stunnel을 설치하기 위해서는 MAC 용 패키지 관리자인 "Homebrew"를 먼저 설치해야 합니다.'] = '现在您需要安装配置双重加密隧道的“Stunnel”程序。 要安装 Stunnel，您必须首先安装“Homebrew”，它是 MAC 的包管理器。';
+	$text['"Homebrew"와 "Stunnel"은 <strong>"터미널"</strong>에서 설치할 수 있습니다.'] = '“Homebrew”和“Stunnel”可以从“终端”安装。';
+	$text['Command + Space (Spotlight 검색)에서 "터미널"을 입력해 터미널을 열어줍니다.'] = '通过在 Command + Space（Spotlight 搜索）中键入“终端”来打开终端。';
+	$text['<strong>터미널</strong>이 열리면 아래 내용을 복사 붙여넣기하여 실행합니다.'] = '当终端打开时，复制并粘贴下面的内容以运行它。';
+	$text['Homebrew 설치에 성공했다면, 다시 터미널에서 아래 내용을 복사 붙여넣기하여 "Stunnel"을 설치합니다.'] = '如果 Homebrew 安装成功，请再次从终端复制并粘贴下面的命令行以安装“Stunnel”。';
+	$text['Stunnel 설치에 성공했다면, 터미널을 닫지 않고 그대로 두고 아래 다운로드 버튼을 클릭하여 Stunnel 설정파일과 인증파일을 다운로드 폴더로 다운받습니다.'] = '如果stunnel安装成功，不要关闭终端，点击下方下载按钮，将stunnel配置文件和认证文件下载到下载文件夹。';
+	$text['설정 인증 파일 다운받기'] = '설정 인증 파일 다운받기';
+	$text['다시 터미널에서 아래 내용을 차례로 복사 붙여넣기 실행하여 다운 받은 Stunnel의 설정파일과 인증파일을 Stunnel이 설치된 폴더로 복사합니다.'] = '再次在终端中输入并执行以下命令行，将下载的 Stunnel 的配置文件和认证文件复制到安装 Stunnel 的文件夹中。';
+	$text['터미널에 아래와 같이 입력하고 "Stunnel"을 실행합니다.'] = '通过在终端中输入如下所示的命令行来运行“Stunnel”。';
+	$text['Stunnel을 이용해 OpenVPN을 연결하려면 항상 터미널에서 Stunnel을 먼저 실행해야 합니다.'] = '要使用 Stunnel 连接到 OpenVPN，您必须始终首先在终端中启动 Stunnel。';
+	
 	$title = "iOS ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "iOS ".$vpnname."VPN 连接方式";
 } else {
@@ -427,12 +559,14 @@ if ($browserlang == "en") {
 	$text['IKEv2 직접 설정 방법입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.'] = '<strong>IKEv2 직접 설정 방법</strong>입니다. 위 탭에서 다른 VPN 방식을 선택할 수 있습니다.';
 	$text['접속 설정 만들기'] = '접속 설정 만들기';
 	$text['iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'iOS에서는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
+	$text['iOS에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'iOS에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
 	$text['아이폰에서 IKEv2 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아이폰에서 IKEv2 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
 	$text['"설정" -> "일반" -> "VPN"으로 들어갑니다.'] = '"설정" -> "일반" -> "VPN"으로 들어갑니다.';
 	$text['"VPN 구성 추가"를 선택합니다.'] = '"VPN 구성 추가"를 선택합니다.';
 	$text['아래와 같이 각 항목을 입력 또는 선택합니다.'] = '아래와 같이 각 항목을 입력 또는 선택합니다.';
 	$text['유형'] = '유형';
 	$text['"IKEv2" 선택'] = '"IKEv2" 선택';
+	$text['"L2TP" 선택'] = '"L2TP" 선택';
 	$text['설명'] = '설명';
 	$text['"IPany" 입력'] = '"IPany" 입력';
 	$text['서버'] = '서버';
@@ -444,9 +578,11 @@ if ($browserlang == "en") {
 	$text['사용자 인증'] = '사용자 인증';
 	$text['"사용자 이름"을 선택'] = '"사용자 이름"을 선택';
 	$text['사용자 이름'] = '사용자 이름';
+	$text['계정'] = '계정';
 	$text['"'.$vpnid.'"을(를) 입력합니다.'] = '"'.$vpnid.'"을(를) 입력합니다.';
 	$text[$account_url.'에서 생성한 계정의 아이디를 입력합니다.'] = $account_url.'에서 생성한 계정의 아이디를 입력합니다.';
 	$text['암호'] = '암호';
+	$text['비밀'] = '비밀';
 	$text['"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.'] = '"'.$vpnid.'" 생성 시 같이 입력한 비밀번호를 입력합니다.';
 	$text[$account_url.'에서 생성한 계정의 비밀번호를 입력합니다.'] = $account_url.'에서 생성한 계정의 비밀번호를 입력합니다.';
 	$text['입력이 끝나면 "완료"를 선택하여 저장합니다.'] = '입력이 끝나면 "완료"를 선택하여 저장합니다.';
@@ -574,7 +710,7 @@ if ($browserlang == "en") {
 	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.'] = '<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다.';
 	$text['대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = '대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
 	$text['접속 프로그램 설치'] = '접속 프로그램 설치';
-	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다. 프로그램 설치를 위해서는 Admin 계정이 필요합니다.';
+	$text['MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다.'] = 'MAC OS X에서 OpenVPN 접속은 "Tunnelblick"이라는 프로그램을 사용하며, MAC OS X 10.4.11 버전 이상에서 사용이 가능합니다.';
 	$text['아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고, 설치를 위해 Tunnelblick 아이콘을 더블 클릭합니다.';
 	$text['Tunnelblick 설치파일 다운받기'] = 'Tunnelblick 설치파일 다운받기';
 	$text['"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.'] = '"Tunnelblick은 인터넷에서 다운로드된 응용 프로그램 입니다. 열겠습니까?"라는 메세지가 나오면 "열기"를 클릭합니다.';
@@ -586,9 +722,11 @@ if ($browserlang == "en") {
 	$text['"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.'] = '"설정 추가" 창이 열리면 "확인"을 클릭하고 닫습니다.';
 	$text['아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.'] = '아래 다운로드 버튼을 클릭하여 설정 파일을 다운받습니다.';
 	$text['다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipany.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
+	$text['다운로드가 끝나면 "다운로드"에서 "ipanyS.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.'] = '다운로드가 끝나면 "다운로드"에서 "ipanyS.ovpn"를 실행하고 이 설정을 사용할 사용자를 선택합니다. "모든 사용자" 또는 "나만"을 클릭하면 됩니다.';
 	$text['설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.'] = '설치 권한이 있는 계정 비밀번호를 입력하고 "승인"을 클릭합니다.';
 	$text['접속하기'] = '접속하기';
-	$text['그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipany 연결하기"을 선택합니다.';
+	$text['그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipanyS 연결하기"을 선택합니다.'] = '그림과 같이 메뉴 막대의 Tunnelblick 아이콘을 클릭하고 "ipanyS 연결하기"을 선택합니다.';
 	$text['로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$vpnid.'와(과) 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
 	$text['로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.'] = '로그인 창이 열리면 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "확인" 버튼을 클릭하면 접속됩니다.';
 	$text['"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.'] = '"키체인에 저장"를 선택하면 다음에 로그인 없이 바로 접속이 가능합니다.';
@@ -623,6 +761,67 @@ if ($browserlang == "en") {
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = 'IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.';
 	$text['TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds'] = 'TCP: connect to [AF_INET]127.0.0.1:443 failed, will try again in 5 seconds';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 Stunnel이 먼저 실행되어 있어야 합니다. Stunnel이 실행되어 있지 않아 발생하는 문제입니다. Stunnel를 먼저 실행하고 다시 접속합니다.';
+
+	// L2TP/IPsec
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.';
+	$text['"redsun"을 입력합니다.'] = '"redsun"을 입력합니다.';
+
+	// mac ikev2 m
+	$text['MAC OS X에는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'MAC OS X에는 IKEv2 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
+	$text['"시스템 환경 설정"에서 "네트워크" 를 클릭하세요.'] = '"시스템 환경 설정"에서 "네트워크" 를 클릭하세요.';
+	$text['좌측 하단의 + 버튼을 클릭하세요.'] = '좌측 하단의 + 버튼을 클릭하세요.';
+	$text['"인터페이스"에 VPN을,'] = '"인터페이스"에 VPN을,';
+	$text['"VPN 유형"에는 IKEv2를 선택합니다.'] = '"VPN 유형"에는 IKEv2를 선택합니다.';
+	$text['"서비스 이름"에 '.$brand_name.'을 입력하고, 생성을 클릭합니다.'] = '"서비스 이름"에 '.$brand_name.'을 입력하고, 생성을 클릭합니다.';
+	$text['"서버 주소"에 아래 서버 주소 중 하나를 선택해 입력합니다.'] = '"서버 주소"에 아래 서버 주소 중 하나를 선택해 입력합니다.';
+	$text['"원격 ID"는 서버 주소에 입력한 것과 동일한 서버 주소를 입력합니다.'] = '"원격 ID"는 서버 주소에 입력한 것과 동일한 서버 주소를 입력합니다.';
+	$text['"로컬 ID"는 비워둡니다.'] = '"로컬 ID"는 비워둡니다.';
+	$text['인증 설정을 클릭합니다.'] = '인증 설정을 클릭합니다.';
+	$text['"메뉴 막대에서 VPN 상태 보기"를 체크해주면 더욱 편리하게 사용할 수 있습니다.'] = '"메뉴 막대에서 VPN 상태 보기"를 체크해주면 더욱 편리하게 사용할 수 있습니다.';
+	$text['인증 설정에 "사용자 이름"을 선택하고,'] = '인증 설정에 "사용자 이름"을 선택하고,';
+	$text['사용자 이름과 암호에 '.$account_url.'에서 생성한 VPN 접속 아이디와 비밀번호를 입력합니다.'] = '사용자 이름과 암호에 '.$account_url.'에서 생성한 VPN 접속 아이디와 비밀번호를 입력합니다.';
+	$text['연결을 클릭하면 VPN에 접속됩니다.'] = '연결을 클릭하면 VPN에 접속됩니다.';
+	$text['메뉴 막대의 VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 선택하여 서버주소를 변경할 수 있습니다.'] = '메뉴 막대의 VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 선택하여 서버주소를 변경할 수 있습니다.';
+	$text['IKEv2 접속이 가능한 서버는 아래와 같습니다.'] = 'IKEv2 접속이 가능한 서버는 아래와 같습니다.';
+	$text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.'] = '<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 위 "<strong>접속 서버 변경</strong>" 내용을 확인하세요.';
+
+	// mac l2tp
+	$text['MAC OS X에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'MAC OS X에서는 L2TP/IPsec 접속 기능이 자체 내장되어있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
+	$text['"VPN 유형"에는 "IPSec을 통한 L2TP"를 선택합니다.'] = '"VPN 유형"에는 "IPSec을 통한 L2TP"를 선택합니다.';
+	$text['"구성"은 기본값을 선택합니다.'] = '"구성"은 기본값을 선택합니다.';
+	$text['"계정 이름"에 '.$account_url.'에서 생성한 VPN 접속 아이디를 입력합니다.'] = '"계정 이름"에 '.$account_url.'에서 생성한 VPN 접속 아이디를 입력합니다.';
+	$text['"인증 설정"을 클릭합니다.'] = '"인증 설정"을 클릭합니다.';
+	$text['"암호"에 '.$account_url.'에서 생성한 VPN 접속 아이디의 비밀번호를 입력합니다.'] = '"암호"에 '.$account_url.'에서 생성한 VPN 접속 아이디의 비밀번호를 입력합니다.';
+	$text['"공유 보안"에 "redsun"을 입력합니다.'] = '"공유 보안"에 "redsun"을 입력합니다.';
+	$text['"확인" 클릭 후 "고급"을 클릭합니다.'] = '"확인" 클릭 후 "고급"을 클릭합니다.';
+	$text['"VPN 연결을 통해 모든 트래픽 전송"을 선택합니다.'] = '"VPN 연결을 통해 모든 트래픽 전송"을 선택합니다.';
+	$text['"확인"과 "적용"을 클릭해 설정을 저장합니다.'] = '"확인"과 "적용"을 클릭해 설정을 저장합니다.';
+
+	//mac openvpn
+	$text['아래 버튼을 클릭하여 설치 파일을 다운받고 실행합니다.'] = '아래 버튼을 클릭하여 설치 파일을 다운받고 실행합니다.';
+	$text['Tunnelblick 아이콘을 더블 클릭하여 프로그램을 설치합니다.'] = 'Tunnelblick 아이콘을 더블 클릭하여 프로그램을 설치합니다.';
+	$text['프로그램이 설치되면 응용프로그램에 Tunnelblick이 생겨납니다. Tunnelblick을 실행합니다.'] = '프로그램이 설치되면 응용프로그램에 Tunnelblick이 생겨납니다. Tunnelblick을 실행합니다.';
+	$text['"키체인에 저장"을 선택한 후 아이디나 비밀번호를 수정해야 한다면, Command + Space (Spotlight 검색)에서 "키체인 접근"을 입력해 키체인 접근 창을 열어줍니다. Tunnelblick.Auth.ipany 두 개를 찾아 지워주면 VPN 접속 시 다시 아이디와 비밀번호를 입력할 수 있습니다.'] = '"키체인에 저장"을 선택한 후 아이디나 비밀번호를 수정해야 한다면, Command + Space (Spotlight 검색)에서 "키체인 접근"을 입력해 키체인 접근 창을 열어줍니다. Tunnelblick.Auth.ipany 두 개를 찾아 지워주면 VPN 접속 시 다시 아이디와 비밀번호를 입력할 수 있습니다.';
+	$text['Tunnelblick이 실행됩니다.'] = 'Tunnelblick이 실행됩니다.';
+	$text['설정파일 있음을 선택하고, 확인을 선택해 창을 닫습니다.'] = '설정파일 있음을 선택하고, 확인을 선택해 창을 닫습니다.';
+
+	//mac openvpns
+	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.'] = '<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.';
+	$text['중국에서 Openvpn 접속이 가능하지 않기 때문에 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '중국에서 Openvpn 접속이 가능하지 않기 때문에 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.';
+	$text['OpenVPN 이중 암호화 방식을 사용하려면 Stunnel 과 OpenVPN 접속 프로그램(Tunnelblick)을 설치하고 각각의 설정 파일 들을 다운받아 저장해 주어야 합니다.'] = 'OpenVPN 이중 암호화 방식을 사용하려면 Stunnel 과 OpenVPN 접속 프로그램(Tunnelblick)을 설치하고 각각의 설정 파일 들을 다운받아 저장해 주어야 합니다.';
+	$text['이제는 이중 암호화 터널을 구성해주는 "Stunnel" 프로그램을 설치해야 합니다. Stunnel을 설치하기 위해서는 MAC 용 패키지 관리자인 "Homebrew"를 먼저 설치해야 합니다.'] = '이제는 이중 암호화 터널을 구성해주는 "Stunnel" 프로그램을 설치해야 합니다. Stunnel을 설치하기 위해서는 MAC 용 패키지 관리자인 "Homebrew"를 먼저 설치해야 합니다.';
+	$text['"Homebrew"와 "Stunnel"은 <strong>"터미널"</strong>에서 설치할 수 있습니다.'] = '"Homebrew"와 "Stunnel"은 <strong>"터미널"</strong>에서 설치할 수 있습니다.';
+	$text['Command + Space (Spotlight 검색)에서 "터미널"을 입력해 터미널을 열어줍니다.'] = 'Command + Space (Spotlight 검색)에서 "터미널"을 입력해 터미널을 열어줍니다.';
+	$text['<strong>터미널</strong>이 열리면 아래 내용을 복사 붙여넣기하여 실행합니다.'] = '<strong>터미널</strong>이 열리면 아래 내용을 복사 붙여넣기하여 실행합니다.';
+	$text['Homebrew 설치에 성공했다면, 다시 터미널에서 아래 내용을 복사 붙여넣기하여 "Stunnel"을 설치합니다.'] = 'Homebrew 설치에 성공했다면, 다시 터미널에서 아래 내용을 복사 붙여넣기하여 "Stunnel"을 설치합니다.';
+	$text['Stunnel 설치에 성공했다면, 터미널을 닫지 않고 그대로 두고 아래 다운로드 버튼을 클릭하여 Stunnel 설정파일과 인증파일을 다운로드 폴더로 다운받습니다.'] = 'Stunnel 설치에 성공했다면, 터미널을 닫지 않고 그대로 두고 아래 다운로드 버튼을 클릭하여 Stunnel 설정파일과 인증파일을 다운로드 폴더로 다운받습니다.';
+	$text['설정 인증 파일 다운받기'] = '설정 인증 파일 다운받기';
+	$text['다시 터미널에서 아래 내용을 차례로 복사 붙여넣기 실행하여 다운 받은 Stunnel의 설정파일과 인증파일을 Stunnel이 설치된 폴더로 복사합니다.'] = '다시 터미널에서 아래 내용을 차례로 복사 붙여넣기 실행하여 다운 받은 Stunnel의 설정파일과 인증파일을 Stunnel이 설치된 폴더로 복사합니다.';
+	$text['터미널에 아래와 같이 입력하고 "Stunnel"을 실행합니다.'] = '터미널에 아래와 같이 입력하고 "Stunnel"을 실행합니다.';
+	$text['Stunnel을 이용해 OpenVPN을 연결하려면 항상 터미널에서 Stunnel을 먼저 실행해야 합니다.'] = 'Stunnel을 이용해 OpenVPN을 연결하려면 항상 터미널에서 Stunnel을 먼저 실행해야 합니다.';
+
 
 }
 ?>

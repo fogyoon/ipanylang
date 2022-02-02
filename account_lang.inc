@@ -124,6 +124,11 @@ if ($browserlang == "ko") {
 	$text['그동안의 연장 결제 내역을 확인하려면 "결제 내역 확인"을 클릭하세요.'] = '그동안의 연장 결제 내역을 확인하려면 "결제 내역 확인"을 클릭하세요.';
 	$text['가격표 보기'] = '가격표 보기';
 	$text['VPN 접속계정 관리페이지 사용방법 보기'] = 'VPN 접속계정 관리페이지 사용방법 보기';
+	$text['만기지난 아이디 숨기기'] = '만기지난 아이디 숨기기';
+	$text['만기지난 아이디 보기'] = '만기지난 아이디 보기';
+	$text['만기지난 아이디를 리스트에서 보이거나 숨길 수 있습니다.'] = '만기지난 아이디를 리스트에서 보이거나 숨길 수 있습니다.';
+	$text['로그인 비밀번호를 변경할 수 있습니다.'] = '로그인 비밀번호를 변경할 수 있습니다.';
+	$text['비밀번호 변경'] = '비밀번호 변경';
 
 
 } elseif ($browserlang == "zh") {
@@ -251,7 +256,11 @@ if ($browserlang == "ko") {
 	$text['그동안의 연장 결제 내역을 확인하려면 "결제 내역 확인"을 클릭하세요.'] = '点击"查看付款明细"以查看您的付款历史。';
 	$text['가격표 보기'] = '查看价格表';
 	$text['VPN 접속계정 관리페이지 사용방법 보기'] = '如何使用VPN访问帐户管理页面';
-
+	$text['만기지난 아이디 숨기기'] = '隐藏过期的 ID';
+	$text['만기지난 아이디 보기'] = '查看过期的 ID';
+	$text['만기지난 아이디를 리스트에서 보이거나 숨길 수 있습니다.'] = '您可以从列表中显示或隐藏过期的 ID。';
+	$text['로그인 비밀번호를 변경할 수 있습니다.'] = '您可以更改您的登录密码。';
+	$text['비밀번호 변경'] = '更改密码';
 
 } else { //en
 	$text['VPN 접속계정 관리'] = 'VPN Connection ID Management';
@@ -381,6 +390,11 @@ if ($browserlang == "ko") {
 	$text['그동안의 연장 결제 내역을 확인하려면 "결제 내역 확인"을 클릭하세요.'] = 'To check the payment history in the meantime, click "Check payment details"';
 	$text['가격표 보기'] = 'View price list';
 	$text['VPN 접속계정 관리페이지 사용방법 보기'] = 'How to use the VPN connection ID management page';
+	$text['만기지난 아이디 숨기기'] = 'Hide expired IDs';
+	$text['만기지난 아이디 보기'] = 'View expired IDs';
+	$text['만기지난 아이디를 리스트에서 보이거나 숨길 수 있습니다.'] = 'You can show or hide expired IDs from the list.';
+	$text['로그인 비밀번호를 변경할 수 있습니다.'] = 'You can change your login password.';
+	$text['비밀번호 변경'] = 'Change Password';
 
 
 }

@@ -30,6 +30,17 @@ if ($browserlang == "en") {
 	$text['"어댑터 설정 변경"을 클릭합니다.'] = 'Click "Change adapter options".';
 	$text[$brand_name.'에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "삭제"를 선택합니다.'] = 'Put the mouse pointer on '.$brand_name.', click "Right mouse button" and select "Delete".';
 
+	$text['오류 13801'] = 'Error 13801';
+	$text['"IKE 인증 자격 증명을 받아들일 수 없습니다." 오류 발생시 인증서를 설치해야 합니다. 인증서 설치 방법을 확인하려면 여기를 클릭하세요.'] = 'If you get "IKE authentication credentials not accepted" error, you need to install the certificate . Click here to see how to install the certificate.';
+	$text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = 'This is a problem that occurs because the root certificate is not registered on some Windows PCs. Enrolling the root certificate yourself solved the problem.';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = 'Click the link below to download the certificate to your PC.';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = 'Double-click the downloaded certificate file (isrg.cer) to open the certificate information window. Here, click "Install Certificate".';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = 'Select "Local Machine" and click Next.';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = 'Select "Place all certificates in the following store" and click "Browse" to select "Trusted Root Certification Authorities". Click "Next".';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = 'Click "Finish" to install the certificate.';
+    $text['인증서 파일 다운받기'] = 'Download the certificate file';
+	$text['VPN 접속을 다시 시도해봅니다.'] = 'Try to connect to the VPN again.';
+
 	//win10 pptpm
 	$text['<strong>PPTP VPN 접속 직접 설정 방법</strong>입니다.'] = 'This is <strong>PPTP VPN connection method directly</strong>.';
 	$text['PPTP 접속 직접 설정하기'] = 'How to set up PPTP connection directly';
@@ -41,7 +52,7 @@ if ($browserlang == "en") {
 	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = 'This is <strong>PPTP VPN connection method</strong>.';
 	$text['예전에 사용하던 VPN 방식입니다. 방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = 'This is the VPN method used in the past. Connection may not be possible in the environment where a firewall or some old router is used (Error 619).';
 	$text['PPTP 방식은 접속 프로그램을 설치하지 않고 Windows 자체의 간단한 VPN 접속 설정으로도 접속이 가능합니다. 프로그램 설치를 원하지 않고 접속 설정을 직접하기 원한다면 여기를 클릭해 "접속 설정 방법"을 확인하세요.'] = 'In PPTP method, you can connect with simple VPN connection setting of Windows itself without installing a connection program. If you do not want to install the program and want to set up the connection directly, click here to see "How to set up direct connection".';
-	$text['VPN 방식을 "PPTP"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'You can connect by selecting "PPTP" as VPN method, selecting a connection server and clicking "Connect".';
+	$text['VPN 방식을 "PPTP"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'You can connect by selecting "PPTP" for VPN type, selecting a connection server and clicking "Connect".';
 	$text['공유기 문제나 방화벽으로 차단되어 있어 접속할 수 없는 경우입니다. 다른 VPN 방식으로 접속해야 합니다.'] = 'This connection error occurs by router problem firewall block. You need to connect with different VPN method.';
 
 
@@ -78,10 +89,12 @@ if ($browserlang == "en") {
 	$text['접속 끊기'] = 'Disconnection';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.' (연결됨)" 아이콘을 클릭합니다.'] = 'Click the network(or WiFi) connection tray icon and click the "'.$brand_name.' (Connected)" icon as shown.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.' 연결됨" 을 선택하고 "연결 끊기"를 클릭합니다.'] = 'If "Network & Internet" window opens, select "'.$brand_name.' Connected" and click "Disconnect".';
+	$text['"연결 끊기"를 클릭합니다.'] = 'Click "Disconnect".';
 	$text['다시 접속하기'] = 'Reconnection';
 	$text['접속 프로그램을 설치하거나 접속 설정을 만들었다면 언제든 아래의 방법으로 다시 접속할 수 있습니다.'] = 'If you have installed the connection program or done connection settings, you can connect again at any time as following method.';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = 'Click the network(or WiFi) connection tray icon and click the "'.$brand_name.'" icon as shown.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "연결"을 클릭합니다.'] = 'If "Network & Internet" window opens, select "'.$brand_name.'" and click "Connect".';
+	$text['"연결"을 클릭합니다.'] = 'Click "Connect".';
 	$text['전에 "암호 저장"을 선택했었다면 바로 접속됩니다.'] = 'If you have previously selected "Remember my sign-in info", Connection will be done immediately.';
 	$text['전에 입력하지 않았었다면 접속 로그인 창이 열립니다. 사용자 이름과 암호를 입력하고 "확인"을 클릭하여 접속할 수 있습니다.'] = 'If you have not entered before, the Sign in window will be open. You can connect by inputting User name and Password and clicking "OK".';
 	$text['접속 서버 변경 방법'] = 'How to change the connection server';
@@ -94,15 +107,16 @@ if ($browserlang == "en") {
 	$text['접속에 실패하면 접속 프로그램의 "연결 상태"에서 접속 실패 원인과 "오류 번호"를 확인할 수 있습니다.'] = 'If the connection fails, you can check the cause of the connection failure and the "Error code" in "Connection Status" of the connection program.';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = 'Click the network(or WiFi) connection tray icon and click the "'.$brand_name.'" icon as shown.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = 'If "Network & Internet" window opens, select "'.$brand_name.'" and click "Remove".';
+	$text['"VPN"에서 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = 'In VPN select "'.$brand_name.'" and click "Remove".';
 
 	//OpenvpnS
 	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다. 중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = 'This is <strong>OpenVPN double encryption connection method</strong>. If you have trouble to connect to IKEv2 in China, use this method. This is a method that enables OpenVPN access through the tunnel by pre-configuring an encrypted tunnel called Stunnel.';
-	$text['VPN 방식을 "OpenVPNSSL"로 선택합니다. OpenVPNSSL 접속을 위해서는 OpenVPN과 Stunnel 프로그램 설치가 필요합니다. 설치되어있지 않다면 자동으로 설치됩니다.'] = 'Select "OpenVPNSSL" as the VPN method. To connect to OpenVPNSSL, you need to install OpenVPN and Stunnel program. If it is not installed, it will be installed automatically.';
+	$text['VPN 방식을 "OpenVPNSSL"로 선택합니다. OpenVPNSSL 접속을 위해서는 OpenVPN과 Stunnel 프로그램 설치가 필요합니다. 설치되어있지 않다면 자동으로 설치됩니다.'] = 'Select "OpenVPNSSL" for VPN type. To connect to OpenVPNSSL, you need to install OpenVPN and Stunnel program. If it is not installed, it will be installed automatically.';
 
 	//Openvpn
 	$text['<strong>OpenVPN 접속 방법</strong>입니다. IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'This is <strong>OpenVPN connection method</strong>. If you cannot connect to IKEv2, use this method. However, OpenVPN access is not available in China. Instead, use OpenVPN SSL (double encryption).';
 	$text['통합 접속 프로그램을 설치하지 않았다면, 아래 다운로드 버튼을 클릭하여 설치파일을 다운받습니다.'] = 'If you have not installed the integrated connection program, click the download button below to download the installation file.';
-	$text['VPN 방식을 "OpenVPN"로 선택합니다. OpenVPN 접속을 위해서는 OpenVPN 프로그램 설치가 필요합니다. 설치되어있지 않다면 자동으로 설치됩니다.'] = 'Select the VPN method as "OpenVPN". To access OpenVPN, you need to install the OpenVPN program. If it is not installed, it will be installed automatically.';
+	$text['VPN 방식을 "OpenVPN"로 선택합니다. OpenVPN 접속을 위해서는 OpenVPN 프로그램 설치가 필요합니다. 설치되어있지 않다면 자동으로 설치됩니다.'] = 'Select "OpenVPN" for VPN type. To access OpenVPN, you need to install the OpenVPN program. If it is not installed, it will be installed automatically.';
 	$text['프로그램 설치 시 디바이스 설치를 묻는 창이 뜨면 반드시 "Install"을 선택해야합니다.'] = 'When install the program, a window asking you to install the device appears, you must select "Install".';
 	$text['접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'After selecting a connection server, you can connect by clicking "Connect".';
 	$text['원인을 알수 없는 경우, OpenVPN GUI 트레이 아이콘에 마우스 포인터를 올리고 마우스 오른쪽 버튼을 클릭한 후 "View Log"를 선택하면 메모장이 열리며 접속 로그를 확인할 수 있습니다.'] = 'If the cause is unknown, place the mouse pointer on the OpenVPN GUI tray icon, right-click, and select "View Log" to open the notepad and check the access log.';
@@ -150,7 +164,7 @@ if ($browserlang == "en") {
 	$text['통합 접속 프로그램이 열리면,'] = 'When the integrated access program opens,';
 	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = 'Enter "'.$vpnid.'" in Username and enter the password.';
 	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = 'enter the connection ID and password created in '.$account_url.'.';
-	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'Select "IKEv2" as the VPN type and choose one of connection servers. And then you can connect to VPN by clicking "Connect" button.';
+	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'Select "IKEv2"  for VPN type and choose one of connection servers. And then you can connect to VPN by clicking "Connect" button.';
 	$text['VPN 방식'] = 'VPN type';
 	$text['IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)'] = 'If you have trouble to connect to IKEv2, select Openvpn for VPN type. (OpenVPN is not available in China. Use OpenVPN SSL instead.)';
 	$text['접속 서버'] = 'Connection server';
@@ -174,9 +188,33 @@ if ($browserlang == "en") {
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = 'This error occurs by no access server found. It comes from no internet connection or DNS error or block by firewall. DNS errors can be solved by changing the DNS server IP in your computer or router as "168.126.63.1". If it is blocked by firewall, you can try other VPN type.';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = 'Error 87 "The parameter is incorrect" is due to a problem with the Windows OS itself. The solution is explained in <a href="howto.php">Troubleshooting</a>.';
 	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = 'Error 809 is due to a problem with the Windows OS itself. The solution is explained in <a href="howto.php">Troubleshooting</a>.';
+	$text['"IKE 인증 자격 증명을 받아들일 수 없습니다."는 Windows에 IKEv2 접속에 필요한 인증서가 등록되어 있지 않기때문에 발생하는 문제입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '"Could not accept IKE authentication credentials" is a problem that occurs because the certificate required for IKEv2 connection is not registered in Windows. The solution is explained in <a href="howto.php">Troubleshooting</a>.';
 	$text['접속기 삭제'] = 'Remove VPN connection program';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = 'You can remove the program from Settings -> Apps (Apps & Features).';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = 'If the connection is not good or the Internet speed is slow, select other server to connect to and find a server that suits you.';
+
+	//win10 l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = 'This is <strong>L2TP/IPsec VPN connection method</strong>.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = 'This is a method of configuring dual tunnels with IPsec to supplement the old L2TP method. It is not blocked even in China because it goes through an IPsec tunnel. It can replace the problematic PPTP method. If you are having problems connecting to IKEv2, you can use this method instead.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'Servers that can connect to L2TP/IPsec are as follows.';
+	$text['L2TP/IPsec 방식은 접속 프로그램을 설치하지 않고 Windows 자체의 간단한 VPN 접속 설정으로도 접속이 가능합니다. 프로그램 설치를 원하지 않고 접속 설정을 직접하기 원한다면 여기를 클릭해 "접속 설정 방법"을 확인하세요.'] = 'In L2TP/IPsec method, you can connect with simple VPN connection setting of Windows itself without installing a connection program. If you do not want to install the program and want to set up the connection directly, click here to see "How to set up direct connection".';
+	$text['VPN 방식을 "L2TP/IPsec"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'Select "L2TP/IPsec" for VPN type, choose one of connection servers. And then you can connect to VPN by clicking "Connect" button.';
+	$text['<strong>L2TP/IPsec VPN 접속 직접 설정 방법</strong>입니다.'] = 'This is <strong>L2TP/IPsec VPN connection method manually</strong>.';
+	$text['L2TP/IPsec 접속 직접 설정하기'] = 'How to set up L2TP/IPsec connection directly';
+	$text['여기서는 직접 L2TP/IPsec 접속을 설정하는 방법을 설명합니다.'] = 'This section explains how to set up direct L2TP/IPsec connection.';
+	$text['"L2TP/IPsec 및 미리 공유한 키" 선택'] = 'Select "L2TP/IPsec with pre-shared key"';
+	$text['미리 공유한 키'] = 'Pre-shared key';
+	$text['"redsun"을 입력합니다.'] = 'Enter "redsun".';
+
+	//win7 l2tp
+	$text['속성 창이 열리면 "보안" 탭을 선택합니다.'] = 'When the Properties window opens, select the "Security" tab.';
+	$text['VPN 종류에서 "IPsec을 사용한 계층 2 터널링 프로토콜 (L2TP/IPsec)"을 선택합니다.'] = 'Select "Layer 2 Tunneling Protocol with IPsec (L2TP/IPsec)" in VPN Type.';
+	$text['데이터 암호화에서 "암호화 사용 안함"을 선택합니다.'] = 'Under Data Encryption, select "No encryption allowed".';
+	$text['다음 프로토콜 허용에서 CHAP와 Microsoft CHAP를 선택합니다.'] = 'Under Allow these protocols, select CHAP and MS-CHAP v2.';
+	$text['"고급 설정"을 클릭하고, "인증에 미리 공유한 키 사용"을 선택하고 "redsun"을 입력한 후 확인을 클릭합니다.'] = 'Click "Advanced Settings". Select "Use preshared key for authentication" and enter "redsun" for Key. And click OK.';
+	$text['"네트워킹" 탭을 선택합니다.'] = 'Select the "Networking" tab.';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)" 이외 다른 것들을 모두 선택 해제합니다.'] = 'Uncheck everything other than "Internet Protocol Version 4 (TCP/IPv4)".';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)"를 선택한 후 "속성"을 클릭합니다.'] = 'Select "Internet Protocol Version 4 (TCP/IPv4)" and click "Properties".';
 
 	$title = "Windows 10 ".$vpnname."VPN ".$subvpnname." Connection";
 	$description = "Windows 10 ".$vpnname."VPN Connection Method";
@@ -211,9 +249,20 @@ if ($browserlang == "en") {
 	$text['"어댑터 설정 변경"을 클릭합니다.'] = '点击"更改适配器设置"。';
 	$text[$brand_name.'에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "삭제"를 선택합니다.'] = '将鼠标指针放在'.$brand_name.'上，点击"鼠标右键"后选择"删除"。';
 
+	$text['오류 13801'] = '错误 13801';
+	$text['"IKE 인증 자격 증명을 받아들일 수 없습니다." 오류 발생시 인증서를 설치해야 합니다. 인증서 설치 방법을 확인하려면 여기를 클릭하세요.'] = '如果您收到“未接受 IKE 身份验证凭据”错误，则需要安装证书。 单击此处查看如何安装证书。';
+    $text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = '这是由于在某些 Windows PC 上未注册根证书而发生的问题。 自己注册根证书解决了这个问题。';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = '单击下面的链接将证书下载到您的 PC。';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = '双击下载的证书文件（isrg.cer），打开证书信息窗口。 在这里，单击“安装证书”。';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = '选择“本地计算机”，然后单击“下一步”。';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = '选择“将所有证书存储在以下存储中”，然后单击“浏览”以选择“受信任的根证书颁发机构”。 点击下一步”。';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = '单击“完成”以安装证书。';
+    $text['인증서 파일 다운받기'] = '下载证书文件';
+	$text['VPN 접속을 다시 시도해봅니다.'] = '重新尝试VPN连接。';
+
 	//win10 pptpm
 	$text['<strong>PPTP VPN 접속 직접 설정 방법</strong>입니다.'] = '<strong>PPTP VPN连接直接设置方法</strong>。';
-	$text['PPTP 접속 직접 설정하기'] = 'PPTP 접속 직접 설정하기';
+	$text['PPTP 접속 직접 설정하기'] = '直接设置PPTP连接';
 	$text['여기서는 직접 PPTP 접속을 설정하는 방법을 설명합니다.'] = '这里介绍直接设置PPTP连接的方法。';
 	$text['"PPTP(지점 간 터널링 포르토콜)" 선택'] = '选择"PPTP（分店间隧道协议）"';
 	$text['PPTP 접속이 가능한 서버는 아래와 같습니다.'] = '可连接PPTP的服务器如下。';
@@ -234,15 +283,15 @@ if ($browserlang == "en") {
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 "네트워크 설정"을 클릭합니다.'] = '点击网络（或WiFi）连接托盘图标，点击"网络设置"。';
 	$text['좌측 창에서 "VPN"을 선택하고 오른쪽 창에서 "VPN 연결 추가"를 클릭합니다.'] = '左侧窗口选择"VPN"，右窗口点击"添加VPN连接"。';
 	$text['"VPN 연결 추가" 창이 열리면 아래와 같이 각 항목을 입력 또는 선택하고 "저장"을 클릭합니다.'] = '如果打开"添加VPN连接"窗口，请输入或选择以下各项，并点击"保存"。';
-	$text['VPN 공급자'] = 'VPN供应商';
-	$text['"Windows(기본 제공)" 선택'] = '选择"Windows（基本提供）"';
+	$text['VPN 공급자'] = 'VPN 提供商';
+	$text['"Windows(기본 제공)" 선택'] = '选择"Windows（内置）"';
 	$text['연결 이름'] = '连接名称';
 	$text['"'.$brand_name.'" 입력'] = '输入'.$brand_name;
 	$text['서버 이름 또는 주소'] = '服务器名称或地址';
 	$text['아래 서버 주소 중 하나를 선택해 입력'] = '选择下列服务器地址中的一个输入';
-	$text['VPN 종류'] = 'VPN种类';
+	$text['VPN 종류'] = 'VPN 类型';
 	$text['"IKEv2" 선택'] = '选择"IKEv2"';
-	$text['로그인 정보 입력'] = '输入登录信息';
+	$text['로그인 정보 입력'] = '登录信息类型';
 	$text['"사용자 이름 및 암호" 선택'] = '选择"用户名和密码"';
 	$text['사용자 이름(옵션)'] = '用户名（选项）';
 	$text['"'.$vpnid.'"을(를) 입력합니다.'] = '输入"'.$vpnid.'"';
@@ -259,10 +308,12 @@ if ($browserlang == "en") {
 	$text['접속 끊기'] = '断开连接';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.' (연결됨)" 아이콘을 클릭합니다.'] = '点击网络（或WiFi）连接托盘图标，并单击'.$brand_name.'图标。';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.' 연결됨" 을 선택하고 "연결 끊기"를 클릭합니다.'] = '打开"网络和网络"窗口后，选择'.$brand_name.'并点击"断开连接"。';
+	$text['"연결 끊기"를 클릭합니다.'] = '点击"断开连接"。';
 	$text['다시 접속하기'] = '다시 접속하기';
 	$text['접속 프로그램을 설치하거나 접속 설정을 만들었다면 언제든 아래의 방법으로 다시 접속할 수 있습니다.'] = '如果安装了连接程序或设置了连接设置，随时都可以用以下方法再次连接。';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = '点击网络（或WiFi）连接托盘图标，并点击'.$brand_name.'图标。';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "연결"을 클릭합니다.'] = '打开"网络和网络"窗口，选择'.$brand_name.'并点击"连接"。';
+	$text['"연결"을 클릭합니다.'] = '点击"连接"。';
 	$text['전에 "암호 저장"을 선택했었다면 바로 접속됩니다.'] = '如果您之前选择了"保存密码"，则立即连接。';
 	$text['전에 입력하지 않았었다면 접속 로그인 창이 열립니다. 사용자 이름과 암호를 입력하고 "확인"을 클릭하여 접속할 수 있습니다.'] = '如果之前没有输入，将会打开登录窗口。输入用户名和密码，点击"确认"即可登录。';
 	$text['접속 서버 변경 방법'] = '连接服务器更改方法';
@@ -275,6 +326,7 @@ if ($browserlang == "en") {
 	$text['접속에 실패하면 접속 프로그램의 "연결 상태"에서 접속 실패 원인과 "오류 번호"를 확인할 수 있습니다.'] = '如果连接失败，您可以在连接程序"连接状态"中确认连接失败的原因和"错误号码"。';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = '点击网络（或WiFi）连接托盘图标，并点击"'.$brand_name.'"图标。';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = '打开"网络和网络"窗口后，选择"'.$brand_name.'"并点击"删除"。';
+	$text['"VPN"에서 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = '在“VPN”下选择“'.$brand_name.'”，然后单击“删除”。';
 
 	//OpenvpnS
 	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다. 중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '<strong>OpenVPN双重加密</strong>连接方法。在中国IKEv2连接有问题的话就用这个方法提前组成叫做Stunnel的加密隧道，通过那个隧道可以连接OpenVPN。';
@@ -332,9 +384,9 @@ if ($browserlang == "en") {
 	$text['접속아이디에 "'.$vpnid.'"을(를) 입력하고, 비밀번호를 입력하세요.'] = '在访问ID中输入"'.$vpnid.'"，然后输入密码。';
 	$text[$account_url.'에서 생성한 계정의 접속아이디와 비밀번호를 입력합니다.'] = '输入在'.$account_url.'中创建的连接ID和密码。';
 	$text['VPN 방식을 "IKEv2"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = '您可以通过选择" IKEv2"作为VPN方法，选择连接服务器并单击"连接"来进行连接。';
-	$text['VPN 방식'] = 'VPN方式';
+	$text['VPN 방식'] = 'VPN 类型';
 	$text['IKEv2 접속에 문제가 있다면, Openvpn 접속 방식을 선택하세요. (중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL을 사용하세요.)'] = '如果在连接IKEv2时遇到问题，请选择Openvpn连接方法。 （OpenVPN连接在中国不可用。请改用OpenVPN SSL。）';
-	$text['접속 서버'] = '连接服务器';
+	$text['접속 서버'] = '服务器名称或地址';
 	$text['IPany는 다중 접속 서버를 제공합니다. 접속이 원할하지 않다면 다른 서버를 선택해 접속할 수 있습니다.'] = $brand_name.'提供了多个访问服务器。 如果连接出现问题，则可以选择另一台服务器进行连接。';
 	$text['접속에 성공하면 "계정 관리"에서 선택한 고정아이피로 인터넷을 이용하게 됩니다.'] = '如果连接成功，您将使用在"帐户管理"中选择的韩文IP的Internet。';
 	$text['<span class="badge badge-danger">중국</span> 중국에서 접속 시 VPN 접속 후에도 구글 페이스북이 열리지 않는다면 DNS 서버 설정을 변경해야 합니다. 방법을 확인하려면 여기를 클릭하세요.'] = '<span class="badge badge-danger">中国</span> 从中国连接时，如果在VPN连接后仍未打开Goog​​le和Facebook，则需要更改DNS服务器设置。 单击此处查看操作方法。';
@@ -355,9 +407,33 @@ if ($browserlang == "en") {
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = '当找不到连接服务器时，会发生此错误。 如果没有Internet连接，则防火墙将阻止DNS错误或VPN连接。 通过将计算机的DNS服务器设置更改为" 168.126.63.1"，可以解决DNS错误。 如果它被防火墙阻止，则需要使用其他VPN方法进行连接。';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '错误87"参数不正确"是由于Windows操作系统本身存在问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
 	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '错误809是因为Windows OS本身的问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
+	$text['"IKE 인증 자격 증명을 받아들일 수 없습니다."는 Windows에 IKEv2 접속에 필요한 인증서가 등록되어 있지 않기때문에 발생하는 문제입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '“无法接受 IKE 身份验证凭据”是由于 IKEv2 连接所需的证书未在 Windows 中注册而出现的问题。 <a href="howto.php">问题排查页面</a>中说明了该解决方案。';
 	$text['접속기 삭제'] = '删除VPN连接程序';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '您可以从设置->应用程序（应用程序和功能）中删除程序。';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '如果连接不好或互联网速度很慢，请选择另一台服务器连接并找到适合您的服务器。';
+
+	//win10 l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN连接方法</strong>。';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '这是一种使用 IPsec 配置双隧道的方法，以补充旧的 L2TP 方法。由于它通过 IPsec 隧道，因此在中国不会被阻止。 它可以替代有问题的 PPTP 方法。 如果您在连接到 IKEv2 时遇到问题，则可以改用此方法。';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = '可连接L2TP/IPsec的服务器如下。';
+	$text['L2TP/IPsec 방식은 접속 프로그램을 설치하지 않고 Windows 자체의 간단한 VPN 접속 설정으로도 접속이 가능합니다. 프로그램 설치를 원하지 않고 접속 설정을 직접하기 원한다면 여기를 클릭해 "접속 설정 방법"을 확인하세요.'] = 'L2TP/IPsec方式不安装连接程序，也可以通过Windows自身简单的VPN连接设置连接。如果您不想安装程序，想直接设置连接，请点击这里确认"连接设置方法"。';
+	$text['VPN 방식을 "L2TP/IPsec"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = '选择VPN方式为"L2TP/IPsec"，选择连接服务器后点击"连接"即可连接。';
+	$text['<strong>L2TP/IPsec VPN 접속 직접 설정 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN连接直接设置方法</strong>。';
+	$text['L2TP/IPsec 접속 직접 설정하기'] = '直接设置L2TP/IPsec连接';
+	$text['여기서는 직접 L2TP/IPsec 접속을 설정하는 방법을 설명합니다.'] = '这里介绍直接设置L2TP/IPsec连接的方法。';
+	$text['"L2TP/IPsec 및 미리 공유한 키" 선택'] = '选择“使用预共享密钥的 L2TP/IPsec”';
+	$text['미리 공유한 키'] = '预共享密钥';
+	$text['"redsun"을 입력합니다.'] = '输入"redsun"。';
+	
+	//win7 l2tp
+	$text['속성 창이 열리면 "보안" 탭을 선택합니다.'] = '当“属性”窗口打开时，选择“安全”选项卡。';
+	$text['VPN 종류에서 "IPsec을 사용한 계층 2 터널링 프로토콜 (L2TP/IPsec)"을 선택합니다.'] = '在 VPN 类型中选择“使用 IPsec 的第 2 层隧道协议 (L2TP/IPsec)”。';
+	$text['데이터 암호화에서 "암호화 사용 안함"을 선택합니다.'] = '在数据加密下，选择“不允许加密”。';
+	$text['다음 프로토콜 허용에서 CHAP와 Microsoft CHAP를 선택합니다.'] = '在允许这些协议下，选择 CHAP 和 MS-CHAP v2。';
+	$text['"고급 설정"을 클릭하고, "인증에 미리 공유한 키 사용"을 선택하고 "redsun"을 입력한 후 확인을 클릭합니다.'] = '点击“高级设置”。 选择“使用预共享密钥进行身份验证”并为密钥输入“redsun”。 然后单击确定。';
+	$text['"네트워킹" 탭을 선택합니다.'] = '选择“网络”选项卡。';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)" 이외 다른 것들을 모두 선택 해제합니다.'] = '取消选中“Internet 协议版本 4 (TCP/IPv4)”以外的所有选项。';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)"를 선택한 후 "속성"을 클릭합니다.'] = '选择“Internet 协议版本 4 (TCP/IPv4)”并单击“属性”。';
 
 	$title = "Windows 10 ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "Windows 10 ".$vpnname."VPN 连接方式";
@@ -391,6 +467,17 @@ if ($browserlang == "en") {
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "네트워크 및 공유 센터 열기"를 선택합니다.'] = '네트워크(또는 WiFi) 연결 트레이 아이콘에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "네트워크 및 공유 센터 열기"를 선택합니다.';
 	$text['"어댑터 설정 변경"을 클릭합니다.'] = '"어댑터 설정 변경"을 클릭합니다.';
 	$text[$brand_name.'에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "삭제"를 선택합니다.'] = $brand_name.'에 마우스 포인터를 올리고 "마우스 오른쪽 버튼"을 클릭한 후 "삭제"를 선택합니다.';
+
+	$text['오류 13801'] = '오류 13801';
+    $text['"IKE 인증 자격 증명을 받아들일 수 없습니다." 오류 발생시 인증서를 설치해야 합니다. 인증서 설치 방법을 확인하려면 여기를 클릭하세요.'] = '"IKE 인증 자격 증명을 받아들일 수 없습니다." 오류 발생시 인증서를 설치해야 합니다. 인증서 설치 방법을 확인하려면 여기를 클릭하세요.';
+    $text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = '일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = '아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = '다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = '"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = '"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = '"마침"을 클릭하면 인증서가 설치됩니다.';
+    $text['인증서 파일 다운받기'] = '인증서 파일 다운받기';
+	$text['VPN 접속을 다시 시도해봅니다.'] = 'VPN 접속을 다시 시도해봅니다.';
 
 	//win10 pptpm
 	$text['<strong>PPTP VPN 접속 직접 설정 방법</strong>입니다.'] = '<strong>PPTP VPN 접속 직접 설정 방법</strong>입니다.';
@@ -439,10 +526,12 @@ if ($browserlang == "en") {
 	$text['접속 끊기'] = '접속 끊기';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.' (연결됨)" 아이콘을 클릭합니다.'] = '네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.' (연결됨)" 아이콘을 클릭합니다.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.' 연결됨" 을 선택하고 "연결 끊기"를 클릭합니다.'] = '"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.' 연결됨" 을 선택하고 "연결 끊기"를 클릭합니다.';
+	$text['"연결 끊기"를 클릭합니다.'] = '"연결 끊기"를 클릭합니다.';
 	$text['다시 접속하기'] = '다시 접속하기';
 	$text['접속 프로그램을 설치하거나 접속 설정을 만들었다면 언제든 아래의 방법으로 다시 접속할 수 있습니다.'] = '접속 프로그램을 설치하거나 접속 설정을 만들었다면 언제든 아래의 방법으로 다시 접속할 수 있습니다.';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = '네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "연결"을 클릭합니다.'] = '"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "연결"을 클릭합니다.';
+	$text['"연결"을 클릭합니다.'] = '"연결"을 클릭합니다.';
 	$text['전에 "암호 저장"을 선택했었다면 바로 접속됩니다.'] = '전에 "암호 저장"을 선택했었다면 바로 접속됩니다.';
 	$text['전에 입력하지 않았었다면 접속 로그인 창이 열립니다. 사용자 이름과 암호를 입력하고 "확인"을 클릭하여 접속할 수 있습니다.'] = '전에 입력하지 않았었다면 접속 로그인 창이 열립니다. 사용자 이름과 암호를 입력하고 "확인"을 클릭하여 접속할 수 있습니다.';
 	$text['접속 서버 변경 방법'] = '접속 서버 변경 방법';
@@ -455,6 +544,7 @@ if ($browserlang == "en") {
 	$text['접속에 실패하면 접속 프로그램의 "연결 상태"에서 접속 실패 원인과 "오류 번호"를 확인할 수 있습니다.'] = '접속에 실패하면 접속 프로그램의 "연결 상태"에서 접속 실패 원인과 "오류 번호"를 확인할 수 있습니다.';
 	$text['네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.'] = '네트워크(또는 WiFi) 연결 트레이 아이콘을 클릭하고 그림과 같이 "'.$brand_name.'" 아이콘을 클릭합니다.';
 	$text['"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = '"네트워크 및 인터넷" 창이 열리면 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.';
+	$text['"VPN"에서 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.'] = '"VPN"에서 "'.$brand_name.'"를 선택하고 "제거"를 클릭합니다.';
 
 	//OpenvpnS
 	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다. 중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다. 중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.';
@@ -536,8 +626,33 @@ if ($browserlang == "en") {
 	$text['접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.'] = '접속 서버를 찾지 못해 발생하는 오류입니다. 인터넷 연결이 되어있지 않은 경우, DNS 오류, 방화벽으로 차단된 경우입니다. DNS 오류의 경우는 컴퓨터의 DNS 서버 설정을 "168.126.63.1"로 변경하여 해결 할 수 있습니다. 방화벽으로 차단된 경우는 다른 VPN 방식으로 접속해야 합니다.';
 	$text['오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '오류87 "매개변수가 틀립니다."는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
 	$text['오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '오류809는 Windows OS 자체의 문제 때문입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
+	$text['"IKE 인증 자격 증명을 받아들일 수 없습니다."는 Windows에 IKEv2 접속에 필요한 인증서가 등록되어 있지 않기때문에 발생하는 문제입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.'] = '"IKE 인증 자격 증명을 받아들일 수 없습니다."는 Windows에 IKEv2 접속에 필요한 인증서가 등록되어 있지 않기때문에 발생하는 문제입니다. <a href="howto.php">문제해결 페이지</a>에 해결방법이 설명되어 있습니다.';
 	$text['접속기 삭제'] = '접속기 삭제';
 	$text['설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.'] = '설정 -> 앱 (앱 및 기능)에서 프로그램을 삭제할 수 있습니다.';
 	$text['해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.'] = '해외 사용자의 경우, 접속이 잘되지 않거나 인터넷 속도가 느리다면 다른 서버를 선택해 접속해 자신에게 맞는 서버를 찾아 사용합니다.';
+
+	//win10 l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.';
+	$text['L2TP/IPsec 방식은 접속 프로그램을 설치하지 않고 Windows 자체의 간단한 VPN 접속 설정으로도 접속이 가능합니다. 프로그램 설치를 원하지 않고 접속 설정을 직접하기 원한다면 여기를 클릭해 "접속 설정 방법"을 확인하세요.'] = 'L2TP/IPsec 방식은 접속 프로그램을 설치하지 않고 Windows 자체의 간단한 VPN 접속 설정으로도 접속이 가능합니다. 프로그램 설치를 원하지 않고 접속 설정을 직접하기 원한다면 여기를 클릭해 "접속 설정 방법"을 확인하세요.';
+	$text['VPN 방식을 "L2TP/IPsec"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.'] = 'VPN 방식을 "L2TP/IPsec"로 선택하고, 접속 서버를 선택한 후 "접속하기"를 클릭하여 접속할 수 있습니다.';
+	$text['<strong>L2TP/IPsec VPN 접속 직접 설정 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN 접속 직접 설정 방법</strong>입니다.';
+	$text['L2TP/IPsec 접속 직접 설정하기'] = 'L2TP/IPsec 접속 직접 설정하기';
+	$text['여기서는 직접 L2TP/IPsec 접속을 설정하는 방법을 설명합니다.'] = '여기서는 직접 L2TP/IPsec 접속을 설정하는 방법을 설명합니다.';
+	$text['"L2TP/IPsec 및 미리 공유한 키" 선택'] = '"L2TP/IPsec 및 미리 공유한 키" 선택';
+	$text['미리 공유한 키'] = '미리 공유한 키';
+	$text['"redsun"을 입력합니다.'] = '"redsun"을 입력합니다.';
+
+	//win7 l2tp
+	$text['속성 창이 열리면 "보안" 탭을 선택합니다.'] = '속성 창이 열리면 "보안" 탭을 선택합니다.';
+	$text['VPN 종류에서 "IPsec을 사용한 계층 2 터널링 프로토콜 (L2TP/IPsec)"을 선택합니다.'] = 'VPN 종류에서 "IPsec을 사용한 계층 2 터널링 프로토콜 (L2TP/IPsec)"을 선택합니다.';
+	$text['데이터 암호화에서 "암호화 사용 안함"을 선택합니다.'] = '데이터 암호화에서 "암호화 사용 안함"을 선택합니다.';
+	$text['다음 프로토콜 허용에서 CHAP와 Microsoft CHAP를 선택합니다.'] = '다음 프로토콜 허용에서 CHAP와 Microsoft CHAP를 선택합니다.';
+	$text['"고급 설정"을 클릭하고, "인증에 미리 공유한 키 사용"을 선택하고 "redsun"을 입력한 후 확인을 클릭합니다.'] = '"고급 설정"을 클릭하고, "인증에 미리 공유한 키 사용"을 선택하고 "redsun"을 입력한 후 확인을 클릭합니다.';
+	$text['"네트워킹" 탭을 선택합니다.'] = '"네트워킹" 탭을 선택합니다.';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)" 이외 다른 것들을 모두 선택 해제합니다.'] = '"인터넷 프로토콜 버전 4 (TCP/IPv4)" 이외 다른 것들을 모두 선택 해제합니다.';
+	$text['"인터넷 프로토콜 버전 4 (TCP/IPv4)"를 선택한 후 "속성"을 클릭합니다.'] = '"인터넷 프로토콜 버전 4 (TCP/IPv4)"를 선택한 후 "속성"을 클릭합니다.';
+
 }
 ?>

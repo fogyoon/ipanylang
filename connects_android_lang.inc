@@ -63,6 +63,15 @@ if ($browserlang == "en") {
 	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = 'If specific website(ex : Google) or social media like Youtube, Facebook, Instagram and etc. is not open even after VPN connection in China';
 	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = 'Thi is due to local internet or DNS problem of your device. In this case, you have to use <a href="connects_rpi_rpi.php">VPN connection using PI board</a>.';
 
+	$text['안드로이드 7.1.1 이전의 오래된 버전을 사용 중이라면, 인증서를 설치해야만 접속이됩니다. 여기를 클릭해 방법을 확인하세요.'] = 'If you are using an old version prior to Android 7.1.1, you must install a certificate to connect. Click here to see how.';
+	$text['인증서 설치 방법입니다.'] = 'How to install a certificate.';
+	$text['안드로이드 기기에서 아래 링크의 인증서를 다운 받습니다.'] = 'Download the certificate from the link below on your Android device.';
+	$text['인증서 파일 다운받기'] = 'Download the certificate file';
+	$text['아래의 설정에서 다운 받은 인증서를 설치합니다.'] = 'Install the downloaded certificate from the settings below.';
+	$text['"설정 -> 보안 -> SD에서 설치(저장소에서 설치)"'] = '"Settings -> Security -> Install from SD Card"';
+	$text['인증서 파일 이름은 isrg.cer입니다.'] = 'The certificate file name is isrg.cer.';
+	$text['"다운로드"에서 바로 파일이 선택되지 않는다면, SD 메모리(내부저장소, SDCARD)에서 Download 폴더로 찾아들어가 파일을 선택하면 됩니다.'] = 'If the file is not selected directly from "Download", you can browse to the Download folder in the SD memory (internal storage, SDCARD) and select the file.';
+
 // PPTP
 	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = 'This is <strong>PPTP VPN connection method</strong>.';
     $text['예전에 사용하던 VPN 방식입니다.'] = 'It\'s VPN type that used in the past.';
@@ -71,7 +80,7 @@ if ($browserlang == "en") {
     $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'Android device has a built-in PPTP connection function so that VPN connection is possible with simple setting without installing a separate app.';
     $text['안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = 'To use the PPTP VPN function on Android, you need to set the screen unlock in "Settings" -> "Lock screen" before starting.';
     $text['화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.'] = 'If you do not set the screen unlock, the following message will appear when setting up VPN and you will not be able to create connection setting.';
-    $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = 'In "Settings" ->” Connections" -> "More connection settings", go to "VPN" and add "Add VPN profile”';
+    $text['"설정" -> "무선 및 네트워크(네트워크 및 인터넷)" -> "더보기(고급)"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = 'In "Settings" ->” Connections" -> "More connection settings", go to "VPN" and add "Add VPN profile”';
     $text['설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.'] = 'If the setting window opens, enter or select as shown below and save.';
     $text['이름'] = 'Name';
     $text['유형'] = 'Type';
@@ -112,7 +121,6 @@ if ($browserlang == "en") {
 
     $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = 'This is How to connect to OpenVPN.';
 	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'If IKEv2 connection is not possible, use this method. However, OpenVPN access is not available in China. Use OpenVPN SSL (double encryption) instead.';
-	$text['어플 설치 및 설정'] = 'App installation and setting';
 	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = 'To connect to OpenVPN on Android devices, use an application called "OpenVPN Connect".';
 	$text['아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
 	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = 'Search for <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>  in Google Play Store and install it.';
@@ -159,13 +167,13 @@ if ($browserlang == "en") {
 	$text['"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.'] = 'The certificate file "PKCS12 file" is also loaded in the same way.';
 	$text['상기 Tunnel 설정은 최초 한번만 하면됩니다.'] = 'You only need to set the above tunnel once for the first time.';
 	$text['OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.'] = 'SSLDroid have to be launched first before connecting to OpenVPN.';
-	$text['"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.'] = 'Click "Menu" and select <strong>"Start service"</strong> to start SSLDroid.';
+	$text['"메뉴"를 눌러 <strong>"Start service"</strong>를 선택하면 SSLDroid가 실행되게 됩니다.'] = 'Click "Menu" and select <strong>"Start service"</strong> to start SSLDroid.';
 	$text['SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.'] = 'If SSLDroid is executed, the SSLDroid icon will appear in the upper left corner. Always check if the SSLDroid icon is executing before connecting to OpenVPN. If it is not running, open SSLDroid and select "Start service" to run it.';
 	$text['OpenVPN 접속용 어플을 설치합니다.'] = 'Install the OpenVPN connection app.';
 	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = 'Search for and install <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a> which is used to connect to OpenVPN in Google Play Store.';
 	$text['OpenVPN for Android APK 설치 파일 다운받기'] = 'Download OpenVPN for Android APK installation file';
 	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.'] = 'The downloaded APK file can be found in the "Download" path of the File Explorer app. The file name is "openvpn-xxxx.apk".';
-	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = 'You need to run the app at first and import the configuration file you downloaded earlier. If the app is opened, click the folder shaped icon, find and select "ipanyA.ovpn" in the "Download" path, and register it.';
+	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양의 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = 'You need to run the app at first and import the configuration file you downloaded earlier. If the app is opened, click the folder shaped icon, find and select "ipanyA.ovpn" in the "Download" path, and register it.';
 	$text['등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.'] = 'Click edit (pencil shape) on the right side of the registered ipanyA profile.';
 	$text['<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.'] = 'in <strong>ALLOWED APPS</strong> tab<br>enable "<strong>VPN is used for all apps but exclude selected</strong>",<br>	scroll down a bit and select "<strong>SSLDroid</strong>".';
 	$text['모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.'] = 'Close the edit window by clicking the back button on the mobile device.';
@@ -181,6 +189,42 @@ if ($browserlang == "en") {
 	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = 'Do not forget it. Before connecting to OpenVPN, you need to check if SSLDroid is executing.';
 	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = 'Open OpenVPN for Android app and click <strong>"ipanyA" in "profile"</strong> to connect.';
 	$text['로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.'] = 'You can check the log to find out the cause of connection failure.';
+
+	$text['Import VPN profile 창이 자동으로 열리지 않는다면, 여기를 클릭해 방법을 확인하세요.'] = 'If the Import VPN profile window does not open automatically, click here for a solution.';
+	$text['StongSwan 앱을 실행하고 Profile을 가져오는 방법입니다.'] = 'How to launch StongSwan app and import Profile.';
+	$text['StrongSwan 앱을 실행하고 오른쪽 상단의 "ADD VPN PROFILE"의 오른편의 메뉴 버튼을 눌러주고 "Import VPN profile"을 선택합니다.'] = 'Run the StrongSwan app, press the menu button located to the right of "ADD VPN PROFILE" in the upper right corner, and select "Import VPN profile".';
+	$text['파일 선택 창이 열리면 Downloads에서 profile 파일을 찾아 선택합니다. profile 파일명은 "ipanyXX.sswan"입니다.'] = 'In the file selection window that opens, browse to the profile file in Downloads and select it. The profile file name is "ipanyXX.sswan".';
+
+	// l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = 'This is <strong>L2TP/IPsec VPN connection method</strong>.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = 'This is a method of configuring dual tunnels with IPsec to supplement the old L2TP method. It is not blocked even in China because it goes through an IPsec tunnel. It can replace the problematic PPTP method. If you are having problems connecting to IKEv2, you can use this method instead.';
+    $text['안드로이드(Android) 기기에는 L2TP/IPsec 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = 'Android device has a built-in L2TP/IPsec connection function so that VPN connection is possible with simple setting without installing a separate app.';
+    $text['안드로이드에서 L2TP/IPsec VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = 'To use the L2TP/IPsec VPN function on Android, you need to set the screen unlock in "Settings" -> "Lock screen" before starting.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'Servers that can connect to L2TP/IPsec are as follows.';
+	$text['IPSec 사전 공유 키'] = 'IPSec pre-shared key';
+	$text['아래와 같은 메세지가 나오며 VPN 접속 설정을 만들 수 없다면, 잠금 해제 방법을 "패턴", "PIN" 또는 "비밀번호" 등으로 변경해야합니다.'] = 'If the following message appears and you cannot make VPN connection settings, you need to change the screen unlock type to "Pattern", "PIN", "Password", etc.';
+	$text['"설정" -> "화면 잠금"에서 변경할 수 있습니다.'] = 'You can change it in "Settings" -> "Lock screen".';
+
+	// app player
+	$text['앱플레이어 VPN 접속 방법'] = 'How to connect to VPN on Android Emulator';
+	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등)에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = 'To connect to IKEv2 in Android emulators (Bluestacks, Knox, LD, Memu, etc.), use an application called "StrongSwan".';
+	$text['앱플레이어(안드로이드 에뮬레이터)를 실행합니다.'] = 'Run the Android emulator.';
+	$text['앱플레이어에서 "인터넷" 앱을 실행합니다.'] = 'Run the "Internet" app on the Android emulator.';
+	$text['"인터넷" 앱의 주소에 IPany.net을 입력하고 IPany.net 홈페이지를 열어줍니다.'] = 'Open the IPany.net homepage in the "Internet" app.';
+	$text['IPany.net 홈페이지가 열리면,'] = 'When the IPany.net homepage opens,';
+	$text['"접속방법" -> "앱플레이어에서 접속" -> "IKEv2 방식"을 차레로 클릭하여 IKEv2 접속방법 페이지로 이동합니다.'] = 'Click "Connection Method" -> "Connecting from Android Emulator" -> "How to connect to IKEv2" to go to the IKEv2 Connection Method page.';
+	$text['앱플레이어에서 VPN 접속에 사용할 "StrongSwan" 앱을 설치해야합니다.'] = 'You need to install "StrongSwan" app to use for VPN connection on Android emulator.';
+	$text['앱플레이어의 인터넷 앱에서 아래 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>그림을 클릭하면 Play 스토어가 자동 실행되며 앱을 바로 설치할 수 있습니다.'] = 'If you click <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a> picture below in the Internet app on the Android emulator, the Play Store will automatically launch and you can install the app right away.';
+	$text['(방법을 보려면 클릭하세요)'] = '(Click to see how)';
+	$text['StrongSwan APK 설치 파일을 <strong>PC에서 다운 받고</strong>, 모모앱플레이어에의 "APK 설치" 버튼을 클릭하여 PC에 저장된 APK 파일(strongSwan-xxxx.apk)을 선택해 설치할 수 있습니다.'] = 'You can download the StrongSwan APK installation file on your PC and click the "Install APK" button on the Android emulator to select the APK file (strongSwan-xxxx.apk) saved in your PC and install it.';
+	$text['(모모앱플레이어가 아닌 PC에서 클릭해 다운받으세요)'] = '(Click to download on PC, not on Android emulator)';
+	$text['앱플레이어에 "StrongSwan"을 성공적으로 설치했다면,'] = 'If you have successfully installed "StrongSwan" on your Android emulator,';
+	$text['앱플레이어의 인터넷 앱으로 돌아옵니다.'] = 'Return to the internet app in the android emulator.';
+	$text['(모모앱플레이어의 "최근 앱" 버튼 클릭 후 "인터넷" 앱 선택)'] = '(Click the "Recent Apps" button on the Android emulator and select the "Internet" app)';
+	$text['StrongSwan 앱에 VPN 접속 서버를 등록해야 합니다.'] = 'You need to register the VPN connection server in the StrongSwan app.';
+	$text['IPany.net은 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = 'IPany.net provides 12 access servers. By registering multiple servers, you can change the server according to the situation and connect.';
+	$text['앱플레이어의 "인터넷" 엡에서 아래 서버 등록 링크를 클릭하면 StrongSwan이 실행되며 VPN 서버 등록("Import VPN profile") 창이 열리게 됩니다.'] = 'If you click the server registration link below in the "Internet" app of the Android emulator, StrongSwan runs and the VPN server registration ("Import VPN profile") window opens.';
+	$text['각각의 앱플래이어마다 다른 VPN 서버로 접속하면 더욱 안정적으로 사용할 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = 'If you connect to a different VPN server for each Android emulator, you can use it more reliably. If you want to change the access server, you can register all the servers in the setting method above and change to the desired server to connect.';
 
 
 	$title = "Android ".$vpnname."VPN ".$subvpnname." Connection";
@@ -249,39 +293,48 @@ if ($browserlang == "en") {
 	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = '如果在中国建立VPN连接后YouTube或Facebook也无法打开';
 	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = '由于设备的本地Internet或DNS问题，即使在VPN连接后，Youtube或Facebook也无法打开。 在这种情况下，应使用<a href="connects_rpi_rpi.php">使用PI板的VPN连接</a>。';
 
+	$text['안드로이드 7.1.1 이전의 오래된 버전을 사용 중이라면, 인증서를 설치해야만 접속이됩니다. 여기를 클릭해 방법을 확인하세요.'] = '如果您使用的是 Android 7.1.1 之前的旧版本，则必须安装证书才能连接。 单击此处查看操作方法。';
+	$text['인증서 설치 방법입니다.'] = '如何安装证书。';
+	$text['안드로이드 기기에서 아래 링크의 인증서를 다운 받습니다.'] = '在您的 Android 设备上从以下链接下载证书。';
+	$text['인증서 파일 다운받기'] = '下载证书文件';
+	$text['아래의 설정에서 다운 받은 인증서를 설치합니다.'] = '从以下设置安装下载的证书。';
+	$text['"설정 -> 보안 -> SD에서 설치(저장소에서 설치)"'] = '"设置 -> 安全 ->从 SD 安装(从存储库安装)"';
+	$text['인증서 파일 이름은 isrg.cer입니다.'] = '证书文件名为 isrg.cer。';
+	$text['"다운로드"에서 바로 파일이 선택되지 않는다면, SD 메모리(내부저장소, SDCARD)에서 Download 폴더로 찾아들어가 파일을 선택하면 됩니다.'] = '如果不是直接从“下载”中选择文件，您可以浏览到 SD 存储器（内部存储器，SDCARD）中的下载文件夹并选择文件。';
+
 // PPTP
-	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = '<strong>PPTP VPN 접속 방법</strong>입니다.';
-    $text['예전에 사용하던 VPN 방식입니다.'] = '예전에 사용하던 VPN 방식입니다.';
-    $text['방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = '방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)';
-    $text['접속 설정'] = '접속 설정';
-    $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
-    $text['안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = '안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.';
-    $text['화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.'] = '화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.';
-    $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = '"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 추가(+)를 선택합니다.';
-    $text['설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.'] = '설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.';
-    $text['이름'] = '이름';
-    $text['유형'] = '유형';
-    $text['서버 주소'] = '서버 주소';
-    $text['입력'] = '입력';
-    $text['선택'] = '선택';
-    $text['아래 서버 중 하나를 입력합니다.'] = '아래 서버 중 하나를 입력합니다.';
-    $text['PPP 암호화(MPPE)'] = 'PPP 암호화(MPPE)';
-    $text['선택하지 않는 것이 속도면에서 이득이 있습니다. 보안이 걱정된다면 선택하세요.'] = '선택하지 않는 것이 속도면에서 이득이 있습니다. 보안이 걱정된다면 선택하세요.';
-    $text['저장을 하고나면 "IPany"가 생성됩니다.'] = '저장을 하고나면 "IPany"가 생성됩니다.';
-    $text['"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.'] = '"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.';
-    $text['"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = '"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)';
-    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = $account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)';
+	$text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = '如何连接到 PPTP VPN。';
+    $text['예전에 사용하던 VPN 방식입니다.'] = '这是我过去使用的VPN方法。';
+    $text['방화벽이나 일부 오래된 공유기를 사용는 환경에서는 접속이 가능하지 않을 수 있습니다(619 오류 발생)'] = '在有防火墙或一些旧路由器的环境中可能无法连接（错误 619）';
+    $text['접속 설정'] = '连接设置';
+    $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '由于Android设备内置PPTP连接功能，无需安装单独的应用程序，只需简单设置即可实现VPN连接。';
+    $text['안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = '要在Android上使用PPTP VPN功能，您需要将屏幕解锁功能设置为“PIN”或“密码”。 如果以其他方式设置，则需要在启动前在“设置”->“屏幕锁定”中进行更改。';
+    $text['화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.'] = '如果您未将屏幕解锁功能设置为“PIN”或“密码”，则设置 VPN 时将出现以下消息，您将无法创建连接设置。';
+    $text['"설정" -> "무선 및 네트워크(네트워크 및 인터넷)" -> "더보기(고급)"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = '在“设置”->“无线和网络（Network & Internet）”->“更多（高级）”中，进入“VPN”并选择添加（+）。';
+    $text['설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.'] = '当设置窗口打开时，输入或选择如下表所示并保存。';
+    $text['이름'] = '用户名';
+    $text['유형'] = '类型';
+    $text['서버 주소'] = '服务器地址';
+    $text['입력'] = '输入';
+    $text['선택'] = '选择';
+    $text['아래 서버 중 하나를 입력합니다.'] = '输入以下服务器之一。';
+    $text['PPP 암호화(MPPE)'] = 'PPP 加密 (MPPE)';
+    $text['선택하지 않는 것이 속도면에서 이득이 있습니다. 보안이 걱정된다면 선택하세요.'] = '不选择它具有速度优势。 如果您担心安全，请选择。';
+    $text['저장을 하고나면 "IPany"가 생성됩니다.'] = '保存后，创建“IPany”。';
+    $text['"IPany" 눌러주면 사용자 이름과 비밀번호를 물어보는 접속창이 열립니다.'] = '如果您按“IPany”，将打开一个访问窗口，要求输入用户名和密码。';
+    $text['"'.$vpnid.'"와(과) 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = '输入"'.$vpnid.'"和密码，点击“连接”进行连接。 （如果选择“保存帐户信息”，下次连接时无需输入用户名和密码即可立即连接。）';
+    $text[$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "연결"을 눌러주면 접속이 이루어집니다. ("계정 정보 저장"을 선택하면 다음 연결 시 사용자 이름과 비밀번호를 입력하지 않고 바로 접속할 수 있습니다.)'] = '输入在'.$account_url.'中创建的ID和密码，点击“连接”进行连接。 （如果选择“保存帐户信息”，下次连接时无需输入用户名和密码即可立即连接。）';
     $text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
-    $text['접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.'] = '접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.';
-    $text['서버 주소, 사용자 이름 및 비밀번호를 변경하기 원한다면,'] = '서버 주소, 사용자 이름 및 비밀번호를 변경하기 원한다면,';
-    $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 잠시 누르면 나타나는 메뉴 중 "수정" 또는 "편집"을 선택합니다.'] = '"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 잠시 누르면 나타나는 메뉴 중 "수정" 또는 "편집"을 선택합니다.';
-    $text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 상기 설정 변경의 방법으로 프로필 수정에서 서버주소를 변경해 접속하면 됩니다.'] = '<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 상기 설정 변경의 방법으로 프로필 수정에서 서버주소를 변경해 접속하면 됩니다.';
-    $text['PPTP 접속 가능한 VPN 서버 주소는 아래와 같습니다.'] = 'PPTP 접속 가능한 VPN 서버 주소는 아래와 같습니다.';
-    $text['VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 클릭하여 "네트워크"창이 열리면 IPany에서 "인증 설정"으로 들어가 아이디와 비밀번호를 다시 입력합니다. 아이디와 비밀번호를 잘못 입력하지 않았는지 확인거나 '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = 'VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 클릭하여 "네트워크"창이 열리면 IPany에서 "인증 설정"으로 들어가 아이디와 비밀번호를 다시 입력합니다. 아이디와 비밀번호를 잘못 입력하지 않았는지 확인거나 '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.';
-    $text['서버주소를 잘못 입력한 경우'] = '서버주소를 잘못 입력한 경우';
-    $text['VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.'] = 'VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.';
-    $text['다른 기기에서 접속을 시도해 봅니다.'] = '다른 기기에서 접속을 시도해 봅니다.';
-    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.'] = '계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.';
+    $text['접속을 끊거나 다시 연결하기 원하면 언제든 "설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 눌러줍니다.'] = '如果您想随时断开或重新连接，请转到“设置”->“无线和网络”->“更多”中的“VPN”，然后按“IPany”。';
+    $text['서버 주소, 사용자 이름 및 비밀번호를 변경하기 원한다면,'] = '如果您想更改服务器地址、用户名或密码，';
+    $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 "IPany"를 잠시 누르면 나타나는 메뉴 중 "수정" 또는 "편집"을 선택합니다.'] = '转到“设置”->“无线和网络”->“更多”中的“VPN”，按“IPany”并从出现的菜单中选择“编辑”或“编辑”。';
+    $text['<strong>해외에서 접속하는 사용자의 경우 접속 서버를 변경</strong>하여 접속 장애를 해결하거나 품질을 향상시킬 수 있습니다. 접속 서버를 변경하기 원한다면 상기 설정 변경의 방법으로 프로필 수정에서 서버주소를 변경해 접속하면 됩니다.'] = '对于境外访问的用户，可以通过更换访问服务器来解决连接问题或提高质量。 您可以在编辑配置文件中更改服务器地址。';
+    $text['PPTP 접속 가능한 VPN 서버 주소는 아래와 같습니다.'] = '可供PPTP访问的VPN服务器地址如下。';
+    $text['VPN 상태 아이콘을 클릭하고 "네트워크 환경설정 열기"를 클릭하여 "네트워크"창이 열리면 IPany에서 "인증 설정"으로 들어가 아이디와 비밀번호를 다시 입력합니다. 아이디와 비밀번호를 잘못 입력하지 않았는지 확인거나 '.$account_url.'에서 자신이 생성한 VPN  접속 계정의 아이디와 비밀번호를 다시 확인합니다.'] = '单击 VPN 状态图标并单击“打开网络首选项”以打开“网络”窗口，然后转到 IPany 中的“身份验证设置”并重新输入您的用户名和密码。 检查您是否输入了错误的 ID 和密码，或者再次检查您在 '.$account_url.'上创建的 VPN 访问帐户的 ID 和密码。';
+    $text['서버주소를 잘못 입력한 경우'] = '如果服务器地址输入错误';
+    $text['VPN 설정 과정에서 서버 주소를 잘못 입력하지 않았는지 다시 확인합니다.'] = '仔细检查您在 VPN 设置过程中是否输入了错误的服务器地址。';
+    $text['다른 기기에서 접속을 시도해 봅니다.'] = '尝试从其他设备连接。';
+    $text['계정이나 서버 주소의 문제가 아니라면, 같은 인터넷(AP 또는 공유기) 환경에서 다른 기기로 접속 시도를 해봅니다. 다른 기기에서도 접속이 되지 않는다면 방화벽이나 공유기 문제일 수 있습니다. '.$openvpna_url.'을 시도해봅니다.'] = '如果不是账户或服务器地址问题，请尝试连接到同一互联网（AP 或路由器）环境中的另一台设备。 如果您无法从其他设备连接，则可能是防火墙或路由器问题。 试试'.$openvpna_url.'。';
 
 // OpenVPN
 	$text['접속 로그 내용에 따른 접속 실패 원인과 해결 방법입니다.'] = '根据登录日志内容的连接失败原因和解决方法。';
@@ -294,78 +347,113 @@ if ($browserlang == "en") {
 	$text['IPany VPN 서버로 접속할 수 없는 경우입니다. 인터넷이 연결되어 있지 않거나, 외국에서 접속하는 경우 현지 인터넷과 IPany 회선간 경로가 좋지 않은 경우입니다. 공유기를 사용한다면 공유기를 10분 정도 껐다가 켜고 다시 시도해 봅니다.'] = '无法连接到'.$brand_name.' VPN服务器。如果网络没有连接，或者从国外连接，当地网络和IPany线路之间的路径不好。如果使用共享机的话关掉10分钟左右再打开';
 	$text['OpenVPN 이중 암호 방식 접속은 OpenVPN 접속 전에 SSLDroid이 먼저 실행되어 있어야 합니다. SSLDroid이 실행되어 있지 않아 발생하는 문제입니다. SSLDroid를 먼저 실행하고 다시 접속합니다.'] = 'OpenVPN双重密码连接必须在OpenVPN连接前先运行SSLDroid。因为没有运行SSLDroid所以发生的问题先运行SSLDroid再连接';
 
-    $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = '<srong>OpenVPN 접속 방법</strong>입니다.';
-	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
-	$text['어플 설치 및 설정'] = '어플 설치 및 설정';
-	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = '안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.';
-	$text['아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
-	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = 'Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.';
-	$text['VPN 접속에 사용할 안드로이드 모바일 기기에서 '.$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = 'VPN 접속에 사용할 안드로이드 모바일 기기에서 '.$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.';
-	$text[$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = $brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.';
-	$text['설정 파일 다운받기'] = '설정 파일 다운받기';
-	$text['설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.'] = '설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.';
-	$text['다운 받은 설정 파일인 <strong>ipany.ovpn</strong>을 실행시키면 OpenVPN 어플이 열리고 프로파일을 가져올 것인지를 묻습니다.'] = '다운 받은 설정 파일인 <strong>ipany.ovpn</strong>을 실행시키면 OpenVPN 어플이 열리고 프로파일을 가져올 것인지를 묻습니다.';
-	$text['Imported Profile 창이 열리면 Username과 Password에 "'.$vpnid.'"와(과)" 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = 'Imported Profile 창이 열리면 Username과 Password에 "'.$vpnid.'"와(과)" 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.';
-	$text['Imported Profile 창이 열리면 Username과 Password에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = 'Imported Profile 창이 열리면 Username과 Password에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.';
-	$text['("Save Password"를 활성화하면 다음 연결 시 Username과 Password를 입력하지 않고 바로 접속할 수 있습니다.)'] = '("Save Password"를 활성화하면 다음 연결 시 Username과 Password를 입력하지 않고 바로 접속할 수 있습니다.)';
-	$text['생성된 Profile을 눌러주면 VPN 접속을 시도합니다.'] = '생성된 Profile을 눌러주면 VPN 접속을 시도합니다.';
-	$text['그림과 같이 "Select Certificate" 창이 열리면 "<strong>CONTINUE</strong>"을 선택합니다.'] = '그림과 같이 "Select Certificate" 창이 열리면 "<strong>CONTINUE</strong>"을 선택합니다.';
-	$text['접속에 성공하면 상태가 "CONNECTED"로 변경되며, 접속 상태를 확인할 수 있습니다. <br>(좌측 상단의 알림 아이콘으로도 접속 상태를 확인할 수 있습니다.)'] = '접속에 성공하면 상태가 "CONNECTED"로 변경되며, 접속 상태를 확인할 수 있습니다. <br>(좌측 상단의 알림 아이콘으로도 접속 상태를 확인할 수 있습니다.)';
-	$text['접속된 상태에서 Profile을 다시 누르면 접속이 끊어집니다.'] = '접속된 상태에서 Profile을 다시 누르면 접속이 끊어집니다.';
-	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.';
-	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다. "OpenVPN" 어플을 열고 단지 Profile을 눌러 간편하게 접속할 수 있습니다.'] = '다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다. "OpenVPN" 어플을 열고 단지 Profile을 눌러 간편하게 접속할 수 있습니다.';
-	$text['VPN 접속 아이디 비밀번호 변경'] = 'VPN 접속 아이디 비밀번호 변경';
-	$text['Profile의 오른쪽의 화살표를 눌러주면 Profile에 저장된 VPN 접속 아이디와 비밀번호를 변경할 수 있습니다.'] = 'Profile의 오른쪽의 화살표를 눌러주면 Profile에 저장된 VPN 접속 아이디와 비밀번호를 변경할 수 있습니다.';
-	$text['변경하고 "SAVE"를 눌러 저장합니다.'] = '변경하고 "SAVE"를 눌러 저장합니다.';
-	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.';
-	$text['인증에 실패한 경우가 아니라면 로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다. 로그를 확인하려면 오른쪽 상단의 로그표시 아이콘을 눌러줍니다.'] = '인증에 실패한 경우가 아니라면 로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다. 로그를 확인하려면 오른쪽 상단의 로그표시 아이콘을 눌러줍니다.';
-	$text['접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.';
+    $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = '如何连接到 OpenVPN。';
+	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = '如果无法进行 IKEv2 连接，请使用此方法。 但是，OpenVPN 访问在中国不可用。 在中国，使用 OpenVPN SSL（双重加密）代替 OpenVPN。';
+	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = '要在 Android 上连接到 OpenVPN，您需要使用一个名为“OpenVPN Connect”的应用程序。';
+	$text['아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '首先观看下面Android上的OpenVPN连接视频，以帮助您理解描述。';
+	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = '在“Play Store”中搜索 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>并安装它。';
+	$text['VPN 접속에 사용할 안드로이드 모바일 기기에서 '.$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = '在用于 VPN 连接的 Android 移动设备上打开'.$brand_name.'主页，然后单击下面的按钮下载设置文件。';
+	$text[$brand_name.' 홈페이지를 열고 아래 버튼을 눌러 설정 파일을 다운 받습니다.'] = '打开'.$brand_name.'主页，点击下方按钮下载配置文件。';
+	$text['설정 파일 다운받기'] = '下载配置文件';
+	$text['설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.'] = '如果无法下载设置文件，请使用<a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 浏览器</a>。';
+	$text['다운 받은 설정 파일인 <strong>ipany.ovpn</strong>을 실행시키면 OpenVPN 어플이 열리고 프로파일을 가져올 것인지를 묻습니다.'] = '当您运行下载的配置文件 ipany.ovpn 时，OpenVPN 应用程序将打开并询问您是否要导入配置文件。';
+	$text['Imported Profile 창이 열리면 Username과 Password에 "'.$vpnid.'"와(과)" 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = '当导入的配置文件窗口打开时，在用户名和密码中输入"'.$vpnid.'"和密码，然后单击“添加”保存。';
+	$text['Imported Profile 창이 열리면 Username과 Password에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력하고 "<strong>ADD</strong>"를 눌러 저장합니다.'] = '当导入的配置文件窗口打开时，在用户名和密码中输入'.$account_url.'创建的 ID 和密码，然后单击“添加”以保存。';
+	$text['("Save Password"를 활성화하면 다음 연결 시 Username과 Password를 입력하지 않고 바로 접속할 수 있습니다.)'] = '（如果启用“保存密码”，则无需输入用户名和密码即可直接访问。）';
+	$text['생성된 Profile을 눌러주면 VPN 접속을 시도합니다.'] = '如果单击创建的配置文件，则会尝试 VPN 连接。';
+	$text['그림과 같이 "Select Certificate" 창이 열리면 "<strong>CONTINUE</strong>"을 선택합니다.'] = '当“选择证书”窗口打开时，如图所示，选择“继续”。';
+	$text['접속에 성공하면 상태가 "CONNECTED"로 변경되며, 접속 상태를 확인할 수 있습니다. <br>(좌측 상단의 알림 아이콘으로도 접속 상태를 확인할 수 있습니다.)'] = '如果连接成功，状态变为“已连接”，您可以查看连接状态。<br>（您也可以使用左上角的通知图标检查连接状态。）';
+	$text['접속된 상태에서 Profile을 다시 누르면 접속이 끊어집니다.'] = '如果在连接时再次按 Profile，连接将断开。';
+	$text['접속에 실패했다면 아래 "접속 실패 원인 확인"을 참고하세요.'] = '如果连接失败，请参阅下面的“检查连接失败的原因”。';
+	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다. "OpenVPN" 어플을 열고 단지 Profile을 눌러 간편하게 접속할 수 있습니다.'] = '如果下次想再次连接，则不需要再次注册配置文件。 您只需打开“OpenVPN”应用程序，然后按配置文件即可访问它。';
+	$text['VPN 접속 아이디 비밀번호 변경'] = '更改您的 VPN 连接 ID 和密码';
+	$text['Profile의 오른쪽의 화살표를 눌러주면 Profile에 저장된 VPN 접속 아이디와 비밀번호를 변경할 수 있습니다.'] = '您可以通过单击配置文件右侧的箭头更改配置文件中保存的 VPN 连接 ID 和密码。';
+	$text['변경하고 "SAVE"를 눌러 저장합니다.'] = '进行更改并按“保存”进行保存。';
+	$text['아래 그림과 같이 "<strong>Authentication Failed</strong>"라는 메세지가 나오면, 인증에 실패하여 접속이되지 않는다는 의미입니다. 이경우는, VPN 접속 아이디나 비밀번호를 잘못 입력했거나, VPN 사용기한이 지난 경우 또는 이중으로 접속된 경우입니다.'] = '如果出现下图所示的“Authentication Failed”信息，则表示连接失败，因为认证失败。 在这种情况下，VPN 连接 ID 或密码输入错误，VPN 到期日期已过，或者连接已加倍。';
+	$text['인증에 실패한 경우가 아니라면 로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다. 로그를 확인하려면 오른쪽 상단의 로그표시 아이콘을 눌러줍니다.'] = '如果不是认证失败，可以通过查看日志来找出连接失败的原因。 要查看日志，请单击右上角的日志显示图标。';
+	$text['접속 로그 내용을 확인하여 아래 표에서 접속 실패 원인을 찾아봅니다.'] = '检查连接日志内容，在下表中找到连接失败的原因。';
 
 // Openvpn SSL
-	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.'] = '<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.';
-	$text['중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.';
-	$text['OpenVPN 이중 암호화 방식을 사용하려면 VPN 접속 어플인 OpenVPN for Android와 이중 암호화를 위한 SSLDroid 어플을 설치하고 각각의 설정 및 인증 파일 들을 미리 다운받아 저장하고 각 어플에서 불러와야 합니다.'] = 'OpenVPN 이중 암호화 방식을 사용하려면 VPN 접속 어플인 OpenVPN for Android와 이중 암호화를 위한 SSLDroid 어플을 설치하고 각각의 설정 및 인증 파일 들을 미리 다운받아 저장하고 각 어플에서 불러와야 합니다.';
-	$text['먼저 OpenVPN 접속 용 "연결 설정 파일"과 SSLDroid 용 "인증 파일"을 모두 다운받아 핸드폰에 저장합니다.'] = '먼저 OpenVPN 접속 용 "연결 설정 파일"과 SSLDroid 용 "인증 파일"을 모두 다운받아 핸드폰에 저장합니다.';
-	$text['OpenVPN 설정 파일을 다운받기'] = 'OpenVPN 설정 파일을 다운받기';
-	$text['SSLDroid 인증 파일을 다운받기'] = 'SSLDroid 인증 파일을 다운받기';
-	$text['<span class="text-redfaded">설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.'] = '<span class="text-redfaded">설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.';
-	$text['이중 암호화 구성을 위해 Play 스토어에서 <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>를 검색해 설치합니다.'] = '이중 암호화 구성을 위해 Play 스토어에서 <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>를 검색해 설치합니다.';
-	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 SSLDroid APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = '<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 SSLDroid APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.';
-	$text['SSLDroid APK 설치 파일 다운받기'] = 'SSLDroid APK 설치 파일 다운받기';
-	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "SSLDroid.apk"입니다.'] = '다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "SSLDroid.apk"입니다.';
-	$text['SSLDroid를 실행하고 "메뉴"를 눌러 "Add tunnel"을 선택합니다.'] = 'SSLDroid를 실행하고 "메뉴"를 눌러 "Add tunnel"을 선택합니다.';
-	$text['아래와 같이 각 항목을 입력합니다. (오타 없이 정확히 입력합니다. 잘못 입력하면 접속이 되지 않습니다.)'] = '아래와 같이 각 항목을 입력합니다. (오타 없이 정확히 입력합니다. 잘못 입력하면 접속이 되지 않습니다.)';
-	$text['"PKCS12 file" 오른쪽에 있는 버튼을 눌러 미리 다운 받은 인증파일을 불러와야 합니다.'] = '"PKCS12 file" 오른쪽에 있는 버튼을 눌러 미리 다운 받은 인증파일을 불러와야 합니다.';
-	$text['"Download" 안에 "ipanyA.p12"를 눌러 선택합니다.'] = '"Download" 안에 "ipanyA.p12"를 눌러 선택합니다.';
-	$text['그림과 같이 "PKCS12 file"에 "ipanyA.p12"가 선택된 걸 확인할 수 있습니다.'] = '그림과 같이 "PKCS12 file"에 "ipanyA.p12"가 선택된 걸 확인할 수 있습니다.';
-	$text['<strong>"PKCS12 pass"는 비워두고</strong> "Apply" 버튼을 눌러 설정을 저장합니다.'] = '<strong>"PKCS12 pass"는 비워두고</strong> "Apply" 버튼을 눌러 설정을 저장합니다.';
-	$text['"Add tunnel"을 다시 눌러 같은 방법으로 아래 내용으로 두 가지 터널을 더 추가합니다.'] = '"Add tunnel"을 다시 눌러 같은 방법으로 아래 내용으로 두 가지 터널을 더 추가합니다.';
-	$text['"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.'] = '"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.';
-	$text['상기 Tunnel 설정은 최초 한번만 하면됩니다.'] = '상기 Tunnel 설정은 최초 한번만 하면됩니다.';
-	$text['OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.'] = 'OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.';
-	$text['"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.'] = '"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.';
-	$text['SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.'] = 'SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.';
-	$text['OpenVPN 접속용 어플을 설치합니다.'] = 'OpenVPN 접속용 어플을 설치합니다.';
-	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = 'Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.';
-	$text['OpenVPN for Android APK 설치 파일 다운받기'] = 'OpenVPN for Android APK 설치 파일 다운받기';
-	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.'] = '다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.';
-	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = '어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.';
-	$text['등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.'] = '등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.';
-	$text['<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.'] = '<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.';
-	$text['모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.'] = '모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.';
-	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 "'.$vpnid.'"와(과) 비밀번호를 입력합니다.'] = 'ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 "'.$vpnid.'"와(과) 비밀번호를 입력합니다.';
-	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력합니다.'] = 'ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력합니다.';
-	$text['"확인"을 눌러주면 바로 접속됩니다. ("암호 저장"를 활성화하면 다음 연결 시 계정과 암호를 다시 입력하지 않고 바로 접속할 수 있습니다.)'] = '"확인"을 눌러주면 바로 접속됩니다. ("암호 저장"를 활성화하면 다음 연결 시 계정과 암호를 다시 입력하지 않고 바로 접속할 수 있습니다.)';
-	$text['애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.'] = '애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.';
-	$text['접속에 성공하면 접속 로그가 보이고 프로파일은 "연결됨" 상태가 됩니다.'] = '접속에 성공하면 접속 로그가 보이고 프로파일은 "연결됨" 상태가 됩니다.';
-	$text['접속을 끊으려면 프로파일을 눌러주고 "연결 끊기"를 선택합니다.'] = '접속을 끊으려면 프로파일을 눌러주고 "연결 끊기"를 선택합니다.';
-	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)';
-	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다.'] = '다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다.';
-	$text['우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.'] = '우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.';
-	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = '잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.';
-	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = 'OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.';
-	$text['로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.'] = '로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.';
+	$text['<strong>OpenVPN 이중 암호화</strong> 접속 방법입니다.'] = 'OpenVPN双重加密访问方式。';
+	$text['중국에서 IKEv2 접속에 문제가 있다면 이 방법을 이용합니다. Stunnel이라는 암호화 터널을 미리 구성하여 그 터널을 통해 OpenVPN 접속이 가능하게 하는 방식입니다.'] = '如果您在中国连接到 IKEv2 时遇到问题，请使用此方法。 这是一种预先配置名为 Stunnel 的加密隧道并通过该隧道启用 OpenVPN 访问的方法。';
+	$text['OpenVPN 이중 암호화 방식을 사용하려면 VPN 접속 어플인 OpenVPN for Android와 이중 암호화를 위한 SSLDroid 어플을 설치하고 각각의 설정 및 인증 파일 들을 미리 다운받아 저장하고 각 어플에서 불러와야 합니다.'] = '使用OpenVPN双重加密方式，需要安装VPN连接应用OpenVPN for Android和SSLDroid双重加密应用，提前下载并保存各个设置和认证文件，并从各个应用加载。';
+	$text['먼저 OpenVPN 접속 용 "연결 설정 파일"과 SSLDroid 용 "인증 파일"을 모두 다운받아 핸드폰에 저장합니다.'] = '首先，下载 OpenVPN 连接的“连接设置文件”和 SSLDroid 的“身份验证文件”，并将它们保存到您的手机中。';
+	$text['OpenVPN 설정 파일을 다운받기'] = '下载 OpenVPN 配置文件';
+	$text['SSLDroid 인증 파일을 다운받기'] = '下载 SSLDroid 认证文件';
+	$text['<span class="text-redfaded">설정 파일이 다운로드되지 않는다면 <a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 브라우저</a>를 이용하세요.'] = '<span class="text-redfaded">如果无法下载设置文件，请使用<a href="https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=website" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> Chrome 浏览器</a>。';
+	$text['이중 암호화 구성을 위해 Play 스토어에서 <a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>를 검색해 설치합니다.'] = '从 Play 商店搜索<a href="https://play.google.com/store/apps/details?id=hu.blint.ssldroid" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> SSLDroid</a>并安装它以进行双重加密配置。';
+	$text['<strong>중국</strong>과 같이 Google Play 스토어 접속이 되지 않는다면 SSLDroid APK 설치 파일을 직접 다운 받고, 다운 받은 APK 파일을 실행하여 앱을 설치할 수 있습니다.'] = '如果您无法像在中国那样访问 Google Play 商店，您可以直接下载 SSLDroid APK 安装文件并运行下载的 APK 文件来安装应用程序。';
+	$text['SSLDroid APK 설치 파일 다운받기'] = '下载 SSLDroid APK 安装文件';
+	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "SSLDroid.apk"입니다.'] = '下载的 APK 文件可以在文件资源管理器应用的“下载”路径中找到。 文件名为“SSLDroid.apk”。';
+	$text['SSLDroid를 실행하고 "메뉴"를 눌러 "Add tunnel"을 선택합니다.'] = '启动 SSLDroid，按“菜单”并选择“添加隧道”。';
+	$text['아래와 같이 각 항목을 입력합니다. (오타 없이 정확히 입력합니다. 잘못 입력하면 접속이 되지 않습니다.)'] = '输入每个项目，如下所示。 （正确输入，没有错别字。如果输入错误，将无法连接。）';
+	$text['"PKCS12 file" 오른쪽에 있는 버튼을 눌러 미리 다운 받은 인증파일을 불러와야 합니다.'] = '点击“PKCS12 file”右侧的按钮，加载之前下载的认证文件。';
+	$text['"Download" 안에 "ipanyA.p12"를 눌러 선택합니다.'] = '按“下载”中的“ipanyA.p12”选择它。';
+	$text['그림과 같이 "PKCS12 file"에 "ipanyA.p12"가 선택된 걸 확인할 수 있습니다.'] = '如图，可以看到“PKCS12 file”中选择了“ipanyA.p12”。';
+	$text['<strong>"PKCS12 pass"는 비워두고</strong> "Apply" 버튼을 눌러 설정을 저장합니다.'] = '将“PKCS12 pass”留空，然后按“Apply”按钮保存设置。';
+	$text['"Add tunnel"을 다시 눌러 같은 방법으로 아래 내용으로 두 가지 터널을 더 추가합니다.'] = '再次单击“添加隧道”，以相同的方式添加另外两个包含以下内容的隧道。';
+	$text['"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.'] = '以同样的方式导入所有“PKCS12 file”认证文件。';
+	$text['상기 Tunnel 설정은 최초 한번만 하면됩니다.'] = '上面的隧道第一次只需要设置一次。';
+	$text['OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.'] = '在连接到 OpenVPN 之前，必须先启动 SSLDroid。';
+	$text['"메뉴"를 눌러 <strong>"Start service"</strong>를 선택하면 SSLDroid가 실행되게 됩니다.'] = '单击“菜单”并选择“启动服务”以启动 SSLDroid。';
+	$text['SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.'] = '当 SSLDroid 运行时，SSLDroid 图标会出现在左上角。 在连接到 OpenVPN 之前，请务必检查 SSLDroid 图标是否正在运行。 如果未运行，请打开 SSLDroid 并选择“启动服务”以运行它。';
+	$text['OpenVPN 접속용 어플을 설치합니다.'] = '安装 OpenVPN 连接应用程序。';
+	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = '从 Play 商店搜索用于连接到 OpenVPN 的<a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>并安装它。';
+	$text['OpenVPN for Android APK 설치 파일 다운받기'] = '下载 OpenVPN for Android APK 安装文件';
+	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.'] = '下载的 APK 文件可以在文件资源管理器应用的“下载”路径中找到。 文件名为“openvpn-xxxx.apk”。';
+	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양의 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = '您需要打开应用程序并导入下载的设置文件。 应用程序打开后，按文件夹形状的图标，在“下载”路径中找到“ipanyA.ovpn”，选中并注册。';
+	$text['등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.'] = '单击已注册的 ipanyA 配置文件右侧的编辑（铅笔形状）。';
+	$text['<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.'] = '在允许的应用程序选项卡中，<br>启用“VPN 用于所有应用程序，但排除选定的应用程序”，<br>向下滚动一点并选择“SSLDroid”。';
+	$text['모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.'] = '单击移动设备上的后退按钮关闭编辑窗口。';
+	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 "'.$vpnid.'"와(과) 비밀번호를 입력합니다.'] = '单击ipanyA 配置文件并在“帐户”和“密码”中输入您的"'.$vpnid.'"和密码。';
+	$text['ipanyA 프로파일을 눌러주고 "계정"과 "암호"에 '.$account_url.'에서 생성한 아이디와 비밀번호를 입력합니다.'] = '点击ipanyA配置文件，在“账户”和“密码”中输入IPany创建的ID和密码。';
+	$text['"확인"을 눌러주면 바로 접속됩니다. ("암호 저장"를 활성화하면 다음 연결 시 계정과 암호를 다시 입력하지 않고 바로 접속할 수 있습니다.)'] = '单击“确定”立即连接。 （启用“记住密码”允许您下次连接时直接连接，而无需重新输入您的帐户和密码。）';
+	$text['애플리케이션을 신뢰하는지 관련 메세지가 열리고 "확인"을 선택하면 접속을 시작합니다.'] = '将弹出一条消息询问您是否信任该应用程序，选择“确定”开始连接。';
+	$text['접속에 성공하면 접속 로그가 보이고 프로파일은 "연결됨" 상태가 됩니다.'] = '如果连接成功，连接日志将可见，配置文件将处于“已连接”状态。';
+	$text['접속을 끊으려면 프로파일을 눌러주고 "연결 끊기"를 선택합니다.'] = '要断开连接，请点击配置文件并选择“断开连接”。';
+	$text['(참고로, 접속에 성공하면 프로파일에 할당받은 아이피가 보이는데 이 아이피가 '.$account_url.'에서 선택한 아이피와 틀리다고 걱정하지 않아도 됩니다. OpenVPN 기술적 제약으로 사설 아이피 대역을 사용자 컴퓨터에 할당하게 되지만 IPany 서버를 거쳐 인터넷으로 나갈때는 "계정 관리"에서 선택한 실제 공인아이피를 사용하게 됩니다. 인터넷에서 자신의 아이피를 확인해 보세요. IPany.net 홈페이지에서도 확인 가능합니다.)'] = '（连接成功后显示的IP可能与'.$account_url.'选择的IP不同。由于OpenVPN的技术限制，给用户的电脑分配了一个私有IP，但是通过IPany服务器上网时，实际选择的公网IP在“帐户管理”中使用。（在互联网上检查您的IP。您也可以在IPany.net网站上检查。）';
+	$text['다음에 다시 접속을 원한다면 다시 설정 파일을 등록하는 과정은 필요없습니다.'] = '如果下次想再次连接，则不需要再次注册配置文件。';
+	$text['우선 SSLDroid가 실행 중인지 확인합니다. 실행 중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜줍니다.'] = '确保 SSLDroid 正在运行。 如果未运行，请打开 SSLDroid 并选择“启动服务”以启动它。';
+	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = '别忘记了。 在连接到 OpenVPN 之前，您需要确保 SSLDroid 正在运行。';
+	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = '只需打开适用于 Android 的 OpenVPN 应用程序，然后点击“配置文件”中的“ipanyA”即可连接。';
+	$text['로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.'] = '您可以通过查看日志来找出连接失败的原因。';
 
+
+	$text['Import VPN profile 창이 자동으로 열리지 않는다면, 여기를 클릭해 방법을 확인하세요.'] = '如果“导入 VPN 配置文件”窗口未自动打开，请单击此处了解如何操作。';
+	$text['StongSwan 앱을 실행하고 Profile을 가져오는 방법입니다.'] = '如何启动 StongSwan 应用程序并导入配置文件。';
+	$text['StrongSwan 앱을 실행하고 오른쪽 상단의 "ADD VPN PROFILE"의 오른편의 메뉴 버튼을 눌러주고 "Import VPN profile"을 선택합니다.'] = '运行 StrongSwan 应用程序，按位于右上角“添加 VPN 配置文件”右侧的菜单按钮，然后选择“导入 VPN 配置文件”。';
+	$text['파일 선택 창이 열리면 Downloads에서 profile 파일을 찾아 선택합니다. profile 파일명은 "ipanyXX.sswan"입니다.'] = '在打开的文件选择窗口中，浏览到下载中的配置文件并选择它。 配置文件名为“ipanyXX.sswan”。';
+
+	// l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN连接方法</strong>。';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '这是一种使用 IPsec 配置双隧道的方法，以补充旧的 L2TP 方法。由于它通过 IPsec 隧道，因此在中国不会被阻止。 它可以替代有问题的 PPTP 方法。 如果您在连接到 IKEv2 时遇到问题，则可以改用此方法。';
+	$text['안드로이드(Android) 기기에는 L2TP/IPsec 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '由于 Android 设备内置 L2TP/IPsec 连接功能，无需安装单独的应用程序，只需简单设置即可实现 VPN 连接。';
+	$text['안드로이드에서 L2TP/IPsec VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = '在Android上使用L2TP/IPsec VPN功能，需要将屏幕解锁功能设置为“PIN”或“密码”。 如果以其他方式设置，则需要在启动前在“设置”->“屏幕锁定”中进行更改。';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = '可连接L2TP/IPsec的服务器如下。';
+	$text['IPSec 사전 공유 키'] = 'IPSec 预共享密钥';
+	$text['아래와 같은 메세지가 나오며 VPN 접속 설정을 만들 수 없다면, 잠금 해제 방법을 "패턴", "PIN" 또는 "비밀번호" 등으로 변경해야합니다.'] = '如果出现如下提示无法进行VPN连接设置，则需要将屏幕解锁类型更改为“模式”、“PIN”、“密码”等。';
+	$text['"설정" -> "화면 잠금"에서 변경할 수 있습니다.'] = '您可以在“设置”->“锁定屏幕”中更改它。';
+
+	// app player
+	$text['앱플레이어 VPN 접속 방법'] = '如何在 Android 模拟器上连接到 VPN';
+	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등)에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = '要在 Android 模拟器（Bluestacks、Knox、LD、Memu 等）中连接到 IKEv2，请使用名为“StrongSwan”的应用程序。';
+	$text['앱플레이어(안드로이드 에뮬레이터)를 실행합니다.'] = '运行Android模拟器。';
+	$text['앱플레이어에서 "인터넷" 앱을 실행합니다.'] = '在 Android 模拟器上运行“Internet”应用程序。';
+	$text['"인터넷" 앱의 주소에 IPany.net을 입력하고 IPany.net 홈페이지를 열어줍니다.'] = '在“Internet”应用程序中打开 IPany.net 主页。';
+	$text['IPany.net 홈페이지가 열리면,'] = '当 IPany.net 主页打开时，';
+	$text['"접속방법" -> "앱플레이어에서 접속" -> "IKEv2 방식"을 차레로 클릭하여 IKEv2 접속방법 페이지로 이동합니다.'] = '点击“连接方式”->“通过Android Emulator连接手机游戏”->“如何连接到IKEv2”进入IKEv2连接方式页面。';
+	$text['앱플레이어에서 VPN 접속에 사용할 "StrongSwan" 앱을 설치해야합니다.'] = '您需要安装“StrongSwan”应用程序以用于 Android 模拟器上的 VPN 连接。';
+	$text['앱플레이어의 인터넷 앱에서 아래 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>그림을 클릭하면 Play 스토어가 자동 실행되며 앱을 바로 설치할 수 있습니다.'] = '如果您在 Android 模拟器上的 Internet 应用程序中单击下面的<a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>图片，Play 商店将自动启动，您可以立即安装该应用程序。';
+	$text['(방법을 보려면 클릭하세요)'] = '（点击查看方法）';
+	$text['StrongSwan APK 설치 파일을 <strong>PC에서 다운 받고</strong>, 모모앱플레이어에의 "APK 설치" 버튼을 클릭하여 PC에 저장된 APK 파일(strongSwan-xxxx.apk)을 선택해 설치할 수 있습니다.'] = '您可以在PC上下载StrongSwan APK安装文件，在安卓模拟器上点击“安装APK”按钮，选择PC中保存的APK文件（strongSwan-xxxx.apk）进行安装。';
+	$text['(모모앱플레이어가 아닌 PC에서 클릭해 다운받으세요)'] = '（PC端点击下载，安卓模拟器不可下载）';
+	$text['앱플레이어에 "StrongSwan"을 성공적으로 설치했다면,'] = '如果您已在 Android 模拟器上成功安装了“StrongSwan”，';
+	$text['앱플레이어의 인터넷 앱으로 돌아옵니다.'] = '返回 android 模拟器中的 Internet 应用程序。';
+	$text['(모모앱플레이어의 "최근 앱" 버튼 클릭 후 "인터넷" 앱 선택)'] = '（点击Android模拟器上的“Recent Apps”按钮，选择“Internet”应用）';
+	$text['StrongSwan 앱에 VPN 접속 서버를 등록해야 합니다.'] = '您需要在 StrongSwan 应用程序中注册 VPN 连接服务器。';
+	$text['IPany.net은 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = 'IPany.net 提供 12 个访问服务器。 通过注册多个服务器，您可以根据情况更改服务器并连接。';
+	$text['앱플레이어의 "인터넷" 엡에서 아래 서버 등록 링크를 클릭하면 StrongSwan이 실행되며 VPN 서버 등록("Import VPN profile") 창이 열리게 됩니다.'] = '如果您在 Android 模拟器的“Internet”应用程序中单击下面的服务器注册链接，StrongSwan 将运行并打开 VPN 服务器注册（“导入 VPN 配置文件”）窗口。';
+	$text['각각의 앱플래이어마다 다른 VPN 서버로 접속하면 더욱 안정적으로 사용할 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = '如果您为每个 Android 模拟器连接到不同的 VPN 服务器，则可以更可靠地使用它。 如果要更改访问服务器，可以按照上面的设置方法注册所有服务器，改成想要连接的服务器即可。';
 
 	$title = "Android ".$vpnname."VPN ".$subvpnname." 连接";
 	$description = "Android ".$vpnname."VPN 连接方式";
@@ -433,6 +521,15 @@ if ($browserlang == "en") {
 	$text['중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면'] = '중국에서 VPN 접속 후에도 유투브 페북 등이 열리지 않는다면';
 	$text['현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.'] = '현지 인터넷 또는 사용기기의 DNS 문제로 VPN 접속 후에도 유투브 등이 열리지 않는 것입니다. 이경우 <a href="connects_rpi_rpi.php">PI보드를 이용한 VPN 접속</a>을 사용해야 합니다.';
 
+	$text['안드로이드 7.1.1 이전의 오래된 버전을 사용 중이라면, 인증서를 설치해야만 접속이됩니다. 여기를 클릭해 방법을 확인하세요.'] = '안드로이드 7.1.1 이전의 오래된 버전을 사용 중이라면, 인증서를 설치해야만 접속이됩니다. 여기를 클릭해 방법을 확인하세요.';
+	$text['인증서 설치 방법입니다.'] = '인증서 설치 방법입니다.';
+	$text['안드로이드 기기에서 아래 링크의 인증서를 다운 받습니다.'] = '안드로이드 기기에서 아래 링크의 인증서를 다운 받습니다.';
+	$text['인증서 파일 다운받기'] = '인증서 파일 다운받기';
+	$text['아래의 설정에서 다운 받은 인증서를 설치합니다.'] = '아래의 설정에서 다운 받은 인증서를 설치합니다.';
+	$text['"설정 -> 보안 -> SD에서 설치(저장소에서 설치)"'] = '"설정 -> 보안 -> SD에서 설치(저장소에서 설치)"';
+	$text['인증서 파일 이름은 isrg.cer입니다.'] = '인증서 파일 이름은 isrg.cer입니다.';
+	$text['"다운로드"에서 바로 파일이 선택되지 않는다면, SD 메모리(내부저장소, SDCARD)에서 Download 폴더로 찾아들어가 파일을 선택하면 됩니다.'] = '"다운로드"에서 바로 파일이 선택되지 않는다면, SD 메모리(내부저장소, SDCARD)에서 Download 폴더로 찾아들어가 파일을 선택하면 됩니다.';
+
 // PPTP
     $text['<strong>PPTP VPN 접속 방법</strong>입니다.'] = '<strong>PPTP VPN 접속 방법</strong>입니다.';
     $text['예전에 사용하던 VPN 방식입니다.'] = '예전에 사용하던 VPN 방식입니다.';
@@ -441,7 +538,7 @@ if ($browserlang == "en") {
     $text['안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '안드로이드(Android) 기기에는 PPTP 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
     $text['안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = '안드로이드에서 PPTP VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.';
     $text['화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.'] = '화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정하지 않으면, VPN 설정 시 아래와 같은 메세지가 나오며 접속 설정을 만들 수 없게 됩니다.';
-    $text['"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = '"설정" -> "무선 및 네트워크" -> "더보기"에서 "VPN"로 들어가 추가(+)를 선택합니다.';
+    $text['"설정" -> "무선 및 네트워크(네트워크 및 인터넷)" -> "더보기(고급)"에서 "VPN"로 들어가 추가(+)를 선택합니다.'] = '"설정" -> "무선 및 네트워크(네트워크 및 인터넷)" -> "더보기(고급)"에서 "VPN"로 들어가 추가(+)를 선택합니다.';
     $text['설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.'] = '설정창이 열리면 아래와 같이 입력 또는 선택하고 저장합니다.';
     $text['이름'] = '이름';
     $text['유형'] = '유형';
@@ -480,7 +577,6 @@ if ($browserlang == "en") {
 
     $text['<srong>OpenVPN 접속 방법</strong>입니다.'] = '<srong>OpenVPN 접속 방법</strong>입니다.';
 	$text['IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.'] = 'IKEv2 접속이 가능하지 않다면 이방법을 이용하세요. 하지만, 중국에서는 OpenVPN 접속이 가능하지 않습니다. 대신 OpenVPN SSL(이중 암호화 방식)을 이용하세요.';
-	$text['어플 설치 및 설정'] = '어플 설치 및 설정';
 	$text['안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.'] = '안드로이드 기기에서 OpenVPN 접속은 "OpenVPN Connect"라는 어플을 이용합니다.';
 	$text['아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.'] = '아래 안드로이드에서 OpenVPN 접속 동영상을 시청하고 아래 설명 내용을 확인하면 이해에 도움이 됩니다.';
 	$text['Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.'] = 'Play 스토어"에서 <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"> </i> OpenVPN Connect</a>를 검색해 설치합니다.';
@@ -527,13 +623,13 @@ if ($browserlang == "en") {
 	$text['"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.'] = '"PKCS12 file" 인증 파일도 모두 동일하게 불러옵니다.';
 	$text['상기 Tunnel 설정은 최초 한번만 하면됩니다.'] = '상기 Tunnel 설정은 최초 한번만 하면됩니다.';
 	$text['OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.'] = 'OpenVPN 접속을 하기전에 SSLDroid를 먼저 실행해야 합니다.';
-	$text['"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.'] = '"메뉴"를 눌러 <strong>"Start service"</strong>을 선택를 선택하면 SSLDroid가 실행되게 됩니다.';
+	$text['"메뉴"를 눌러 <strong>"Start service"</strong>를 선택하면 SSLDroid가 실행되게 됩니다.'] = '"메뉴"를 눌러 <strong>"Start service"</strong>를 선택하면 SSLDroid가 실행되게 됩니다.';
 	$text['SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.'] = 'SSLDroid가 실행되면 좌측 상단에 SSLDroid 아이콘이 나타나게 됩니다. 항상 OpenVPN 접속을 하기 전에 SSLDroid 아이콘이 실행 중인지 먼저 확인하시기 바랍니다. 실행중이지 않다면 SSLDroid를 열고 "Start service"를 선택해 실행시켜주시면 됩니다.';
 	$text['OpenVPN 접속용 어플을 설치합니다.'] = 'OpenVPN 접속용 어플을 설치합니다.';
 	$text['Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.'] = 'Play 스토어에서 OpenVPN 접속에 사용되는 <a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> OpenVPN for Android</a>를 검색해 설치합니다.';
 	$text['OpenVPN for Android APK 설치 파일 다운받기'] = 'OpenVPN for Android APK 설치 파일 다운받기';
 	$text['다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.'] = '다운 받은 APK 파일은 파일 탐색기 앱의 "Download" 경로에서 찾을 수 있습니다. 파일명은 "openvpn-xxxx.apk"입니다.';
-	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = '어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양은 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.';
+	$text['어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양의 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.'] = '어플을 처음 실행 시키고 앞에서 다운받은 설정 파일을 가져와야 합니다. 어플이 열리면 폴더 모양의 아이콘을 누르고, "Download" 경로에서 "ipanyA.ovpn"을 찾아 선택하여 등록합니다.';
 	$text['등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.'] = '등록된 ipanyA 프로파일 오른쪽의 수정(연필모양)을 눌러줍니다.';
 	$text['<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.'] = '<strong>허용된 앱(ALLOWED APPS)</strong> 탭에서<br>"<strong>VPN은 모든 앱에 사용되지만 선택된 앱은 제외합니다.(VPN is used for all apps but exclude selected)</strong>"를 활성화하고,<br>	아래로 한참을 스크롤하여 "<strong>SSLDroid</strong>"를 선택합니다.';
 	$text['모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.'] = '모바일 기기의 뒤로가기 버튼을 눌러 편집 창을 닫아줍니다.';
@@ -549,6 +645,43 @@ if ($browserlang == "en") {
 	$text['잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.'] = '잊지마세요. OpenVPN 접속 전에 SSLDroid가 실행되어 있는지 확인해야 합니다.';
 	$text['OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.'] = 'OpenVPN for Android 어플을 열고 <strong>"프로파일"에서 "ipanyA"를 </strong> 눌러 접속하면 됩니다.';
 	$text['로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.'] = '로그를 확인하여 접속 실패 원인을 알아볼 수 있습니다.';
+
+	$text['Import VPN profile 창이 자동으로 열리지 않는다면, 여기를 클릭해 방법을 확인하세요.'] = 'Import VPN profile 창이 자동으로 열리지 않는다면, 여기를 클릭해 방법을 확인하세요.';
+	$text['StongSwan 앱을 실행하고 Profile을 가져오는 방법입니다.'] = 'StongSwan 앱을 실행하고 Profile을 가져오는 방법입니다.';
+	$text['StrongSwan 앱을 실행하고 오른쪽 상단의 "ADD VPN PROFILE"의 오른편의 메뉴 버튼을 눌러주고 "Import VPN profile"을 선택합니다.'] = 'StrongSwan 앱을 실행하고 오른쪽 상단의 "ADD VPN PROFILE"의 오른편의 메뉴 버튼을 눌러주고 "Import VPN profile"을 선택합니다.';
+	$text['파일 선택 창이 열리면 Downloads에서 profile 파일을 찾아 선택합니다. profile 파일명은 "ipanyXX.sswan"입니다.'] = '파일 선택 창이 열리면 Downloads에서 profile 파일을 찾아 선택합니다. profile 파일명은 "ipanyXX.sswan"입니다.';
+
+	// l2tp
+	$text['<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.'] = '<strong>L2TP/IPsec VPN 접속 방법</strong>입니다.';
+	$text['오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.'] = '오래된 L2TP 방식을 보완하기위해 IPsec으로 이중 터널을 구성하는 방식입니다. IPsec 터널을 구성하기 때문에 중국에서도 차단되지 않습니다. 문제가 많은 PPTP 방식을 대체할 수 있으며, IKEv2 방식 접속에 문제가 있는 경우 이 방식을 이용할 수 있습니다.';
+	$text['L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.'] = 'L2TP/IPsec 접속이 가능한 서버는 아래와 같습니다.';
+	$text['IPSec 사전 공유 키'] = 'IPSec 사전 공유 키';
+	$text['안드로이드(Android) 기기에는 L2TP/IPsec 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.'] = '안드로이드(Android) 기기에는 L2TP/IPsec 접속 기능이 자체 내장되어 있어 별도의 앱을 설치하지 않고도 간단한 설정만으로 VPN 접속이 가능합니다.';
+	$text['안드로이드에서 L2TP/IPsec VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.'] = '안드로이드에서 L2TP/IPsec VPN 기능을 사용하려면 화면 잠금 해제 기능을 "PIN" 또는 "비밀번호"로 설정해야 합니다. 다른 방식으로 설정되어 있다면, 시작하기 전에 "설정" -> "화면 잠금"에서 미리 변경해 주어야 합니다.';
+	$text['아래와 같은 메세지가 나오며 VPN 접속 설정을 만들 수 없다면, 잠금 해제 방법을 "패턴", "PIN" 또는 "비밀번호" 등으로 변경해야합니다.'] = '아래와 같은 메세지가 나오며 VPN 접속 설정을 만들 수 없다면, 잠금 해제 방법을 "패턴", "PIN" 또는 "비밀번호" 등으로 변경해야합니다.';
+	$text['"설정" -> "화면 잠금"에서 변경할 수 있습니다.'] = '"설정" -> "화면 잠금"에서 변경할 수 있습니다.';
+
+
+	// app player
+	$text['앱플레이어 VPN 접속 방법'] = '앱플레이어 VPN 접속 방법';
+	$text['앱플레이어(블루스텍,녹스,LD,미뮤 등)에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.'] = '앱플레이어(블루스텍,녹스,LD,미뮤 등)에서 IKEv2 접속은 "StrongSwan"라는 어플을 이용합니다.';
+	$text['앱플레이어(안드로이드 에뮬레이터)를 실행합니다.'] = '앱플레이어(안드로이드 에뮬레이터)를 실행합니다.';
+	$text['앱플레이어에서 "인터넷" 앱을 실행합니다.'] = '앱플레이어에서 "인터넷" 앱을 실행합니다.';
+	$text['"인터넷" 앱의 주소에 IPany.net을 입력하고 IPany.net 홈페이지를 열어줍니다.'] = '"인터넷" 앱의 주소에 IPany.net을 입력하고 IPany.net 홈페이지를 열어줍니다.';
+	$text['IPany.net 홈페이지가 열리면,'] = 'IPany.net 홈페이지가 열리면,';
+	$text['"접속방법" -> "앱플레이어에서 접속" -> "IKEv2 방식"을 차레로 클릭하여 IKEv2 접속방법 페이지로 이동합니다.'] = '"접속방법" -> "앱플레이어에서 접속" -> "IKEv2 방식"을 차레로 클릭하여 IKEv2 접속방법 페이지로 이동합니다.';
+	$text['앱플레이어에서 VPN 접속에 사용할 "StrongSwan" 앱을 설치해야합니다.'] = '앱플레이어에서 VPN 접속에 사용할 "StrongSwan" 앱을 설치해야합니다.';
+	$text['앱플레이어의 인터넷 앱에서 아래 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>그림을 클릭하면 Play 스토어가 자동 실행되며 앱을 바로 설치할 수 있습니다.'] = '앱플레이어의 인터넷 앱에서 아래 <a href="<?=$strongswan_google_url?>" class="btn btn-sm btn-info"style="text-transform:none"><i class="fab fa-google-play"></i> StrongSwan</a>그림을 클릭하면 Play 스토어가 자동 실행되며 앱을 바로 설치할 수 있습니다.';
+	$text['(방법을 보려면 클릭하세요)'] = '(방법을 보려면 클릭하세요)';
+	$text['StrongSwan APK 설치 파일을 <strong>PC에서 다운 받고</strong>, 모모앱플레이어에의 "APK 설치" 버튼을 클릭하여 PC에 저장된 APK 파일(strongSwan-xxxx.apk)을 선택해 설치할 수 있습니다.'] = 'StrongSwan APK 설치 파일을 <strong>PC에서 다운 받고</strong>, 모모앱플레이어에의 "APK 설치" 버튼을 클릭하여 PC에 저장된 APK 파일(strongSwan-xxxx.apk)을 선택해 설치할 수 있습니다.';
+	$text['(모모앱플레이어가 아닌 PC에서 클릭해 다운받으세요)'] = '(모모앱플레이어가 아닌 PC에서 클릭해 다운받으세요)';
+	$text['앱플레이어에 "StrongSwan"을 성공적으로 설치했다면,'] = '앱플레이어에 "StrongSwan"을 성공적으로 설치했다면,';
+	$text['앱플레이어의 인터넷 앱으로 돌아옵니다.'] = '앱플레이어의 인터넷 앱으로 돌아옵니다.';
+	$text['(모모앱플레이어의 "최근 앱" 버튼 클릭 후 "인터넷" 앱 선택)'] = '(모모앱플레이어의 "최근 앱" 버튼 클릭 후 "인터넷" 앱 선택)';
+	$text['StrongSwan 앱에 VPN 접속 서버를 등록해야 합니다.'] = 'StrongSwan 앱에 VPN 접속 서버를 등록해야 합니다.';
+	$text['IPany.net은 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.'] = 'IPany.net은 12개의 접속 서버를 제공합니다. 여러 서버를 등록하여 상황에 따라 서버를 변경해가며 접속할 수 있습니다.';
+	$text['앱플레이어의 "인터넷" 엡에서 아래 서버 등록 링크를 클릭하면 StrongSwan이 실행되며 VPN 서버 등록("Import VPN profile") 창이 열리게 됩니다.'] = '앱플레이어의 "인터넷" 엡에서 아래 서버 등록 링크를 클릭하면 StrongSwan이 실행되며 VPN 서버 등록("Import VPN profile") 창이 열리게 됩니다.';
+	$text['각각의 앱플래이어마다 다른 VPN 서버로 접속하면 더욱 안정적으로 사용할 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.'] = '각각의 앱플래이어마다 다른 VPN 서버로 접속하면 더욱 안정적으로 사용할 수 있습니다. 접속 서버를 변경하기 원한다면 위의 설정방법에서 모든 서버를 등록하고 원하는 서버로 변경해 접속하면 됩니다.';
 
 }
 ?>

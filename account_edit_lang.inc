@@ -65,6 +65,7 @@ if ($browserlang == "en") {
 	$text['VPN 접속계정 수정'] = 'Edit VPN access account';
 	$text['VPN 접속에 필요한 아이디를 생성합니다.'] = 'Create an ID for VPN access.';
 	$text['VPN ID'] = 'VPN ID';
+	$text['다른 업체의 VPN에 접속한 상태에서 아이디를 생성하면 무료 사용 기간이 주어지지않습니다.'] = 'If you create an ID while connected to another company\'s VPN, there is no free trial period.';
 } elseif ($browserlang == "zh") {
 	$text['아이디를 입력해 주세요.'] = "请输入您的ID。";
 	$text['아이디는 최소 6자 이상이여야 합니다.'] = "ID必须至少包含6个字符。";
@@ -128,6 +129,7 @@ if ($browserlang == "en") {
 	$text['VPN 접속계정 수정'] = 'VPN访问帐号修改';
 	$text['VPN 접속에 필요한 아이디를 생성합니다.'] = '创建用于VPN访问的ID。';
 	$text['VPN ID'] = 'VPN ID';
+	$text['다른 업체의 VPN에 접속한 상태에서 아이디를 생성하면 무료 사용 기간이 주어지지않습니다.'] = '如果您在连接到其他公司的 VPN 时创建 ID，则没有免费试用期。';
 } else {
 	$text['아이디를 입력해 주세요.'] = "아이디를 입력해 주세요.";
 	$text['아이디는 최소 6자 이상이여야 합니다.'] = "아이디는 최소 6자 이상이여야 합니다."; 
@@ -191,6 +193,7 @@ if ($browserlang == "en") {
 	$text['VPN 접속계정 수정'] = 'VPN 접속계정 수정';
 	$text['VPN 접속에 필요한 아이디를 생성합니다.'] = 'VPN 접속에 필요한 아이디를 생성합니다.';
 	$text['VPN ID'] = 'VPN ID';
+	$text['다른 업체의 VPN에 접속한 상태에서 아이디를 생성하면 무료 사용 기간이 주어지지않습니다.'] = '다른 업체의 VPN에 접속한 상태에서 아이디를 생성하면 무료 사용 기간이 주어지지않습니다.';
 
 }
 

@@ -29,7 +29,7 @@ if ($browserlang == "ko") {
 	$text['이메일 주소를 등록하여 로그인합니다.'] = '이메일 주소를 등록하여 로그인합니다.';
 	$text['로그인 용 이메일 주소 등록'] = '로그인 용 이메일 주소 등록';
 	$text['등록된 이메일 주소와 비밀번호로 로그인 합니다.'] = '등록된 이메일 주소와 비밀번호로 로그인 합니다.';
-	$text['이메일 주소를 입력하고 발송 버튼을 클릭하면 이메일이 발송됩니다.'] = '';
+	$text['이메일 주소를 입력하고 발송 버튼을 클릭하면 이메일이 발송됩니다.'] = '이메일 주소를 입력하고 발송 버튼을 클릭하면 이메일이 발송됩니다.';
 	$text['받은 이메일의 링크를 클릭하여 등록과정을 마무리하세요.'] = '받은 이메일의 링크를 클릭하여 등록과정을 마무리하세요.';
 	$text['본인이 사용 중이고 확인 가능한 이메일 주소를 입력해야합니다.'] = '본인이 사용 중이고 확인 가능한 이메일 주소를 입력해야합니다.';
 	$text[$brand_name.' 홈페이지 로그인 시 사용할 이메일 주소입니다.'] = $brand_name.' 홈페이지 로그인 시 사용할 이메일 주소입니다.';
@@ -40,6 +40,8 @@ if ($browserlang == "ko") {
 	$text['이메일 재발송'] = '이메일 재발송';
 	$text['이메일 발송'] = '이메일 발송';
 	$text['등록'] = '등록';
+	$text['지금 다른 VPN에 접속 중이라면 VPN 접속을 끊고 이메일주소 등록을 진행해주세요.'] = '지금 다른 VPN에 접속 중이라면 VPN 접속을 끊고 이메일주소 등록을 진행해주세요.';
+	$text['돌아가기'] = '돌아가기';
 
 	//email_register_reset.php
 	$text['받은 이메일 내용의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.'] = '받은 이메일 내용의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.';
@@ -54,7 +56,15 @@ if ($browserlang == "ko") {
 	$text['이메일 주소 입력'] = '이메일 주소 입력';
 	$text['변경된 비밀번호로 로그인하기.'] = '변경된 비밀번호로 로그인하기.';
 	$text['비밀번호 저장'] = '비밀번호 저장';
+	$text['등록이 가능하지 않은 이메일 주소입니다. 다른 이메일 주소를 사용하세요.'] = '등록이 가능하지 않은 이메일 주소입니다. 다른 이메일 주소를 사용하세요.';
 
+	//email_pass_change.php
+	$text['비밀번호 변경'] = '비밀번호 변경';
+	$text['이메일 주소로 로그인에 사용하는 비밀번호를 변경합니다.'] = '이메일 주소로 로그인에 사용하는 비밀번호를 변경합니다.';
+	$text['비밀번호가 변경되었습니다. 변경된 비밀번호로 다시 로그인해주세요.'] = '비밀번호가 변경되었습니다. 변경된 비밀번호로 다시 로그인해주세요.';
+	$text['변경할 새 비밀번호를 입력하세요.'] = '변경할 새 비밀번호를 입력하세요.';
+	$text['다시 로그인하기'] = '다시 로그인하기';
+	$text['취소'] = '취소';
 
 } elseif ($browserlang == "zh") {
 	$text['이메일 주소로 로그인'] = '使用email登录';
@@ -97,6 +107,8 @@ if ($browserlang == "ko") {
 	$text['이메일 재발송'] = '重发电子邮件';
 	$text['이메일 발송'] = '邮件发送';
 	$text['등록'] = '注册';
+	$text['지금 다른 VPN에 접속 중이라면 VPN 접속을 끊고 이메일주소 등록을 진행해주세요.'] = '如果您当前连接到另一个 VPN，请断开 VPN 连接并注册您的电子邮件地址。';
+	$text['돌아가기'] = '回到以前';
 
 	//email_register_reset.php
 	$text['받은 이메일 내용의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.'] = '您可以通过单击收到的电子邮件中的链接来重置密码。';
@@ -111,6 +123,15 @@ if ($browserlang == "ko") {
 	$text['이메일 주소 입력'] = '输入电子邮件地址';
 	$text['변경된 비밀번호로 로그인하기.'] = '使用更改的密码登录';
 	$text['비밀번호 저장'] = '保存密码';
+	$text['등록이 가능하지 않은 이메일 주소입니다. 다른 이메일 주소를 사용하세요.'] = '此电子邮件地址不符合注册条件。 请使用其他电子邮件地址。';
+
+	//email_pass_change.php
+	$text['비밀번호 변경'] = '更改密码';
+	$text['이메일 주소로 로그인에 사용하는 비밀번호를 변경합니다.'] = '更改用于使用电子邮件地址登录的密码。';
+	$text['비밀번호가 변경되었습니다. 변경된 비밀번호로 다시 로그인해주세요.'] = '您的密码已被更改。 请使用更改后的密码重新登录。';
+	$text['변경할 새 비밀번호를 입력하세요.'] = '输入新密码进行更改。';
+	$text['다시 로그인하기'] = '重新登录';
+	$text['취소'] = '取消';
 
 	$title = $brand_name.' - 使用您的电子邮件地址登录';
 	$description = '登录页面。';
@@ -155,6 +176,8 @@ if ($browserlang == "ko") {
 	$text['이메일 재발송'] = 'Resend email';
 	$text['이메일 발송'] = 'Send Email';
 	$text['등록'] = 'Registration';
+	$text['지금 다른 VPN에 접속 중이라면 VPN 접속을 끊고 이메일주소 등록을 진행해주세요.'] = 'If you are currently connected to another VPN, disconnect the VPN connection and register your email address.';
+	$text['돌아가기'] = 'back to previous';
 
 	//email_register_reset.php
 	$text['받은 이메일 내용의 링크를 클릭하여 비밀번호를 재설정할 수 있습니다.'] = 'You can reset your password by clicking the link in the email you received.';
@@ -169,6 +192,15 @@ if ($browserlang == "ko") {
 	$text['이메일 주소 입력'] = 'Input email address';
 	$text['변경된 비밀번호로 로그인하기.'] = 'Sign in with the changed password';
 	$text['비밀번호 저장'] = 'Save Password';
+	$text['등록이 가능하지 않은 이메일 주소입니다. 다른 이메일 주소를 사용하세요.'] = 'This email address is not eligible for registration. Please use a different email address.';
+
+	//email_pass_change.php
+	$text['비밀번호 변경'] = 'Change Password';
+	$text['이메일 주소로 로그인에 사용하는 비밀번호를 변경합니다.'] = 'Change the password you use to log in with your email address.';
+	$text['비밀번호가 변경되었습니다. 변경된 비밀번호로 다시 로그인해주세요.'] = 'Your password has been changed. Please log in again with the changed password.';
+	$text['변경할 새 비밀번호를 입력하세요.'] = 'Enter a new password to change.';
+	$text['다시 로그인하기'] = 'log in again';
+	$text['취소'] = 'cancel';
 
 	$title = $brand_name.' - Sign in with your email address';
 	$description = 'Login page.';

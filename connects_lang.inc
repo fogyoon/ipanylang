@@ -5,7 +5,7 @@ if ($browserlang == "ko") {
 
 	$text['VPN 접속 방법'] = 'VPN 접속 방법';
 	$text[$brand_name.'은 PC와 모바일 거의 모든 기기에서 접속 가능합니다. 아래에서 접속하려는 기기를 선택해 접속방법을 확인하세요.'] = $brand_name.'은 PC와 모바일 거의 모든 기기에서 접속 가능합니다. 아래에서 접속하려는 기기를 선택해 접속방법을 확인하세요.';
-	$text['Windows 10(8.1)에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = 'Windows 10(8.1)에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)';
+	$text['Windows 10, 11에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = 'Windows 10, 11에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)';
 	$text['Windows 7에서 접속하기'] = 'Windows 7에서 접속하기';
 	$text['Windows XP에서 접속하기'] = 'Windows XP에서 접속하기';
 	$text['Android(안드로이드)에서 접속하기 (핸드폰, 테블릿)'] = 'Android(안드로이드)에서 접속하기 (핸드폰, 테블릿)';
@@ -40,7 +40,7 @@ if ($browserlang == "ko") {
 
 	$text['VPN 접속 방법'] = 'VPN连接方法';
 	$text[$brand_name.'은 PC와 모바일 거의 모든 기기에서 접속 가능합니다. 아래에서 접속하려는 기기를 선택해 접속방법을 확인하세요.'] = '可以在电脑和手机几乎所有机器上连接。请选择下面要连接的机器，确认连接方法。';
-	$text['Windows 10(8.1)에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = '从Windows 10（8.1）连接（如果不知道Windows版本，请选择这里。）';
+	$text['Windows 10, 11에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = '从Windows 10, 11连接（如果不知道Windows版本，请选择这里。）';
 	$text['Windows 7에서 접속하기'] = '从Windows 7连接';
 	$text['Windows XP에서 접속하기'] = '从Windows XP连接';
 	$text['Android(안드로이드)에서 접속하기 (핸드폰, 테블릿)'] = '从Android连接';
@@ -75,7 +75,7 @@ if ($browserlang == "ko") {
 
 	$text['VPN 접속 방법'] = 'VPN connection method';
 	$text[$brand_name.'은 PC와 모바일 거의 모든 기기에서 접속 가능합니다. 아래에서 접속하려는 기기를 선택해 접속방법을 확인하세요.'] = $brand_name.' can be connected from almost any PC and mobile device. Select the device you want to connect to below and check the connection method.';
-	$text['Windows 10(8.1)에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = 'Connecting from Windows 10(8.1) (If you are not sure of your Windows version, please select here.)';
+	$text['Windows 10, 11에서 접속하기 (Windows 버전을 모르겠다면 여기를 선택하세요.)'] = 'Connecting from Windows 10, 11 (If you are not sure of your Windows version, please select here.)';
 	$text['Windows 7에서 접속하기'] = 'Connecting from Windows 7';
 	$text['Windows XP에서 접속하기'] = 'Connecting from Windows XP';
 	$text['Android(안드로이드)에서 접속하기 (핸드폰, 테블릿)'] = 'Connecting from Android';

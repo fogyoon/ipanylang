@@ -94,6 +94,14 @@ if ($browserlang == "ko") {
     $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = '없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.';
     $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = '"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.';
     $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = '레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.';
+    $text['"IKE 인증 자격 증명을 받아들일 수 없습니다.(오류 13801)" Windows IKEv2 접속시 해결방법'] = '"IKE 인증 자격 증명을 받아들일 수 없습니다.(오류 13801)" Windows IKEv2 접속시 해결방법';
+    $text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = '일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = '아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = '다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = '"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = '"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = '"마침"을 클릭하면 인증서가 설치됩니다.';
+    $text['인증서 파일 다운받기'] = '인증서 파일 다운받기';
 
 
 } elseif ($browserlang == "zh") {
@@ -191,6 +199,14 @@ if ($browserlang == "ko") {
     $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = '如果没有，在菜单中选择"编辑->新建->DWORD（32位）值"，以"AssumeUDPEncapsulationContxtOnSendRule"的名字新建。';
     $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = '双击"AssumeUDPEncapsulationContxtOnSendRule"，将“价格数据”变更为2。';
     $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = '关闭注册表编辑器，重新启动电脑。';
+    $text['"IKE 인증 자격 증명을 받아들일 수 없습니다.(오류 13801)" Windows IKEv2 접속시 해결방법'] = '连接到 Windows IKEv2 时如何解决“无法接受 IKE 身份验证凭据”';
+    $text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = '这是由于在某些 Windows PC 上未注册根证书而发生的问题。 自己注册根证书解决了这个问题。';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = '单击下面的链接将证书下载到您的 PC。';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = '双击下载的证书文件（isrg.cer），打开证书信息窗口。 在这里，单击“安装证书”。';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = '选择“本地计算机”，然后单击“下一步”。';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = '选择“将所有证书存储在以下存储中”，然后单击“浏览”以选择“受信任的根证书颁发机构”。 点击下一步”。';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = '单击“完成”以安装证书。';
+    $text['인증서 파일 다운받기'] = '下载证书文件';
 
 
 } else {  //en
@@ -291,6 +307,14 @@ if ($browserlang == "ko") {
     $text['없다면, 메뉴에서 "편집 -> 새로만들기 -> DWORD(32비트) 값"을 선택해 "AssumeUDPEncapsulationContextOnSendRule"이름으로 새로 만들어줍니다.'] = 'If it is not there, select "Edit -> New -> DWORD (32-bit) Value" from the menu and create a new one with the name "AssumeUDPEncapsulationContextOnSendRule".';
     $text['"AssumeUDPEncapsulationContextOnSendRule"를 더블 클릭해 열어서 "값 데이터"를 2로 변경합니다.'] = 'Double-click "AssumeUDPEncapsulationContextOnSendRule" to open it and change "Value data" to 2.';
     $text['레지스트리 편집기를 닫고 컴퓨터를 재부팅합니다.'] = 'Close Registry Editor and reboot your computer.';
+    $text['"IKE 인증 자격 증명을 받아들일 수 없습니다.(오류 13801)" Windows IKEv2 접속시 해결방법'] = 'How to fix "Could not accept IKE authentication credentials" when connecting to Windows IKEv2';
+    $text['일부 Windows PC에 루트 인증서가 등록되어 있지않아 발생하는 문제입니다. 루트 인증서를 직접 등록하면 문제가 해결됩니다.'] = 'This is a problem that occurs because the root certificate is not registered on some Windows PCs. Enrolling the root certificate yourself solved the problem.';
+    $text['아래 링크를 클릭하여 인증서를 PC에 다운 받습니다.'] = 'Click the link below to download the certificate to your PC.';
+    $text['다운받은 인증서 파일(isrg.cer)을 더블클릭하면 인증서 정보창이 열립니다. 여기서 "인증서 설치"를 클릭합니다.'] = 'Double-click the downloaded certificate file (isrg.cer) to open the certificate information window. Here, click "Install Certificate".';
+    $text['"로컬 컴퓨터"를 선택하고 다음을 클릭합니다.'] = 'Select "Local Machine" and click Next.';
+    $text['"모든 인증서를 다음 저장소에 저장"를 선택하고 "찾아보기"를 클릭하여 "신뢰할 수 있는 루트 인증 기관"을 선택합니다. "다음"을 클릭합니다.'] = 'Select "Place all certificates in the following store" and click "Browse" to select "Trusted Root Certification Authorities". Click "Next".';
+    $text['"마침"을 클릭하면 인증서가 설치됩니다.'] = 'Click "Finish" to install the certificate.';
+    $text['인증서 파일 다운받기'] = 'Download the certificate file';
 
 
 }
